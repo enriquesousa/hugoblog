@@ -1,0 +1,31 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'Blog'
+
+# Relearn Theme Tutorial
+# https://mcshelby.github.io/hugo-theme-relearn/basics/configuration/
+
+# Change the default theme to be use when building the site with Hugo
+theme = "hugo-theme-relearn"
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+  editURL = ""
+  description = "Blog Documentacion"
+  author = "Enrique Sousa"
+  showVisitedLinks = true
+  collapsibleMenu = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  disableLandingPageButton = true
+  titleSeparator = "::"
+  themeVariant = [ "relearn-light", "relearn-dark", "learn", "neon", "blue", "green", "red" ]
+  disableSeoHiddenPages = true
+  # this is for the stylesheet generator to allow for interactivity in Mermaid
+  # graphs; you usually will not need it and you should remove this for
+  # security reasons
+  mermaidInitialize = "{ \"securityLevel\": \"loose\" }"
+  additionalContentLanguage = [ "en" ]
