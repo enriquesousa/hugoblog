@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Base de datos on Blog</title>
+    <link>/laravel/laraveldesde0/base_de_datos/</link>
+    <description>Recent content in Base de datos on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Oct 2022 17:09:54 -0700</lastBuildDate><atom:link href="/laravel/laraveldesde0/base_de_datos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>08. Introducción</title>
+      <link>/laravel/laraveldesde0/base_de_datos/introduccion/</link>
+      <pubDate>Wed, 12 Oct 2022 17:10:10 -0700</pubDate>
+      <guid>/laravel/laraveldesde0/base_de_datos/introduccion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>09. Migraciones</title>
+      <link>/laravel/laraveldesde0/base_de_datos/migraciones/</link>
+      <pubDate>Wed, 12 Oct 2022 17:10:18 -0700</pubDate>
+      <guid>/laravel/laraveldesde0/base_de_datos/migraciones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>10. Crear nuestras propias migraciones</title>
+      <link>/laravel/laraveldesde0/base_de_datos/propias_migraciones/</link>
+      <pubDate>Wed, 12 Oct 2022 17:10:25 -0700</pubDate>
+      <guid>/laravel/laraveldesde0/base_de_datos/propias_migraciones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>11. Como modificar tablas con las migraciones de Laravel</title>
+      <link>/laravel/laraveldesde0/base_de_datos/modtablas/</link>
+      <pubDate>Wed, 12 Oct 2022 17:10:32 -0700</pubDate>
+      <guid>/laravel/laraveldesde0/base_de_datos/modtablas/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

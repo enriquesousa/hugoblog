@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Editores on Blog</title>
+    <link>/editores/</link>
+    <description>Recent content in Editores on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Oct 2022 08:05:44 -0700</lastBuildDate><atom:link href="/editores/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MarkDown</title>
+      <link>/editores/markdown/</link>
+      <pubDate>Thu, 13 Oct 2022 08:05:44 -0700</pubDate>
+      <guid>/editores/markdown/</guid>
+      <description>Overview This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for basic syntax and extended syntax.
+Basic Syntax Elementos de la sintaxis básica de markdown.
+Elemento Syntax Heading # H1 ## H2 ## H3 Paragraph Text Bold bold text Italic italicized text Blockquote &amp;gt; blockquote Ordered List 1.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laravel on Blog</title>
+    <link>/laravel/</link>
+    <description>Recent content in Laravel on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Oct 2022 17:10:32 -0700</lastBuildDate><atom:link href="/laravel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Laravel9 desde 0</title>
+      <link>/laravel/laraveldesde0/</link>
+      <pubDate>Wed, 12 Oct 2022 16:29:24 -0700</pubDate>
+      <guid>/laravel/laraveldesde0/</guid>
+      <description>Con ambiente de desarrollo Lando </description>
+    </item>
+  </channel>
+</rss>

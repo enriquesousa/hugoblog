@@ -1,0 +1,205 @@
+[
+  {
+    "content": "Hugo can be installed in multiple ways, but a package manager is recommended - either Homebrew for Mac/Linux or Chocolatey for Windows. Check Hugo’s installation page for more options, such as cloning directly from GitHub.\nComo instalar Hugo Mac/Linux (Homebrew):\nbrew install hugo Windows (Chocolatey):\nchoco install hugo-extended -confirm Version hugo version ",
+    "description": "",
+    "tags": null,
+    "title": "Install",
+    "uri": "/hugo/install/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "08. Introducción",
+    "uri": "/laravel/laraveldesde0/base_de_datos/introduccion/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "01. Lando",
+    "uri": "/laravel/laraveldesde0/introduccion/lando/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Introducción",
+    "uri": "/laravel/laraveldesde0/introduccion/"
+  },
+  {
+    "content": "1. Crear un proyecto nuevo Colocarse en le carpeta que deseamos empezar a crear proyectos web de Hugo, en terminal:\nhugo new site blog 2. Agregar contenido básico En layouts, agregar index.html con algo como esto:\n\u003c!DOCTYPE html\u003e \u003chtml lang=\"en\"\u003e \u003chead\u003e \u003ctitle\u003eHugo | Home\u003c/title\u003e \u003c/head\u003e \u003cbody\u003e \u003ch1\u003eBienvenido a Hugo!\u003c/h1\u003e \u003cp\u003eHugo es el framework mas rápido del mundo para construir sitios web!\u003c/p\u003e \u003c/body\u003e \u003c/html\u003e 3. Servir con: hugo server o para poder ver las paginas que estan en modo borrador (draft)\nhugo -D server Ver el sitio en: localhost:1313 4. Instalar Tema Relearn Install the Relearn theme by following this documentation This theme’s repository is: https://github.com/McShelby/hugo-theme-relearn.git Alternatively, you can download the theme as .zip file and extract it in the themes directory\n5. Configuración Básica Al crear el sitio web, puede establecer un tema utilizando la opción –theme. Sin embargo, le sugerimos que modifique el archivo de configuración (config.toml) y establezca el tema como predeterminado. También puede agregar la sección [outputs] para habilitar la función de búsqueda.\n# Change the default theme to be use when building the site with Hugo theme = \"hugo-theme-relearn\" # For search functionality [outputs] home = [ \"HTML\", \"RSS\", \"JSON\"] 6. Crear tu primer Capitulo Los capítulos son páginas que contienen otras páginas secundarias. Tiene un estilo de diseño especial y generalmente solo contiene un nombre de capítulo, el título y un breve resumen de la sección. El tema Relearn proporciona arquetipos para crear esqueletos para su sitio web. Comience creando su primera página de capítulo con el siguiente comando:\nhugo new --kind chapter basics/_index.md Al abrir el archivo dado, debería ver la propiedad chapter=true en la parte superior, lo que significa que esta página es un capítulo.\nDe forma predeterminada, todos los capítulos y páginas se crean como borrador. Si desea representar estas páginas, elimine la propiedad draft: true de los metadatos.\n6. Crea tu primera pagina de contenido Luego, cree páginas de contenido dentro del capítulo creado anteriormente. Aquí hay dos formas de crear contenido en el capítulo:\nhugo new basics/first-content.md hugo new basics/second-content/_index.md 7. Construir el sitio Cuando tu sitio esté listo para implementarse o publicar, ejecute el siguiente comando:\nhugo Se generará una carpeta pública que contendrá todo el contenido estático y los activos de su sitio web. Ahora se puede implementar en cualquier servidor web.\nInfo Este sitio web se puede publicar y alojar automáticamente con Netlify (Lea más sobre las implementaciones automatizadas de HUGO con Netlify ). Alternativamente, puede usar las páginas de GitHub ",
+    "description": "",
+    "tags": null,
+    "title": "Inicio",
+    "uri": "/hugo/inicio/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "09. Migraciones",
+    "uri": "/laravel/laraveldesde0/base_de_datos/migraciones/"
+  },
+  {
+    "content": "Que es un layout? Un layout es cualquier tipo de página que se utiliza como plantilla para mostrar un contenido. Piense en ello como las partes del sitio web que permanecen consistentes en todas las páginas.\nHugo tiene convenciones estrictas para las páginas de layout. Echemos un vistazo a algunas de las convenciones más utilizadas.\nAlgunos nombres reconocidos de layouts Estos son algunos de los nombres de layouts más comunes que reconoce Hugo:\nbaseof.html - la plantilla base (base template) para un sitio o sección de un sitio. list.html - plantilla usada para listar contenido en una sección de tu sitio (e.g., /posts) single.html - esta plantilla es utilizada para mostrar una sola pagina (e.g., posts/first-post) Nombre de las carpetas La primera y más importante carpeta en layouts es _default. Aquí es donde viven los diseños alternativos finales para su contenido. Ejemplos típicos de páginas aquí son _default/baseof.html y _default/single.html - la plantilla base para todas las páginas y una plantilla base para todas las páginas de visualización única.\nEl nombre de la carpeta en la que viven sus otros diseños también es importante para Hugo. El nombre que elija será el type (un tema para más adelante) que Hugo le asigne y, por lo general, debe coincidir con los nombres de su contenido.\nEjemplo:\ncontent/blog/my-first-post.md → layouts/blog/single.html\nAnidar layouts - block y define Tener una plantilla (layout) es genial!, pero si tenemos que redefinir todo el diseño cada vez que queremos cambiar una sección, será una pesadilla mantenerlo. Hugo tiene una forma simple de manejar la herencia de diseño para evitar este problema. Primero, podemos definir un bloque en el diseño principal:\nin /layouts/_default/baseof.html\n\u003cmain\u003e {{ block \"main\" . }} {{ end }} \u003c/main\u003e A continuación, y en la plantilla hija, podemos definir cuál debe ser el bloque principal:\nin /layouts/_default/list.html\n{{ define \"main\" }} \u003ch1\u003eThis will be inserted into the block\u003c/h1\u003e {{ end }} Important notes: Info El “punto” es necesario al crear un bloque (no al usarlo). Esto se refiere al contexto actual. Explicaremos esto en detalle más adelante.\nInfo Puede tener varios bloques en una página, pero no puede anidar un bloque dentro de otro bloque.\nOrden de búsqueda: ¿qué significa eso? Una característica adicional de las plantillas de Hugo es el “orden de búsqueda”. Los documentos de Hugo explican esto bien en detalle, pero es mucho para consumir en este momento, así que resumamos:\nEjemplo simple:\nDigamos que ha creado contenido como content/blog/my-first-post.md (una sola página) y content/blog (un directorio de publicaciones). Cuando construyes/sirves tu sitio, para mostrar tu contenido, Hugo revisará tus plantillas, en un orden definido:\nDesplegando una sola pagina (single page) (/blog/my-first-post)\nExiste una pagina una plantilla especifica “single-page” (e.g., single.html) en layouts/blog? Si no, hay una plantilla especifica “single-page” en la carpeta _default?\nDesplegando una pagina de directorios (carpetas) (/blog):\nHay una plantilla de lista “list template” (e.g., list.html) con lógica para listar el contenido de un directorio en layouts/blog? Si no, hay una plantilla especifica “list template” en el directorio _default? En cualquiera de los dos casos, si no se encuentra una plantilla adecuada, es probable que su contenido no se muestre.\n",
+    "description": "",
+    "tags": null,
+    "title": "Layouts",
+    "uri": "/hugo/layouts/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "10. Crear nuestras propias migraciones",
+    "uri": "/laravel/laraveldesde0/base_de_datos/propias_migraciones/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "03. Rutas",
+    "uri": "/laravel/laraveldesde0/introduccion/rutas/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Templating",
+    "uri": "/hugo/templating/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "11. Como modificar tablas con las migraciones de Laravel",
+    "uri": "/laravel/laraveldesde0/base_de_datos/modtablas/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "04. Controladores",
+    "uri": "/laravel/laraveldesde0/introduccion/controladores/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Partials",
+    "uri": "/hugo/partials/"
+  },
+  {
+    "content": "Overview This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for basic syntax and extended syntax.\nBasic Syntax Elementos de la sintaxis básica de markdown.\nElemento Syntax Heading # H1 ## H2 ## H3 Paragraph Text Bold bold text Italic italicized text Blockquote \u003e blockquote Ordered List 1. First item 2. Second item 3. Third item Unordered List - First item - Second item - Third item Code code Horizontal Rule\t— Link title Image Extended Syntax Estos elementos extienden la sintaxis básica para agregar funcionalidad adicional.\nElemento Syntax Header | Syntax | Description | | ———– | ———– | | Header | Title | | Paragraph | Text | Fenced Code Block ``` { \"firstName\": “John”, \"lastName\": “Smith”, \"age\": 25 } ``` Footnote Here’s a sentence with a footnote. [^1] [^1]: This is the footnote. Heading ID ### My Great Heading {#custom-id} Definition List term : definition Strikethrough ~~The world is flat.~~ Task List - [x] Write the press release - [ ] Update the website - [ ] Contact the media Emoji Emoji That is so funny! :joy: Highlight I need to highlight these ==very important words==. Using Emoji Shortcodes Some Markdown applications allow you to insert emoji by typing emoji shortcodes. These begin and end with a colon and include the name of an emoji.\nGone camping! :tent: Be back soon. That is so funny! :joy:\nSimple Shortcode to Insert Raw HTML in Hugo (https://anaulin.org/blog/hugo-raw-html-shortcode/ ) Sometimes, markdown is not enough – you might want to do a one-off extra-fancy thing with raw html. Surprisingly, Hugo doesn’t seem to have a good way to let you do this in a content file. Here is how to create your own one-line custom shortcode to make that possible.\nAdd a shortcode template to your site, in layouts/shortcodes/rawhtml.html, with the content:\n\u003c!-- raw html --\u003e {{.Inner}} This template tells Hugo to simply render the inner content passed to your shortcode directly into the HTML of your site. You can then use this shortcode in your markdown content, like so: {{\u003c\n{{\u003c rawhtml \u003e}} \u003cp class=\"speshal-fancy-custom\"\u003e This is \u003cstrong\u003eraw HTML\u003c/strong\u003e, inside Markdown. \u003c/p\u003e {{\u003c /rawhtml \u003e}} }}\nor as simple as: {{\u003c\n{{\u003c rawhtml \u003e}} \u003cbr\u003e {{\u003c /rawhtml \u003e}} }}\nEn el caso de desplegar esta misma tabla de Extended Syntax use este shortcode asi como la inserción de los caracteres especiales “|” de la siguiente forma: {{\u003c\n| Header | \\| Syntax \\| Description \\| {{\u003c rawhtml \u003e}} \u003cbr\u003e {{\u003c /rawhtml \u003e}} \\| ----------- \\| ----------- \\| {{\u003c rawhtml \u003e}} \u003cbr\u003e {{\u003c /rawhtml \u003e}}\\| Header \\| Title \\| {{\u003c rawhtml \u003e}} \u003cbr\u003e {{\u003c /rawhtml \u003e}}\\| Paragraph \\| Text \\| | | Fenced Code Block | \\`\\`\\`{{\u003c rawhtml \u003e}} \u003cbr\u003e {{\u003c /rawhtml \u003e}}{{{\u003c rawhtml \u003e}} \u003cbr\u003e {{\u003c /rawhtml \u003e}}\"firstName\": \"John\",{{\u003c rawhtml \u003e}} \u003cbr\u003e {{\u003c /rawhtml \u003e}}\"lastName\": \"Smith\",{{\u003c rawhtml \u003e}} \u003cbr\u003e {{\u003c /rawhtml \u003e}}\"age\": 25{{\u003c rawhtml \u003e}} \u003cbr\u003e {{\u003c /rawhtml \u003e}}}{{\u003c rawhtml \u003e}} \u003cbr\u003e {{\u003c /rawhtml \u003e}}\\`\\`\\` | }}\nRaw Text Block {{\u003c code \u003e}} {{\u003c Texto que queremos que este como comentario (raw) \u003e}}\nHugo - Open External Links in a New Tab For Hugo based websites, when a link goes to an external website , I prefer to have them open in a new browser tab.\nTo accomplish the goal of opening all external links in a new tab, you need to override the Hugo default behavior for rendering links by creating the file layouts_defaults_markup\\render-link.html. In the render-link.html, we need to look at the prefix of the .Destination to see if it starts with http or https and if it does then add the `target=\"_blank\" Copy this code snippet into the render-link.html.\n\u003ca href=“{{ .Destination | safeURL }}”{{ with .Title}} title=“{{ . }}”{{ end }}{{ if or (strings.HasPrefix .Destination “http”) (strings.HasPrefix .Destination “https”) }} target=“_blank”{{ end }} \u003e{{ .Text | safeHTML }}\u003c/a\u003e Now when any link starts with http or https, it will open in a new tab while links within the website will open in the same tab.\nObtenido del Blog de Justin James Categoría Hugo .\n",
+    "description": "",
+    "tags": null,
+    "title": "MarkDown",
+    "uri": "/editores/markdown/"
+  },
+  {
+    "content": "Lorem Ipsum.\n",
+    "description": "",
+    "tags": null,
+    "title": "Laravel",
+    "uri": "/laravel/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Base de datos",
+    "uri": "/laravel/laraveldesde0/base_de_datos/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "05. Gruporutas",
+    "uri": "/laravel/laraveldesde0/introduccion/gruporutas/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Content",
+    "uri": "/hugo/content/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "06. Vistas",
+    "uri": "/laravel/laraveldesde0/introduccion/vistas/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Taxonomies",
+    "uri": "/hugo/taxonomies/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Shortcodes",
+    "uri": "/hugo/shortcodes/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Data",
+    "uri": "/hugo/data/"
+  },
+  {
+    "content": "Hugo is one of the simplest static site generators to install, because it’s distributed as a single binary. This means that everything is included in one package, and you don’t have to manage anything. Even though Hugo is built in Go, you don’t need that installed!\nNote\nThere are two versions of Hugo: standard and extended. If you are a user of SCSS/SASS, the extended version is recommended, as this gives you built-in processing capabilities.\n",
+    "description": "",
+    "tags": null,
+    "title": "Hugo",
+    "uri": "/hugo/"
+  },
+  {
+    "content": "Archivos hugo new hugo/install.md hugo new hugo/inicio.md hugo new hugo/layouts.md hugo new hugo/templating.md hugo new hugo/partials.md hugo new hugo/content.md hugo new hugo/taxonomies.md hugo new hugo/shortcodes.md hugo new hugo/data.md\nLinks How to Create a Simple, Free Blog with Hugo and GitHub Pages Hugo 101 By Cloudcannon InfoBox Info Bookmark this page and the official Commonmark reference for easy future reference!\nInline FontAwesome SVGs in Hugo (Link ) I have recently started using icons from FontAwesome, and I found an excellent post that shows how you can inline FontAwesome SVGs. This pulls the SVG data into the HTML of each page, so that a single GET request receives the page and any icons.\n",
+    "description": "",
+    "tags": null,
+    "title": "Otros",
+    "uri": "/hugo/otros/"
+  },
+  {
+    "content": "Cheat-Sheet Varios Editores\n",
+    "description": "",
+    "tags": null,
+    "title": "Editores",
+    "uri": "/editores/"
+  },
+  {
+    "content": "Aquí encontraras información sobre diferentes tecnologías de la información, espero que sea de utilidad.\n",
+    "description": "",
+    "tags": null,
+    "title": "Blog Documentación",
+    "uri": "/"
+  },
+  {
+    "content": "Con ambiente de desarrollo Lando ",
+    "description": "",
+    "tags": null,
+    "title": "Laravel9 desde 0",
+    "uri": "/laravel/laraveldesde0/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Categories",
+    "uri": "/categories/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Tags",
+    "uri": "/tags/"
+  }
+]

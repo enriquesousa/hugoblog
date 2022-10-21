@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog Documentación on Blog</title>
+    <link>/</link>
+    <description>Recent content in Blog Documentación on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Oct 2022 08:06:18 -0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Laravel</title>
+      <link>/laravel/</link>
+      <pubDate>Wed, 12 Oct 2022 17:10:32 -0700</pubDate>
+      <guid>/laravel/</guid>
+      <description>Lorem Ipsum.</description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>/hugo/</link>
+      <pubDate>Thu, 13 Oct 2022 08:06:18 -0700</pubDate>
+      <guid>/hugo/</guid>
+      <description>Hugo is one of the simplest static site generators to install, because it’s distributed as a single binary. This means that everything is included in one package, and you don’t have to manage anything. Even though Hugo is built in Go, you don’t need that installed!
+Note
+There are two versions of Hugo: standard and extended. If you are a user of SCSS/SASS, the extended version is recommended, as this gives you built-in processing capabilities.</description>
+    </item>
+    <item>
+      <title>Editores</title>
+      <link>/editores/</link>
+      <pubDate>Thu, 13 Oct 2022 08:05:44 -0700</pubDate>
+      <guid>/editores/</guid>
+      <description>Cheat-Sheet Varios Editores</description>
+    </item>
+  </channel>
+</rss>

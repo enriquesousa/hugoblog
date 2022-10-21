@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introducción on Blog</title>
+    <link>/laravel/laraveldesde0/introduccion/</link>
+    <description>Recent content in Introducción on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Oct 2022 16:35:30 -0700</lastBuildDate><atom:link href="/laravel/laraveldesde0/introduccion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Lando</title>
+      <link>/laravel/laraveldesde0/introduccion/lando/</link>
+      <pubDate>Wed, 12 Oct 2022 16:37:24 -0700</pubDate>
+      <guid>/laravel/laraveldesde0/introduccion/lando/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>03. Rutas</title>
+      <link>/laravel/laraveldesde0/introduccion/rutas/</link>
+      <pubDate>Wed, 12 Oct 2022 16:37:33 -0700</pubDate>
+      <guid>/laravel/laraveldesde0/introduccion/rutas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>04. Controladores</title>
+      <link>/laravel/laraveldesde0/introduccion/controladores/</link>
+      <pubDate>Wed, 12 Oct 2022 16:37:44 -0700</pubDate>
+      <guid>/laravel/laraveldesde0/introduccion/controladores/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>05. Gruporutas</title>
+      <link>/laravel/laraveldesde0/introduccion/gruporutas/</link>
+      <pubDate>Wed, 12 Oct 2022 16:37:57 -0700</pubDate>
+      <guid>/laravel/laraveldesde0/introduccion/gruporutas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>06. Vistas</title>
+      <link>/laravel/laraveldesde0/introduccion/vistas/</link>
+      <pubDate>Wed, 12 Oct 2022 16:38:06 -0700</pubDate>
+      <guid>/laravel/laraveldesde0/introduccion/vistas/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

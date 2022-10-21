@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Blog</title>
+    <link>/hugo/</link>
+    <description>Recent content in Hugo on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Oct 2022 08:06:18 -0700</lastBuildDate><atom:link href="/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install</title>
+      <link>/hugo/install/</link>
+      <pubDate>Thu, 13 Oct 2022 08:05:17 -0700</pubDate>
+      <guid>/hugo/install/</guid>
+      <description>Hugo can be installed in multiple ways, but a package manager is recommended - either Homebrew for Mac/Linux or Chocolatey for Windows. Check Hugo’s installation page for more options, such as cloning directly from GitHub.
+Como instalar Hugo Mac/Linux (Homebrew):
+brew install hugo Windows (Chocolatey):
+choco install hugo-extended -confirm Version hugo version </description>
+    </item>
+    <item>
+      <title>Inicio</title>
+      <link>/hugo/inicio/</link>
+      <pubDate>Thu, 13 Oct 2022 08:05:44 -0700</pubDate>
+      <guid>/hugo/inicio/</guid>
+      <description>1. Crear un proyecto nuevo Colocarse en le carpeta que deseamos empezar a crear proyectos web de Hugo, en terminal:
+hugo new site blog 2. Agregar contenido básico En layouts, agregar index.html con algo como esto:
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Hugo | Home&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;Bienvenido a Hugo!&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;Hugo es el framework mas rápido del mundo para construir sitios web!&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; 3. Servir con: hugo server o para poder ver las paginas que estan en modo borrador (draft)</description>
+    </item>
+    <item>
+      <title>Layouts</title>
+      <link>/hugo/layouts/</link>
+      <pubDate>Thu, 13 Oct 2022 08:05:49 -0700</pubDate>
+      <guid>/hugo/layouts/</guid>
+      <description>Que es un layout? Un layout es cualquier tipo de página que se utiliza como plantilla para mostrar un contenido. Piense en ello como las partes del sitio web que permanecen consistentes en todas las páginas.
+Hugo tiene convenciones estrictas para las páginas de layout. Echemos un vistazo a algunas de las convenciones más utilizadas.
+Algunos nombres reconocidos de layouts Estos son algunos de los nombres de layouts más comunes que reconoce Hugo:</description>
+    </item>
+    <item>
+      <title>Templating</title>
+      <link>/hugo/templating/</link>
+      <pubDate>Thu, 13 Oct 2022 08:05:59 -0700</pubDate>
+      <guid>/hugo/templating/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Partials</title>
+      <link>/hugo/partials/</link>
+      <pubDate>Thu, 13 Oct 2022 08:06:03 -0700</pubDate>
+      <guid>/hugo/partials/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Content</title>
+      <link>/hugo/content/</link>
+      <pubDate>Thu, 13 Oct 2022 08:06:07 -0700</pubDate>
+      <guid>/hugo/content/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Taxonomies</title>
+      <link>/hugo/taxonomies/</link>
+      <pubDate>Thu, 13 Oct 2022 08:06:11 -0700</pubDate>
+      <guid>/hugo/taxonomies/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shortcodes</title>
+      <link>/hugo/shortcodes/</link>
+      <pubDate>Thu, 13 Oct 2022 08:06:14 -0700</pubDate>
+      <guid>/hugo/shortcodes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data</title>
+      <link>/hugo/data/</link>
+      <pubDate>Thu, 13 Oct 2022 08:06:18 -0700</pubDate>
+      <guid>/hugo/data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Otros</title>
+      <link>/hugo/otros/</link>
+      <pubDate>Thu, 13 Oct 2022 08:06:18 -0700</pubDate>
+      <guid>/hugo/otros/</guid>
+      <description>Archivos hugo new hugo/install.md hugo new hugo/inicio.md hugo new hugo/layouts.md hugo new hugo/templating.md hugo new hugo/partials.md hugo new hugo/content.md hugo new hugo/taxonomies.md hugo new hugo/shortcodes.md hugo new hugo/data.md
+Links How to Create a Simple, Free Blog with Hugo and GitHub Pages Hugo 101 By Cloudcannon InfoBox Info Bookmark this page and the official Commonmark reference for easy future reference!
+Inline FontAwesome SVGs in Hugo (Link ) I have recently started using icons from FontAwesome, and I found an excellent post that shows how you can inline FontAwesome SVGs.</description>
+    </item>
+  </channel>
+</rss>

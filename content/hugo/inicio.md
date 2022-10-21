@@ -75,6 +75,118 @@ hugo new basics/first-content.md
 hugo new basics/second-content/_index.md
 ```
 
+Para el caso de mis capítulos dentro de /home/enrique/insync/insync2022/HugoWebSites/blog/content/laravel/laraveldesde0
+```bash
+hugo new laravel/laraveldesde0/eloquent/_index.md
+hugo new laravel/laraveldesde0/eloquent/t12-introduccion.md
+```
+Tenemos que usar estos comandos para poder crear nuevas paginas, NO podemos solo crear el archivo dentro de VScode.
+
+En el contenido de _index.md
+```bash
+---
+title: "Eloquent"
+date: 2022-10-21T15:19:04-07:00
+draft: false
+weight: 10
+---
+```
+
+En el contenido de t12-introduccion.md
+```bash
+---
+title: "12. Laravel Eloquent Introducción"
+date: 2022-10-21T15:22:44-07:00
+draft: false
+weight: 5
+---
+```
+Empezar a numerar el peso desde weight: 5 y de ahi ir aumentando en incrementos de 5 a los siguientes temas.
+
+Ejemplo de crear los sub_temas dentro de los temas eloquent y crud.
+```bash
+hugo new laravel/laraveldesde0/eloquent/_index.md
+hugo new laravel/laraveldesde0/eloquent/t12-introduccion.md
+hugo new laravel/laraveldesde0/eloquent/t13-seeders.md
+hugo new laravel/laraveldesde0/eloquent/t14-factories.md
+hugo new laravel/laraveldesde0/eloquent/t15-consultas.md
+hugo new laravel/laraveldesde0/eloquent/t16-mutadores.md
+
+hugo new laravel/laraveldesde0/crud/_index.md
+hugo new laravel/laraveldesde0/crud/t17-listaryleer.md
+hugo new laravel/laraveldesde0/crud/t18-agregaryactualizar.md
+hugo new laravel/laraveldesde0/crud/t19-validar.md
+hugo new laravel/laraveldesde0/crud/t20-formrequest.md
+hugo new laravel/laraveldesde0/crud/t21-asignacionmasiva.md
+hugo new laravel/laraveldesde0/crud/t22-eliminar.md
+hugo new laravel/laraveldesde0/crud/t23-routesresource.md
+``` 
+De aquí en adelante solo es cuestión de modificar:
+- draft: false
+- weight: 5
+
+Para ordenar los temas como los deseamos.
+Por ejemplo para el caso del tema eloquent, el front matter quedaría de la siguiente manera:
+**En _index.md**
+```bash
+---
+title: "Eloquent"
+date: 2022-10-21T15:19:04-07:00
+draft: false
+weight: 10
+---
+```
+
+**En t12-introdccion.md**
+```bash
+---
+title: "12. Laravel Eloquent Introducción"
+date: 2022-10-21T15:22:44-07:00
+draft: false
+weight: 5
+---
+```
+
+**En t13-seeders.md**
+```bash
+---
+title: "13. Seeders en Laravel"
+date: 2022-10-21T15:36:10-07:00
+draft: false
+weight: 10
+---
+```
+
+**En t14-factories.md**
+```bash
+---
+title: "14. Factories en Laravel"
+date: 2022-10-21T15:36:21-07:00
+draft: false
+weight: 15
+---
+```
+
+**En t15-consultas.md**
+```bash
+---
+title: "15. Generador de consultas de eloquent"
+date: 2022-10-21T15:36:28-07:00
+draft: false
+weight: 20
+---
+```
+
+**En t16-mutadores.md**
+```bash
+---
+title: "16. Mutadores y Accesores"
+date: 2022-10-21T15:36:33-07:00
+draft: false
+weight: 25
+---
+```
+
 ### 7. Construir el sitio
 Cuando tu sitio esté listo para implementarse o publicar, ejecute el siguiente comando:
 ```bash

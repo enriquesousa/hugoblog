@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laravel9 desde 0 on Blog</title>
+    <link>/laravel/laraveldesde0/</link>
+    <description>Recent content in Laravel9 desde 0 on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Oct 2022 16:29:24 -0700</lastBuildDate><atom:link href="/laravel/laraveldesde0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducción</title>
+      <link>/laravel/laraveldesde0/introduccion/</link>
+      <pubDate>Wed, 12 Oct 2022 16:35:30 -0700</pubDate>
+      <guid>/laravel/laraveldesde0/introduccion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Base de datos</title>
+      <link>/laravel/laraveldesde0/base_de_datos/</link>
+      <pubDate>Wed, 12 Oct 2022 17:09:54 -0700</pubDate>
+      <guid>/laravel/laraveldesde0/base_de_datos/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
