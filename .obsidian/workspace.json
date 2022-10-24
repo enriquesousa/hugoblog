@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "8302ddcc6bdf94b0",
+    "id": "384682632fdaa665",
     "type": "split",
     "children": [
       {
-        "id": "9c5fdddb8a96ffd3",
+        "id": "aa263151e58abfbe",
         "type": "tabs",
         "children": [
           {
-            "id": "c71dcad9579d348c",
+            "id": "d62808ab77684fa1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -21,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "4e2f959ef3d009e9",
+    "id": "e3499d8a637166cf",
     "type": "split",
     "children": [
       {
-        "id": "9c37c89458525fd9",
+        "id": "b23b65ba025b3e4e",
         "type": "tabs",
         "children": [
           {
-            "id": "2ed69deb68959ece",
+            "id": "821ec98386eea0e4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +39,7 @@
             }
           },
           {
-            "id": "6b68275cc155debc",
+            "id": "aa37713335a74939",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +54,7 @@
             }
           },
           {
-            "id": "f61303b120b707df",
+            "id": "433cbe28ad4ffa81",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -68,15 +68,15 @@
     "width": 200
   },
   "right": {
-    "id": "fe3709aba116b1eb",
+    "id": "a947cecf89116f4f",
     "type": "split",
     "children": [
       {
-        "id": "fc45cb6a06cafd17",
+        "id": "39d28f1664e2643a",
         "type": "tabs",
         "children": [
           {
-            "id": "94aa03d1926d8d4a",
+            "id": "a775d46c40d4ba95",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -92,7 +92,7 @@
             }
           },
           {
-            "id": "9c8de34a267e5c5f",
+            "id": "363d064048865a72",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -103,7 +103,7 @@
             }
           },
           {
-            "id": "7ded0b154a6c9d51",
+            "id": "5c3bb6bda66a2ea8",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,15 +114,14 @@
             }
           },
           {
-            "id": "391b1e51eec31701",
+            "id": "d3040fa546bded5e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -132,13 +131,8 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "2ed69deb68959ece",
+  "active": "d62808ab77684fa1",
   "lastOpenFiles": [
-    "laravel/laraveldesde0/c01-introduccion/t02-lando.md",
-    "hugo/inicio.md",
-    "hugo/data.md",
-    "hugo/content.md",
-    "editores/markdown.md",
-    "editores/_index.md"
+    "README.md"
   ]
 }

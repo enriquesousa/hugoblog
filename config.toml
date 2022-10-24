@@ -29,3 +29,15 @@ home = [ "HTML", "RSS", "JSON"]
   # security reasons
   mermaidInitialize = "{ \"securityLevel\": \"loose\" }"
   additionalContentLanguage = [ "en" ]
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+identifier = "ds"
+url = "https://github.com/McShelby/hugo-theme-relearn"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 20
