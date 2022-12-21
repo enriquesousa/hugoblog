@@ -6,3 +6,5 @@ draft: false
 weight: 5
 ---
 
+Ver el tema 2
+Configure mi entorno de desarrollo con Lando!
