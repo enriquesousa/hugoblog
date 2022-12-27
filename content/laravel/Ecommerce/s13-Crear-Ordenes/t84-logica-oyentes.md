@@ -1,0 +1,7 @@
+---
+title: "Agregar lógica en los oyentes"
+menuTitle: "84. Agregar lógica en los oyentes"
+date: 2022-12-24T07:47:01-08:00
+draft: false
+weight: 25
+---

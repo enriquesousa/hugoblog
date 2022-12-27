@@ -41,7 +41,7 @@ Verifique también que cumple con los requisitos necesarios para ejecutar nuestr
 -  Requisitos de Docker Desktop para Windows
 
 
-## Colocarnos en la carpeta donde deseamos iniciar nuestro proyecto
+### Colocarnos en la carpeta donde deseamos iniciar nuestro proyecto
 **Ej.**
 - /home/enrique/laravel/lando/projects
 
@@ -52,13 +52,13 @@ composer_version: '2.3.10'
 Con esta version si pude generar un proyecto de laravel 9.
 
 Para crear un nuevo proyecto lo voy a usar localmente el composer.
-## Nuevo proyecto de laravel 
+### Nuevo proyecto de laravel 
 ```bash
 composer create-project laravel/laravel laravel9desde0
 cd laravel9desde0
 ```
 
-## Crear el archivo de configuración .lando.yml
+### Crear el archivo de configuración .lando.yml
 ```php
 name: laravel9desde0
 recipe: laravel
@@ -81,13 +81,13 @@ tooling:
     service: node
 ```
 
-## Correr en la terminal
+### Correr en la terminal
 ```bash
 Lando start
 lando info
 ```
 
-## Conectarnos a la base de datos con DBeaver
+### Conectarnos a la base de datos con DBeaver
 ```php
 Crear nueva conexión MySql:
 
@@ -100,12 +100,12 @@ Crear nueva conexión MySql:
 Después renombrar la conexión en DBeaver a laravel9desde0.
 ```
 
-## npm install:
+### npm install:
 ```php
 lando npm install
 ```
 
-## Configurar la base en .env
+### Configurar la base en .env
 ```php
 APP_URL=http://laravel9desde0.lndo.site
 
@@ -117,18 +117,32 @@ DB_USERNAME=laravel
 DB_PASSWORD=laravel
 ```
 
-## npm run dev:
+### npm run dev:
 ```php
 lando npm run dev
 ```
 
-## Parar el servidor lando
+### Parar el servidor lando
 ```php
 lando stop
 ```
 
-## Para todos los contenedores de lando
+### Para todos los contenedores de lando
 ```php
 lando poweroff
 ```
 
+### Lista de Comandos Lando
+```php
+lando --help
+```
+
+### Lista los contenedores
+```php
+lando list
+```
+
+### Ayuda en Lista los contenedores
+```php
+lando list --help
+```
