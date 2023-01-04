@@ -18,6 +18,24 @@ No hacer las migraciones todavía
 
 Usando los 10 pasos explicados [Aquí]({{< ref "/laravel/Ecommerce/s01-introduccion/t02-instalacion" >}} "About Us").
 
+**Correr lando con:**
+```php
+lando start
+lando npm run dev 
+```
+
+Vite responde con:
+```php
+VITE v4.0.3  ready in 726 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h to show help
+
+  LARAVEL v9.45.1  plugin v0.7.3
+
+  ➜  APP_URL: http://voyager.lndo.site
+```
 
 Nuestro proyecto quedara en esta carpeta:
 ```php

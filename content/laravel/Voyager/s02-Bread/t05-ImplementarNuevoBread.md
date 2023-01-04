@@ -20,6 +20,7 @@ Dentro del side menu de Voyager ir a Tools/BREAD, ahi podemos también "Añadir 
 - **ADD** (field will be visible when you choose to create a new data type)
 - *DELETE* (doesn't pertain to delete so this can be checked or unchecked)
 
+### Paso 2
 Llenamos en formulario.
 
 ![Widgets](/Voyager/products_bread1.png)
