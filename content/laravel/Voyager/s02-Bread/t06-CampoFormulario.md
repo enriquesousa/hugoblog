@@ -15,6 +15,3 @@ Ahora si regresamos a ver nuestro formulario en http://voyager.lndo.site/admin/p
 
 ![Widgets](/Voyager/formulario-producto1.png)
 
-
-
-
