@@ -32,6 +32,7 @@ Al final del BREAD de nuestra tabla "products" vemos ya la relación.
 ![Widgets](/Voyager/relacion_products_user.png)
 
 Ahora si nos vamos a la forma de crear nuevo producto (http://voyager.lndo.site/admin/products/create) ya aparece la relación con user. 
+
 Para empezar a diseñar nuestra nueva forma, primero hay que capturar un nuevo usuario, en el sidebar escoger **User** y **Crear** uno nuevo.
 
 Nombre: Ivonne Rodriguez
@@ -41,12 +42,16 @@ Rol Predeterminado: Administrador
 Roles Adicionales:
 Idioma: es
 
-Dar el boton de **"Guardar"**
+Dar el botón de **"Guardar"**
 
 Ahora dar de Alta un producto cualquiera y guardarlo.
+Esto se hace en el side menu **BREAD** vemos en **products** y entramos al botón de **Navegar**
 
-Ahora va a hacia:
+Para ver el controlador base de Voyager:
+```php
 vendor/tcg/voyager/src/Http/Controllers/VoyagerBaseController.php
+ 
+``` 
 Este es el controlador base que se extiende para todos los controladores que se creen para hacer los cruds y tienen todos los métodos necesarios para hacer esta tarea, como lo son:
 
 index() - Browse our Data Type (B)READ
