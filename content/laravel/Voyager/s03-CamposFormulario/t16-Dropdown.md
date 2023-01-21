@@ -6,4 +6,13 @@ draft: false
 weight: 20
 ---
 
-### 
+### Usar un Select Dropdown
+Cambiar el campo de "active" a que sea "Select Dropdown" y entrar el siguiente código.
+```php
+{
+    "options":{
+        "0": "Activo",
+        "1": "Inactivo"
+    }
+}
+```
