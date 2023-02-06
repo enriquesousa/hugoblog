@@ -42,6 +42,27 @@ Nuestro proyecto quedara en esta carpeta:
 /home/enrique/laravel/lando/EnriqueSousa/voyager
 ```
 
+Problema, NO renderiza elementos de tailwind
+Encontré la solución aquí, agregando el watch en package.json asi:
+https://laracasts.com/discuss/channels/vite/equivalent-of-vite-watch
+we can then run npm run watch and have the same automatically built production resources.
+If you want hot reloading as well, open a second terminal window and run npm run dev. When code changes then both scripts run, creating production assets and hot reloading.
+Couple also with Freek's tip about hot reloading on blade updates https://freek.dev/2277-using-laravel-vite-to-automatically-refresh-your-browser-when-changing-a-blade-file
+```php
+"scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "watch": "vite build --watch"
+    }, 
+```
+ya no correr lando npm run dev, ahora correr:
+```php
+lando npm run watch 
+```
+Listo!
+Ya puedo renderizar los elementos de tailwind!
+
+
 Antes de Ejecutar el Paso 9 (Migrar las Tablas)
 Vamos a instalar Voyager, ya que este nos va agregar nuevas tablas que también vamos a tener que migrar. 
 
