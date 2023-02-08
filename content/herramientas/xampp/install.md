@@ -63,7 +63,12 @@ sudo ln -s /opt/lampp/bin/mysql /usr/bin
  
 ### Permisos de Usuario
 **httpd.conf**
-Open /opt/lampp/etc/httpd.conf change nobody and nogroup [link](https://askubuntu.com/questions/64095/change-xampps-htdocs-web-root-folder-to-another-one)
+Open /opt/lampp/etc/httpd.conf change nobody and nogroup 
+```php
+sudo micro /opt/lampp/etc/httpd.conf
+```
+
+[link](https://askubuntu.com/questions/64095/change-xampps-htdocs-web-root-folder-to-another-one)
 ```php
 <IfModule unixd_module>
 #
@@ -176,7 +181,7 @@ sudo micro /etc/hosts
 3. Ahora cambiar la configuración de Apache.
 Allow the usage of custom virtual hosts:
 ```php
-sudo micro sudo micro httpd.conf/httpd.conf
+sudo micro /opt/lampp/etc/httpd.conf
 ```
 
 4. Des Comentar
@@ -202,6 +207,15 @@ sudo micro /opt/lampp/etc/extra/httpd-vhosts.conf
 	Require all granted
   </Directory>
 </VirtualHost> 
+```
+
+Para NO perder el acceso al dashboard admin localhost agregar:
+```php
+<virtualhost *:80="">
+  ServerAdmin localhost.admin
+  DocumentRoot /opt/lampp/htdocs/
+  ServerName localhost
+</virtualhost>
 ```
 
 7. Probar el Virtual Host
