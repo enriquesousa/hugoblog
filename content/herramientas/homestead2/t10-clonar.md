@@ -1,6 +1,6 @@
 ---
 title: "Clonar"
-date: 2023-08-02T16:29:24-07:00
+date: 2023-02-08T15:49:52-08:00
 draft: false
 weight: 50
 ---

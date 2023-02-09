@@ -1,6 +1,6 @@
 ---
 title: "Correr maquina virtual homestead"
-date: 2023-08-02T16:29:24-07:00
+date: 2023-02-08T15:49:28-08:00
 draft: false
 weight: 25
 ---
@@ -23,3 +23,5 @@ Veo que esta se actualiza automático cuando hacemos un:
 ```php
 vagrant reload --provision 
 ```
+
+

@@ -1,6 +1,6 @@
 ---
 title: "Homestead"
-date: 2023-08-02T16:29:24-07:00
+date: 2023-02-08T15:40:37-08:00
 draft: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Agregar Dominios hosts"
-date: 2023-08-02T16:29:24-07:00
+date: 2023-02-08T15:49:43-08:00
 draft: false
 weight: 40
 ---
@@ -20,3 +20,4 @@ Al hacerle cambios a /etc/hosts y los tome en cuenta el sistema operativo tenemo
 ```php
 sudo service network-manager restart 
 ```
+

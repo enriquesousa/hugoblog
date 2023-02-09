@@ -1,6 +1,6 @@
 ---
 title: "Cambios en Homestead.yaml"
-date: 2023-08-02T16:29:24-07:00
+date: 2023-02-08T15:49:23-08:00
 draft: false
 weight: 20
 ---
@@ -12,4 +12,7 @@ vagrant reload --provision
 ```
 Nota:
 Homestead scripts are built to be as idempotent as possible. However, if you are experiencing issues while provisioning you should destroy and rebuild the machine by executing the vagrant destroy && vagrant up command.
+
+
+
 

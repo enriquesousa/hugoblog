@@ -1,6 +1,6 @@
 ---
-title: "Para salir"
-date: 2023-08-02T16:29:24-07:00
+title: "Para Salir"
+date: 2023-02-08T15:49:38-08:00
 draft: false
 weight: 35
 ---
@@ -10,4 +10,3 @@ Salir de la maquina virtual
 exit
 vagrant halt 
 ```
-
