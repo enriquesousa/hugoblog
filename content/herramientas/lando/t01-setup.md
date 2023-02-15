@@ -449,6 +449,26 @@ y correr:
 Listo!
 Ya podemos apreciar el css en la forma de jetstream de login y register!
 
+## Cleaning up Lando containers
+[liga](https://colorfield.be/blog/cleaning-lando-containers)
+
+Depending on how many containers and projects you may have with Lando / Docker, things can go wrong at some time on your local environment, so here is a basic troubleshooting.
+
+**First aid**
+Update first Lando and Docker, not a bad idea to start with this.
+Run `lando destroy` on unused / stale projects.
+Keep in mind that when you are working on several projects in the same time, the containers port must be different, so try to use different ports for your services (MaiHog, Solr, ...).
+
+**Kill 'em all**
+Sometimes, it will not be enough and it may be a good idea to restart from scratch.
+List all containers (even the ones that are not running)
+`docker ps --all`
+Kill all running containers
+`docker kill $(docker ps -q)`
+Delete all stopped containers
+`docker rm $(docker ps -a -q)`
+Delete all images
+`docker rmi $(docker images -q)`
 
 
 
