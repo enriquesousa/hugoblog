@@ -14,6 +14,13 @@ Colocar esto en pagina de contenido.
 "{{"< /details >"}}"
 ```
 
+```php
+ {{< details "Código" >}}
+    Collapsed text
+ {{< /details >}}
+```
+
+
 Y color esto en layouts/shortcodes/details.html
 ```php
 <details>
