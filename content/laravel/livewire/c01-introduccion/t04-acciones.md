@@ -128,7 +128,8 @@ Darlo de alta en resources/views/layouts/app.blade.php:
 <link rel="stylesheet" href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}">
 ```
 
-Ya podemos usar sus iconos en resources/views/livewire/show-posts.blade.php con por ejemplo <i class="fas fa-sort"></i>.
+Ya podemos usar sus iconos en resources/views/livewire/show-posts.blade.php con por ejemplo:
+<i class="fas fa-sort"></i>.
 
 Donde podemos ver los nombres de los iconos que tenemos disponibles:
 https://fontawesome.com/v4/icons/
@@ -234,5 +235,25 @@ Al aplicar este icono y acomodarlo al lado derecho que asi en resources/views/li
 </div>
 
 {{< /details >}}
+
+### Cambiar ancho columna ID
+Vamos a cambiar el ancho de la columna ID para que no quede tan pegado el icono de fontawesome al texto ID, solo agregar la clase W-24 para que tenga un ancho fijo, en show-posts.blade.php asi:
+```php
+<th class="w-24 cursor-pointer px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider" wire:click="order('id')">
+    ID
+
+    {{-- sort --}}
+    @if ($sort == 'id')
+        @if ($direction == 'asc')
+            <i class="fas fa-sort-numeric-down float-right mt-1"></i>
+        @else
+            <i class="fas fa-sort-numeric-up float-right mt-1"></i>
+        @endif
+    @else
+        <i class="fa fa-sort float-right mt-1"></i>
+    @endif
+
+</th>
+```
 
 ### Listo!
