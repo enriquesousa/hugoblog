@@ -72,4 +72,11 @@ Y los cambios en resources/views/livewire/show-posts.blade.php:
 
 </div>
 ```
+
+Tailwind CSS Animation [Examples](https://larainfo.com/blogs/tailwind-css-animation-examples)
+```php
+<div class="w-20 h-20 p-2 bg-blue-500 rounded-md animate-spin"></div>
+<div class="w-20 h-20 p-2 bg-purple-500 rounded-md animate-ping"></div>
+<div class="w-20 h-20 p-2 bg-green-500 rounded-md animate-bounce"></div>
+<div class="w-20 h-20 p-2 bg-gray-500 rounded-md animate-pulse"></div> 
 Listo!
