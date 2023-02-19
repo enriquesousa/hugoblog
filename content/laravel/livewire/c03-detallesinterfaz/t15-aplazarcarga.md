@@ -73,6 +73,17 @@ Y los cambios en resources/views/livewire/show-posts.blade.php:
 </div>
 ```
 
+Para el botón "CLEAR" nos limpie variables y reinicie pagina, la redirigimos a dashboard!
+**show-posts**
+```php
+{{-- botón de Clear (limpiar search box) --}}
+<button class="bg-indigo-600 px-4 py-2 rounded-md text-white font-semibold tracking-wide cursor-pointer">
+    <a href="{{ route('dashboard') }}">
+        Clear
+    </a>
+</button> 
+```
+
 Tailwind CSS Animation [Examples](https://larainfo.com/blogs/tailwind-css-animation-examples)
 ```php
 <div class="w-20 h-20 p-2 bg-blue-500 rounded-md animate-spin"></div>
