@@ -5,8 +5,9 @@ draft: false
 weight: 8
 ---
 
-### Como crear collapsible code blocks
-Colocar esto en pagina de contenido.
+## Como crear collapsible code blocks
+Colocar esto en pagina de contenido md.
+
 **Nota**: Quitar los " "
 ```bash
 "{{"< details "Código" >"}}"
@@ -14,14 +15,13 @@ Colocar esto en pagina de contenido.
 "{{"< /details >"}}"
 ```
 
-```php
+```text
  {{< details "Código" >}}
     Collapsed text
  {{< /details >}}
 ```
 
-
-Y color esto en layouts/shortcodes/details.html
+Y copiar esto en layouts/shortcodes/details.html
 ```php
 <details>
     <div class="highlight-wrapper">
@@ -30,3 +30,23 @@ Y color esto en layouts/shortcodes/details.html
     </div>
 </details> 
 ```
+
+## Ejemplo 1
+{{< details "Texto" >}}
+    Collapsed text
+{{< /details >}}
+
+## Ejemplo 2
+{{< details "Código PHP" >}}
+
+```php
+<?php 
+require 'functions.php';
+require 'router.php';
+```
+
+{{< /details >}}
+
+
+
+

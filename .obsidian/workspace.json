@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "26555f95346523ff",
+        "id": "6c004f2cef0fb009",
         "type": "tabs",
         "children": [
           {
-            "id": "b79896dce34d3b46",
+            "id": "3587be744ea79493",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257,
-    "collapsed": true
+    "width": 257
   },
   "right": {
     "id": "a947cecf89116f4f",
@@ -139,8 +138,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b79896dce34d3b46",
+  "active": "3587be744ea79493",
   "lastOpenFiles": [
+    "Untitled.canvas",
     "content/laravel/Ecommerce/s01-introduccion/t02-instalacion.md",
     "Ecommerce/Connect-DBeaver-MySQL.png.md",
     "Pasted image 20221112105554.png",
@@ -149,7 +149,6 @@
     "content/laravel/laraveldesde0/c01-introduccion/_index.md",
     "content/laravel/laraveldesde0/c01-introduccion/t02-lando.md",
     "content/herramientas/hugo/install.md",
-    "content/herramientas/hugo/content.md",
-    "content/laravel/laraveldesde0/c01-introduccion/t04-controladores.md"
+    "content/herramientas/hugo/content.md"
   ]
 }
