@@ -84,8 +84,18 @@ foreach ($posts as $post){
 }
 ```
 
+## Cambiar de DB
+Fácilmente podemos cambiar a otra base de datos, primero asegurarnos de crear la nueva base da datos, por ejemplo 'phplaracast', después solo cambiar lo datos de $dbname, podemos cambiar si así lo deseamos al usuario de la base de datos en $user.
+```php
+$host = '127.0.0.1';
+$dbname = 'phplaracast';
+$user = 'root';
+$pass = '';
+```
 
-
+## Buenas Practicas
+$**dsn** - data source name
+$**pdo** - php data objects
 
 
 
