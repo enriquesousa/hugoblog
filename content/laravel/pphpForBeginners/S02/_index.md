@@ -1,7 +1,7 @@
 ---
+date: 2023-03-01T09:18:04-08:00
 title: "Sección 2: Aplicaciones Web Dinámicas"
 menuTitle: "S2 - Aplicaciones Web Dinámicas"
-date: 2023-03-01T09:18:04-08:00
 draft: false
 weight: 5
 ---
