@@ -98,6 +98,15 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 require 'views/note-create.view.php';
 ```
 Por ahorita vemos como podemos mandar la información de `body` con el método `POST`.
+
+Salida de `dd($_POST)`:
+```php
+array(1) {
+  ["body"]=>
+  string(6) "prueba"
+}
+```
+
 Ahora vamos a cambiar nuestra forma NO estilizada por una que nos ofrezca [Tailwind CSS](https://tailwindui.com), hacer una búsqueda de `forms` [link](https://tailwindui.com/components/application-ui/forms/form-layouts).
 Sustituirlo y limpiarlo y quedarnos solo con lo que nos interesa.
 
