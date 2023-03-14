@@ -8,6 +8,10 @@ weight: 30
 
 Antes de continuar con la creación de un formulario para conservar las notas nuevas en la base de datos, tomemos diez minutos para refactorizar nuestro código actual y discutir el cierre de las API que no son de su propiedad.
 
+## Que aprenderemos
+- Refactoring
+- API Ownership
+
 Vamos a `controllers/note.php` personalizar nuestro propio fetch() en 
 ```php
 $note = $db->query('SELECT * FROM mis_notas.notes WHERE id = :id', [

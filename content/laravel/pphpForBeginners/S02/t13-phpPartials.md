@@ -6,7 +6,13 @@ draft: false
 weight: 15
 ---
 
-Crear los parciales:
+En la lección anterior, duplicamos a regañadientes el mismo HTML para cada vista de PHP. Arreglemos eso ahora buscando parciales de PHP.
+
+## Que aprenderemos
+- Extract Partial
+- Folder Structure
+
+## Crear los parciales
 - nav.php
 - head.php
 - footer.php

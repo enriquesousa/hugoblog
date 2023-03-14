@@ -7,6 +7,12 @@ weight: 15
 ---
 
 **Acerca de esta lección**: Nuestra primera orden del día es preparar algo de HTML básico, iniciar un servidor PHP y verlo en el navegador.
+
+## Que aprenderemos
+- PHP Tags
+- Strings
+- echo
+
 ## Tarea
 * * *
 Cree un párrafo que use PHP para hacer eco de cualquier oración básica de su elección. Practique escribir las etiquetas <?php de apertura y cierre.

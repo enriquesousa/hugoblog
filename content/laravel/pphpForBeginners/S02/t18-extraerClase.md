@@ -8,6 +8,12 @@ weight: 40
 
 Ahora que comprendemos la lógica básica para inicial-izar una instancia de PDO y ejecutar una consulta preparada, aclaremos un poco las cosas extrayendo una clase de base de datos dedicada, vamos a extraer la funcionalidad del código a una clase de guardarla en su propio archivo **Database.php**.
 
+## Que aprenderemos
+- Classes
+- Constructor Functions
+- Database Connections
+
+
 ## Refactor 1
 Podemos empezar a refactor el código que llevamos, empezando por crear una clase que se llame `Database`, simplemente movemos por ahorita todo el código dentro de un método que llamemos `query()`, nos quedaría algo así:
 ```php

@@ -6,6 +6,13 @@ draft: false
 weight: 25
 ---
 
+Para este próximo episodio, crearemos una página web rápida que muestre un mensaje dinámico basado en si ha leído o no un libro en particular. Esto nos dará la oportunidad de revisar tanto los condicionales como los booleanos.
+
+## Que aprenderemos
+- Conditionals
+- Booleans
+- Short Echo Tags
+
 ## Desplegar un titulo de un libro
 Cambiamos un poco el estilo css del body tag para que se vea un poco mas estético. 
 {{< details "Código PHP" >}}

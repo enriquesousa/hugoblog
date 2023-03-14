@@ -10,6 +10,12 @@ weight: 45
 
 Para poder filtrar por diferentes parámetros, no solo por autor si no por cualquier otro parámetro que tengamos en nuestro arreglo de $books, inicialmente nos veríamos tentados a empezar a duplicar código para filtrar por otro parámetro, pero para evitar esta duplicación de código, podemos aplicar las técnicas de las funciones lambda de php.  
 
+## Que aprenderemos
+- Lambdas
+- Extract Variable
+- array_filter
+
+
 Inicialmente podríamos **extraer la variable** $filterBooks asi:
 ```php
 <?php 

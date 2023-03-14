@@ -7,3 +7,10 @@ weight: 55
 ---
 
 Antes de pasar a la sección dos, hagamos una verificación técnica rápida para asegurarnos de que todo lo que ha aprendido hasta ahora se ha memorizado. Y no olvides completar el cuestionario antes de continuar.
+
+## Que aprenderemos
+- Variables
+- Conditionals
+- Loops
+- Functions
+

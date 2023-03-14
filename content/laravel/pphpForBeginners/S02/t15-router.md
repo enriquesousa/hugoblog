@@ -6,7 +6,13 @@ draft: false
 weight: 25
 ---
 
-Creo que sus habilidades PHP ahora han madurado hasta el punto de que está listo para construir un enrutador PHP personalizado desde cero. Esto nos dará la oportunidad de discutir la organización del código, los códigos de respuesta y más.
+Creo que tus habilidades PHP ahora han madurado hasta el punto de que está listo para construir un enrutador PHP personalizado desde cero. Esto nos dará la oportunidad de discutir la organización del código, los códigos de respuesta y más.
+
+## Que aprenderemos
+- Routers
+- Status Code
+- Code Organization
+
 
 ## Carpeta especifica
 * * *

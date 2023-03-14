@@ -6,6 +6,12 @@ draft: false
 weight: 20
 ---
 
+Bien, avancemos y revisemos la concatenación básica y las variables. La primera vez que aprendí sobre las variables, mi primer pensamiento fue: "¿Pero por qué?". ¡Hablemos de eso!
+
+## Que aprenderemos
+- Concatenation
+- Variables
+
 ## Concatenar strings.
 ## Modo 1
 ```php

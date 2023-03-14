@@ -10,6 +10,12 @@ A menudo, deberá aplicar estilos o activar cierta lógica en función de la pá
 
 Vamos a resolver el problema que nos quedo de que no se veía la selección del tema en el bar nav.
 
+## Que aprenderemos
+- Superglobals
+- Ternary Operator
+- var_dump
+
+
 ## var_dump()
 Si colocamos un var_dump() en index.php:
 ```php

@@ -6,6 +6,9 @@ draft: false
 weight: 25
 ---
 
+En el episodio anterior, agregamos soporte para leer todas las notas creadas por un usuario en particular. Pero, al hacerlo, introdujimos sin darnos cuenta un importante problema de seguridad. En esta lección, analizaremos la autorización, los códigos de estado y los números mágicos.
+
+## Que aprenderemos
 - Autorización
 - Códigos de Status
 - Numero Mágicos

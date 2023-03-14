@@ -6,6 +6,14 @@ draft: false
 weight: 35
 ---
 
+El siguiente paso en nuestro viaje es descubrir cómo conectarnos a MySQL desde PHP y ejecutar una consulta SELECT simple. Por supuesto, utilizaremos PHP Data Objects, o PDO, para orquestar esta tarea de forma segura.
+
+## Que aprenderemos
+- Select Queries
+- DSNs
+- PDO
+
+
 ## PDO (PHP Data Objects)
 El siguiente paso en nuestro viaje es descubrir cómo conectarnos a MySQL desde PHP y ejecutar una consulta SELECT simple. Por supuesto, utilizaremos PHP Data Objects, o PDO, para orquestar esta tarea de forma segura.
 

@@ -8,6 +8,11 @@ weight: 50
 
 En este episodio, revisaremos algunos ejemplos de inyección SQL y discutiremos por qué es tan importante que siempre asumas que, en la web, una persona es culpable hasta que se demuestre su inocencia.
 
+## Que aprenderemos
+- SQL Injection
+- Prepared Statements
+- Parameter Binding
+
 Pasar parámetros por el query string, por ejemplo
 `http://localhost:8888/?id=1`
 

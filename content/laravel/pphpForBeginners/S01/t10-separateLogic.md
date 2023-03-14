@@ -8,6 +8,11 @@ weight: 50
 
 Antes de continuar con el control técnico de este capítulo, dediquemos un poco de tiempo a discutir la organización del código y por qué podríamos querer separar nuestra lógica PHP de la vista o HTML.
 
+## Que aprenderemos
+- Code Organization
+- Logic Separation
+- require and include
+
 ## Mover código
 Mover código php a parte superior, como un primer paso podemos mover el código php y a la parte superior del archivo html así:
 

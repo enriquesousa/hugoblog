@@ -8,6 +8,9 @@ weight: 20
 
 Ahora que tenemos la estructura inicial de la base de datos en su lugar, creemos una página para mostrar todas las notas de John Doe y luego otra página para cada nota individual.
 
+## Que aprenderemos
+- Fetch Notes By User
+
 ## Ciclo de creación
 Para crear una nueva entrada de menú, tenemos que pasar por un ciclo de crear una nueva entrada de menú, en este caso vamos a crear el de `notas` para poder desplegar las notas que tenemos almacenadas en la base de datos.
 

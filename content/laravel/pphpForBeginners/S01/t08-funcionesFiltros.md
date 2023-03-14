@@ -8,6 +8,12 @@ weight: 40
 
 ¡Felicitaciones por llegar tan lejos! Vayamos un paso más allá ahora y revisemos las funciones. Puedes pensar en las funciones como los verbos del mundo de la programación.
 
+## Que aprenderemos
+- Functions
+- Array Filtering
+- Checking for Equality
+
+
 Filtrar por autor
 ```php
 <?php foreach ($books as $book) : ?>

@@ -8,6 +8,12 @@ weight: 30
 
 Ahora estamos listos para comenzar a interactuar con una base de datos MySQL. Antes de escribir PHP, primero revisemos cómo conectarnos a MySQL y luego crear una base de datos y una tabla.
 
+## Que aprenderemos
+- Databases
+- Tables
+- Columns
+
+
 ## MySQL Server
 Asegurarnos de tener instalado MySQL server en tu maquina.
 

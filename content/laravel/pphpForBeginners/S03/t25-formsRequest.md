@@ -8,7 +8,7 @@ weight: 35
 
 Estamos atrasados, pero finalmente es hora de profundizar en los formularios. En esta lección, aprenderemos cómo enviar un formulario utilizando dos métodos de solicitud diferentes. A continuación, analizaremos cómo nuestro controlador podría detectar si se ha producido un envío POST.
 
-**Cosas que aprenderemos:**
+## Que aprenderemos
 - Forms
 - GET Requests
 - POST Requests

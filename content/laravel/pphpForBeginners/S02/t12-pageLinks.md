@@ -7,6 +7,7 @@ weight: 10
 ---
 
 ¡Bienvenidos a la sección dos! Si bien la sección uno se centró por completo en los fundamentos iniciales de PHP, ahora continuaremos y aprenderemos cómo se ve construir una aplicación PHP típica con una base de datos MySQL.
+
 ## Cosas que aprenderemos
 - Page Linking (Ligas a paginas)
 - Templates (Plantillas)

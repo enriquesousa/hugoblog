@@ -8,6 +8,11 @@ weight: 35
 
 Sigamos con las matrices un poco más. En este episodio, aprenderá la sintaxis para acceder a elementos individuales dentro de una matriz. También aprenderá sobre matrices asociativas, que le permiten asociar una clave con cada valor.
 
+## Que aprenderemos
+- Array Access
+- Key-Value Pairs
+- Data
+
 Para poder acceder a elementos individuales dentro de un arreglo.
 Por ejemplo para recuperar el primer libro del arreglo.
 ```php

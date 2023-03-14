@@ -8,6 +8,11 @@ weight: 15
 
 Has aprendido lo suficiente de los fundamentos en este momento para comenzar a trabajar en tu primer mini proyecto. ¡Hagamos una aplicación de notas! Comenzaremos con la estructura inicial de la base de datos, que nos dará la oportunidad de revisar los índices de MySQL.
 
+## Que aprenderemos
+- Table Relationships
+- Indexes
+
+
 Vamos a crear nueva base de datos:
 - mis_notas
 Con las Tablas:

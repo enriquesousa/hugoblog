@@ -8,6 +8,11 @@ weight: 30
 
 En este punto, debes de saber cómo crear una variable para una cadena o número primitivo. Pero, ¿qué pasa con las situaciones en las que queremos declarar una colección o una lista de cosas? ¿Una lista de nombres de usuario, títulos de libros o tuits? En estas situaciones, podemos buscar arreglos.
 
+## Que aprenderemos
+- Arrays
+- Foreach
+- Alternative Syntax
+
 ### - Books -
 ### Do Androids Dream of Electric Sheep?
 Info

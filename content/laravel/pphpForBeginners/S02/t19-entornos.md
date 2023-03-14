@@ -8,6 +8,10 @@ weight: 45
 
 Tenemos un problema evidente con nuestra clase de base de datos en este momento. Los valores de conexión han sido codificados de forma rígida. Entonces, ¿qué sucede cuando llevamos el proyecto a producción, donde el host y el puerto son completamente diferentes?
 
+## Que aprenderemos
+- Environments
+- Push Configurable Data Upward
+
 Vamos a pasar la constante de PDO `[PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC]` dentro de la clase, y vamos a utilizar una nueva función de php `http_build_query($data)`, que es lo que hace esta función?
 
 ## Refactor 1 - Database.php
