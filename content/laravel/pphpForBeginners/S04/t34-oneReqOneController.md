@@ -138,7 +138,7 @@ Aquí con el botón `Eliminar` dentro de la forma que es `POST` porque las forma
 1. Todo inicia en `public/index.php`
 1a. Cargamos las funciones `Core/functions.php`
 1b. Inicial-izamos la clase `$router = new \Core\Router()`
-1c. Cargamos un array bi-dimensional (global variable) $routes que va a contener todos los routes definidos en `routes.php`
+1c. Cargamos un array asociativa bi-dimensional (global variable) $routes que va a contener todos los routes definidos en `routes.php`
  
 	```php
 	object(Core\Router)[3]
