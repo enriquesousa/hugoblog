@@ -5,4 +5,9 @@ draft: false
 menuTitle: "47. Property Type Crud Part 4"
 weight: 47
 ---
+Edit Update Type
+- resources/views/backend/type/edit_type.blade.php
+- app/Http/Controllers/Backend/PropertyTypeController.php - UpdateType()
+- routes/web.php - ruta '/update/type'
+Listo!
 

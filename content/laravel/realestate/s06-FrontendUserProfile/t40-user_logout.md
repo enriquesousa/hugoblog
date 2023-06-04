@@ -5,4 +5,9 @@ draft: false
 menuTitle: "40. User Logout Option"
 weight: 40
 ---
+User Logout
+- resources/views/frontend/dashboard/dashboard_sidebar.blade.php
+- routes/web.php
+- app/Http/Controllers/UserController.php
+Listo!
 

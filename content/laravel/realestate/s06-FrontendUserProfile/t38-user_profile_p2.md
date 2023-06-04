@@ -5,4 +5,12 @@ draft: false
 menuTitle: "38. User Profile Design Part 2"
 weight: 38
 ---
+Display User
+Archivos que modifique:
+- resources/views/dashboard.blade.php
+- app/Http/Controllers/UserController.php
+- resources/views/frontend/dashboard/edit_profile.blade.php
+- routes/web.php
+- resources/views/frontend/dashboard/dashboard_sidebar.blade.php
+Listo!
 

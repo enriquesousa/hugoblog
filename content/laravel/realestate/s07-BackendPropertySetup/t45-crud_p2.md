@@ -6,3 +6,7 @@ menuTitle: "45. Property Type Crud Part 2"
 weight: 45
 ---
 
+- resources/views/backend/type/all_type.blade.php
+- resources/views/admin/admin_dashboard.blade.php
+
+Listo!

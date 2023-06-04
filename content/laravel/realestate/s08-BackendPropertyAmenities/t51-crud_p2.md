@@ -6,3 +6,15 @@ menuTitle: "51. Amenities Crud Part 2"
 weight: 51
 ---
 
+Completar las acciones de:
+- Añadir
+- Editar
+- Update
+- y Borrar
+- resources/views/backend/amenities/add_amenities.blade.php
+- routes/web.php
+- app/Http/Controllers/Backend/PropertyTypeController.php
+
+Listo!
+
+
