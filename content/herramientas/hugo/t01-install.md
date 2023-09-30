@@ -19,6 +19,11 @@ Windows (Chocolatey):
 choco install hugo-extended -confirm
 ```
 
+En Debian Mx Linux 23 Instalar con:
+```bash
+Mx Package Installer
+```
+
 ### Version
 ```bash
 hugo version

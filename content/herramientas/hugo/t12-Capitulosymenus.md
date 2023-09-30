@@ -5,114 +5,17 @@ draft: false
 weight: 25
 ---
 
-## Crear Capítulos
-Crear Capítulos:
-hugo new --kind chapter herramientas/_index.md
+# Estructura para Laravel Ecommerce
 
-### Estructura para Laravel desde cero
-hugo new laravel/laraveldesde0/c01-introduccion/_index.md
-hugo new laravel/laraveldesde0/c01-introduccion/t01-creatnewproject.md
-hugo new laravel/laraveldesde0/c01-introduccion/t02-lando.md
-hugo new laravel/laraveldesde0/c01-introduccion/t03-rutas.md
-hugo new laravel/laraveldesde0/c01-introduccion/t04-controladores.md
-hugo new laravel/laraveldesde0/c01-introduccion/t05-gruporutas.md
-hugo new laravel/laraveldesde0/c01-introduccion/t06-vistas.md
-hugo new laravel/laraveldesde0/c01-introduccion/t07-dominiolocal.md
+## Estructura para Laravel Ecommerce
 
-hugo new laravel/laraveldesde0/c02-basededatos/_index.md
-hugo new laravel/laraveldesde0/c02-basededatos/t08-intro.md
-hugo new laravel/laraveldesde0/c02-basededatos/t09-migraciones.md
-hugo new laravel/laraveldesde0/c02-basededatos/t10-propiasmigraciones.md
-hugo new laravel/laraveldesde0/c02-basededatos/t11-modtablas.md
-
-hugo new laravel/laraveldesde0/c03-eloquent/_index.md
-hugo new laravel/laraveldesde0/c03-eloquent/t12-intro.md
-hugo new laravel/laraveldesde0/c03-eloquent/t13-seeders.md
-hugo new laravel/laraveldesde0/c03-eloquent/t14-factories.md
-hugo new laravel/laraveldesde0/c03-eloquent/t15-consultas.md
-hugo new laravel/laraveldesde0/c03-eloquent/t16-mutadores.md
-
-hugo new laravel/laraveldesde0/c04-crud/_index.md
-hugo new laravel/laraveldesde0/c04-crud/t17-listaregistros.md
-hugo new laravel/laraveldesde0/c04-crud/t18-agregaryactualizar.md
-hugo new laravel/laraveldesde0/c04-crud/t19-validarformularios.md
-hugo new laravel/laraveldesde0/c04-crud/t20-formrequest.md
-hugo new laravel/laraveldesde0/c04-crud/t21-asignacionmasiva.md
-hugo new laravel/laraveldesde0/c04-crud/t22-eliminar.md
-hugo new laravel/laraveldesde0/c04-crud/t23-routeresource.md
-
-hugo new laravel/laraveldesde0/c05-buenaspracticas/_index.md
-hugo new laravel/laraveldesde0/c05-buenaspracticas/t24-urlsamigables.md
-hugo new laravel/laraveldesde0/c05-buenaspracticas/t25-navegacion.md
-hugo new laravel/laraveldesde0/c05-buenaspracticas/t26-enviaremails.md
-hugo new laravel/laraveldesde0/c05-buenaspracticas/t27-formulariocontacto.md
-
-hugo new laravel/laraveldesde0/c06-jetstream/_index.md
-hugo new laravel/laraveldesde0/c06-jetstream/t28-breezeyjetstream.md
-hugo new laravel/laraveldesde0/c06-jetstream/t29-bootstrap.md
-hugo new laravel/laraveldesde0/c06-jetstream/t30-vite.md
-hugo new laravel/laraveldesde0/c06-jetstream/t31-blade.md
-hugo new laravel/laraveldesde0/c06-jetstream/t32-modplantillajetstream.md
-hugo new laravel/laraveldesde0/c06-jetstream/t33-reutilizarlantillajetstream.md
-
-hugo new laravel/laraveldesde0/c07-middlewares/_index.md
-hugo new laravel/laraveldesde0/c07-middlewares/t34-middlewares.md
-
-hugo new laravel/laraveldesde0/c08-bbdd/_index.md
-hugo new laravel/laraveldesde0/c08-bbdd/t35-modeloconceptual.md
-hugo new laravel/laraveldesde0/c08-bbdd/t36-modelologico.md
-hugo new laravel/laraveldesde0/c08-bbdd/t37-normalizacion.md
-
-hugo new laravel/laraveldesde0/c09-relaciones/_index.md
-hugo new laravel/laraveldesde0/c09-relaciones/t38-unoauno.md
-hugo new laravel/laraveldesde0/c09-relaciones/t39-unoamuchos.md
-hugo new laravel/laraveldesde0/c09-relaciones/t40-muchosamuchos.md
-hugo new laravel/laraveldesde0/c09-relaciones/t41-unoaunopoli.md
-hugo new laravel/laraveldesde0/c09-relaciones/t42-unoamuchospoli.md
-hugo new laravel/laraveldesde0/c09-relaciones/t43-muchosamuchospoli.md
-
-hugo new laravel/laraveldesde0/c10-blogadmin/_index.md
-hugo new laravel/laraveldesde0/c10-blogadmin/t44-presentacion.md
-hugo new laravel/laraveldesde0/c10-blogadmin/t45-disenobbdd.md
-hugo new laravel/laraveldesde0/c10-blogadmin/t46-datosfalsos.md
-hugo new laravel/laraveldesde0/c10-blogadmin/t47-menutailwinalpine.md
-hugo new laravel/laraveldesde0/c10-blogadmin/t48-menufuncional.md
-
-hugo new laravel/laraveldesde0/c11-blogfrontend/_index.md
-hugo new laravel/laraveldesde0/c11-blogfrontend/t49-listapost.md
-hugo new laravel/laraveldesde0/c11-blogfrontend/t50-showpost.md
-hugo new laravel/laraveldesde0/c11-blogfrontend/t51-filtrocategoria.md
-hugo new laravel/laraveldesde0/c11-blogfrontend/t52-filtroetiqueta.md
-hugo new laravel/laraveldesde0/c11-blogfrontend/t53-adminlte.md
-
-hugo new laravel/laraveldesde0/c12-blogbackend/_index.md
-hugo new laravel/laraveldesde0/c12-blogbackend/t54-crudcategorias.md
-hugo new laravel/laraveldesde0/c12-blogbackend/t55-crudetiquetas.md
-hugo new laravel/laraveldesde0/c12-blogbackend/t56-showposts.md
-hugo new laravel/laraveldesde0/c12-blogbackend/t57-formnewpost.md
-hugo new laravel/laraveldesde0/c12-blogbackend/t58-newpost.md
-hugo new laravel/laraveldesde0/c12-blogbackend/t59-subirimagen.md
-hugo new laravel/laraveldesde0/c12-blogbackend/t60-actualizarpost.md
-hugo new laravel/laraveldesde0/c12-blogbackend/t61-observers.md
-hugo new laravel/laraveldesde0/c12-blogbackend/t62-policies.md
-
-hugo new laravel/laraveldesde0/c13-rolesypermisos/_index.md
-hugo new laravel/laraveldesde0/c13-rolesypermisos/t63-install.md
-hugo new laravel/laraveldesde0/c13-rolesypermisos/t64-crearrolesypermisos.md
-hugo new laravel/laraveldesde0/c13-rolesypermisos/t65-asignarrol.md
-hugo new laravel/laraveldesde0/c13-rolesypermisos/t66-ocultarboton.md
-hugo new laravel/laraveldesde0/c13-rolesypermisos/t67-protegerrutas.md
-hugo new laravel/laraveldesde0/c13-rolesypermisos/t68-crudroles.md
-
-hugo new laravel/laraveldesde0/c14-cache/_index.md
-hugo new laravel/laraveldesde0/c14-cache/t69-funcionamiento.md
-hugo new laravel/laraveldesde0/c14-cache/t70-actualizarcache.md
-
-Crear Capitulos:
-hugo new --kind chapter herramientas/_index.md
-
-### Estructura para Laravel Ecommerce
+Crear Index
+```bash
 hugo new laravel/Ecommerce/_index.md
+```
 
+Crear Capítulos
+```bash
 hugo new laravel/Ecommerce/c01-introduccion/_index.md
 hugo new laravel/Ecommerce/c01-introduccion/t01-programasnecesarios.md
+```
