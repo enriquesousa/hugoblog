@@ -8,3 +8,6 @@ Hugo es uno de los generadores de sitios estáticos más simples de instalar, po
 
 Note
 > Hay dos versiones de Hugo: estándar y extendida. Si es usuario de SCSS/SASS, se recomienda la versión extendida, ya que le brinda capacidades de procesamiento integradas.
+
+### Lista de Temas
+{{% children  %}}
