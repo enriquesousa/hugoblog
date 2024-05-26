@@ -20,7 +20,7 @@ draft: false
 - indent-rainbow
 - Easy Snippet
 - Easy Snippet - Theme
-- VSCode Great Icons
+- Material Icon Theme
 <br>
 
 * * *
