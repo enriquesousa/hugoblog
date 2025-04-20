@@ -8,10 +8,7 @@ draft: false
 ## Crear una vista
 Crear una vista
 `En resources/views/blog/create.blade.php`
-<details>
-  <summary>Click para ver Código. </summary>
-  
-```
+```php
 @extends('layouts.master')
 @section('content')
 
@@ -58,8 +55,6 @@ Crear una vista
 
 @endsection
 ```
-</details>
-<br>
 
 ## Modificar master
 Modificar master para incluir bootstrap cdn.
