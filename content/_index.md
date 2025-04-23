@@ -1,9 +1,9 @@
 +++
 archetype = "home"
-title = "Blog Documentación"
+title = "TJWeb Documentación"
 +++
 
-Bienvenido a mi **Blog**
+Bienvenido a mi **Blog de TJWeb**
 
 Aquí encontraras información sobre diferentes tecnologías de la información, espero que sea de utilidad.
 

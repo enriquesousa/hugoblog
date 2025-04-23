@@ -1,6 +1,6 @@
 baseURL = ''
 languageCode = 'en-us'
-title = 'Blog'
+title = 'TJWeb'
 
 # Relearn Theme Tutorial
 # https://mcshelby.github.io/hugo-theme-relearn/basics/configuration/
@@ -14,7 +14,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [params]
   editURL = ""
-  description = "Blog Documentacion"
+  description = "Documentación TJWeb"
   author = "Enrique Sousa"
   showVisitedLinks = true
   collapsibleMenu = true
@@ -30,14 +30,24 @@ home = [ "HTML", "RSS", "JSON"]
   mermaidInitialize = "{ \"securityLevel\": \"loose\" }"
   additionalContentLanguage = [ "en" ]
 
+
+
 [[menu.shortcuts]]
-name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+name = "<i class='fab fa-fw fa-github'></i> Hugo GitHub repo"
 identifier = "ds"
 url = "https://github.com/McShelby/hugo-theme-relearn"
 weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> TJWeb GitHub"
+identifier = "ds"
+url = "https://github.com/enriquesousa"
+weight = 15
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
 identifier = "hugodoc"
 url = "https://gohugo.io/"
 weight = 20
+
+
