@@ -29,6 +29,9 @@ La lista de productos y sus categorías se dan de alta desde el **backend** aqu�
 ### Productos
 ![imagen](/proyectos/foodpark/productos_lista_productos_opt.png)
 
+## Lista todos los Productos
+Desde esta pagina podemos ver todos los productos registrados en el sistema y filtrar y hacer búsquedas por nombre de producto o categoría.
+![imagen](/proyectos/foodpark/productos_todos_opt.png)
 
 ***
 Gestor de Restaurantes - Sección Productos - TJWeb
