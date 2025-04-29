@@ -18,9 +18,15 @@ weight: 70
 - Título SEO
 - Descripción SEO
 - Estado (Activo o Inactivo)
+
 ## Ver a continuación capturas de imagen del **backend**.
+
 ### Actualizar Blog:
 ![imagen](/proyectos/foodpark/blogNoticias_actualizar_blog_opt.png)
+
+### Detalles del Blog
+![imagen](/proyectos/foodpark/blogNoticias_detalles_blog_opt.png)
+
 
 ***
 Gestor de Restaurantes - Sección Blog - TJWeb
