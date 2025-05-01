@@ -18,6 +18,7 @@ home = [ "HTML", "RSS", "JSON"]
   author = "Enrique Sousa"
   showVisitedLinks = true
   collapsibleMenu = true
+  alwaysopen = false
   disableBreadcrumb = false
   disableNextPrev = false
   disableLandingPageButton = true
