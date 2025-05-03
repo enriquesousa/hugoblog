@@ -25,6 +25,15 @@ Dar click en el botón de ver carnet de mascota.
 ### Carnet de vacunas
 ![imagen](/proyectos/veterinarias/veterinaria_mascotas_lista_carnet_opt.png)
 
+## Agregar vacuna
+Ventana agregar vacuna.
+![imagen](/proyectos/veterinarias/veterinaria_mascotas_agregar_vacuna_opt.png)
+
+## Generar PDF
+Generar PDF del carnet de vacunas.
+![imagen](/proyectos/veterinarias/veterinaria_mascotas_carnet_pdf_opt.png)
+
+
 ***
 Documentación | Gestor de Veterinarias | Gestor de Mascotas | TJWeb
 
