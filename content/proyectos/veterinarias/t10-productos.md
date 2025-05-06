@@ -44,6 +44,7 @@ Al dar click en el check, ahora el botón se actualiza a:
 Y si revisamos ahora nuestro stock, vemos que el stock a sido actualizado con 20 productos mas, que es la cantidad de los productos comprados y recibidos :
 ![imagen](/proyectos/veterinarias/productos_inventario_stock_actualizado_lista_opt.png)
 
+Para poder generar una compra tenemos que ir al modulo de **Compras - Pedidos**
 
 ***
 Documentación | Gestor de Veterinarias | Productos | TJWeb
