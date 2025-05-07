@@ -25,6 +25,14 @@ Para finalizar la venta entrar a Ver Venta y dar click en el botón de **Finaliz
 Mientras que la venta no se encuentre finalizada no la veremos reflejada en **Caja**.
 ![imagen](/proyectos/veterinarias/ventas_finalizarVenta_opt.png)    
 
+## Imprimir Factura
+Una vez que la venta se encuentra finalizada, podemos imprimir la factura dando click en el botón **Factura** dentro de la ventana de **Ver Venta**.
+![imagen](/proyectos/veterinarias/ventas_factura_opt.png)    
+
+## Factura PDF
+En la ventana de imprimir factura podemos bajar el archivo PDF a la computadora o imprimir directo a la impresora.
+![imagen](/proyectos/veterinarias/ventas_factura_pdf_opt.png)    
+
 
 ***
 Documentación | Gestor de Veterinarias | Ventas | TJWeb
