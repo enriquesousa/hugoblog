@@ -35,5 +35,5 @@ Funcionalidades del sistema.
 ![imagen](/proyectos/blog/blog2.png)
 
 ***
-Documentación | Gestor de Escuelas | Blog | TJWeb
+Documentación | Gestor de Blog | Blog | TJWeb
 

@@ -12,5 +12,5 @@ Esta es la ventana de login donde podrás iniciar sesión con correo y contrase�
 ![imagen](/proyectos/blog/blog_login_opt.png)
 
 ***
-Documentación | Gestor de Escuelas | Blog | TJWeb
+Documentación | Gestor de Blog | Blog | TJWeb
 

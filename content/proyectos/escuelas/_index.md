@@ -1,7 +1,9 @@
 ---
-title: "Escuelas"
+title: "Gestor de Escuelas"
 date: 2025-05-08T20:40:18-07:00
 draft: false
+
+weight: 10
 ---
 
 ## Descripción General

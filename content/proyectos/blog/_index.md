@@ -1,7 +1,9 @@
 ---
-title: "Blog"
+title: "Gestor de Blog"
 date: 2025-05-10T09:45:09-07:00
 draft: false
+
+weight: 5
 ---
 
 
