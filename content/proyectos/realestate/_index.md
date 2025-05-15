@@ -2,6 +2,8 @@
 title: "Gestor de Bienes Raíces"
 date: 2025-05-13T09:48:28-07:00
 draft: false
+
+weight: 25
 ---
 
 ## Descripción General
