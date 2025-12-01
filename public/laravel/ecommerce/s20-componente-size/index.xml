@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Componente size product on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s20-componente-size/</link>
+    <description>Recent content in Componente size product on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s20-componente-size/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agregar talla</title>
+      <link>//localhost:1313/laravel/ecommerce/s20-componente-size/t142-agregar-talla/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s20-componente-size/t142-agregar-talla/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Actualizar talla</title>
+      <link>//localhost:1313/laravel/ecommerce/s20-componente-size/t143-actualizar-talla/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s20-componente-size/t143-actualizar-talla/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eliminar talla</title>
+      <link>//localhost:1313/laravel/ecommerce/s20-componente-size/t144-eliminar-talla/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s20-componente-size/t144-eliminar-talla/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agregar color a talla</title>
+      <link>//localhost:1313/laravel/ecommerce/s20-componente-size/t145-agregar-colortalla/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s20-componente-size/t145-agregar-colortalla/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Editar color de talla</title>
+      <link>//localhost:1313/laravel/ecommerce/s20-componente-size/t146-editar-colortalla/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s20-componente-size/t146-editar-colortalla/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eliminar talla</title>
+      <link>//localhost:1313/laravel/ecommerce/s20-componente-size/t147-eliminar-talla/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s20-componente-size/t147-eliminar-talla/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solucionar errores</title>
+      <link>//localhost:1313/laravel/ecommerce/s20-componente-size/t148-errores/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s20-componente-size/t148-errores/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

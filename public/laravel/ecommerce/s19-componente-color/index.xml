@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Componente color product on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s19-componente-color/</link>
+    <description>Recent content in Componente color product on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s19-componente-color/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crear formulario</title>
+      <link>//localhost:1313/laravel/ecommerce/s19-componente-color/t136-formulario/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s19-componente-color/t136-formulario/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agregar productos con color</title>
+      <link>//localhost:1313/laravel/ecommerce/s19-componente-color/t137-productos-color/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s19-componente-color/t137-productos-color/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Actualizar registro I</title>
+      <link>//localhost:1313/laravel/ecommerce/s19-componente-color/t138-actualizar-registro1/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s19-componente-color/t138-actualizar-registro1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Actualizar registro II</title>
+      <link>//localhost:1313/laravel/ecommerce/s19-componente-color/t139-actualizar-registro2/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s19-componente-color/t139-actualizar-registro2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Actualizar registro III</title>
+      <link>//localhost:1313/laravel/ecommerce/s19-componente-color/t140-actualizar-registro3/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s19-componente-color/t140-actualizar-registro3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eliminar registro</title>
+      <link>//localhost:1313/laravel/ecommerce/s19-componente-color/t141-eliminar-registro/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s19-componente-color/t141-eliminar-registro/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

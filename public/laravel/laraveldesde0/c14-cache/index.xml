@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cache en Laravel on TJWeb</title>
+    <link>//localhost:1313/laravel/laraveldesde0/c14-cache/</link>
+    <description>Recent content in Cache en Laravel on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Oct 2022 13:43:46 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/laraveldesde0/c14-cache/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cómo funciona la cache en Laravel</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c14-cache/t69-funcionamiento/</link>
+      <pubDate>Sat, 22 Oct 2022 13:44:33 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c14-cache/t69-funcionamiento/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cómo actualizar datos de caché</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c14-cache/t70-actualizarcache/</link>
+      <pubDate>Sat, 22 Oct 2022 13:44:39 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c14-cache/t70-actualizarcache/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

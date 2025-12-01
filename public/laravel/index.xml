@@ -1,18 +1,162 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Laravel on Blog</title>
-    <link>/laravel/</link>
-    <description>Recent content in Laravel on Blog</description>
+    <title>Laravel on TJWeb</title>
+    <link>//localhost:1313/laravel/</link>
+    <description>Recent content in Laravel on TJWeb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Oct 2022 17:10:32 -0700</lastBuildDate><atom:link href="/laravel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 May 2023 10:46:39 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Real Estate Property Listing</title>
+      <link>//localhost:1313/laravel/realestate/</link>
+      <pubDate>Thu, 25 May 2023 17:27:54 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PHP para principiantes</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/</link>
+      <pubDate>Wed, 01 Mar 2023 09:05:11 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/</guid>
+      <description>&lt;h3 id=&#34;curso-php-para-principiantes&#34;&gt;Curso PHP para principiantes&lt;/h3&gt;
+&lt;p&gt;Curso Básico de PHP para principiantes&lt;/p&gt;
+&lt;h3 id=&#34;lista-de-temas-en-este-curso&#34;&gt;Lista de Temas en este Curso&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/pphpforbeginners/s01/&#34; &gt;Sección 1: Lo Fundamental&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/pphpforbeginners/s02/&#34; &gt;Sección 2: Aplicaciones Web Dinámicas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/pphpforbeginners/s03/&#34; &gt;Sección 3: Mini Proyecto&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/pphpforbeginners/s04/&#34; &gt;Sección 4: Organización del Proyecto&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Filament</title>
+      <link>//localhost:1313/laravel/filament-test/</link>
+      <pubDate>Fri, 24 Feb 2023 16:30:14 -0800</pubDate>
+      <guid>//localhost:1313/laravel/filament-test/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/filament-test/filament-test.svg&#34; alt=&#34;Filament-image1&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;probando-filament&#34;&gt;Probando Filament&lt;/h2&gt;
+&lt;p&gt;Instalando y probando paquete Filament php para laravel&lt;/p&gt;
+&lt;h2 id=&#34;resumen&#34;&gt;Resumen&lt;/h2&gt;
+&lt;p&gt;Apuntes del video tutorial original &lt;a href=&#34;https://www.youtube.com/watch?v=In8SiXqMwh0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Filament Laravel TALL Admin Panel Package&lt;/a&gt;
+, por &lt;strong&gt;Code With Tony&lt;/strong&gt; de Grecia!&lt;/p&gt;
+&lt;h2 id=&#34;acerca-de-esta-aplicación&#34;&gt;Acerca de esta aplicación&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Laravel 10.0.3&lt;/li&gt;
+&lt;li&gt;PHP v8.2.0
+&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;entorno-de-desarrollo-local&#34;&gt;Entorno de Desarrollo Local&lt;/h2&gt;
+&lt;p&gt;Podemos usar un entorno de desarrollo local, mas rápido!&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Laravel new filamentPrueba
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Levantar Servidor de PHP&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;php artisan serve
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Storage Link&lt;/strong&gt;
+Si vamos a usar imágenes usar&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Livewire</title>
+      <link>//localhost:1313/laravel/livewire/</link>
+      <pubDate>Tue, 14 Feb 2023 12:07:25 -0800</pubDate>
+      <guid>//localhost:1313/laravel/livewire/</guid>
+      <description>&lt;h3 id=&#34;livewire&#34;&gt;Livewire&lt;/h3&gt;
+&lt;p&gt;Crea aplicaciones web dinámicas con Laravel Livewire&lt;/p&gt;
+&lt;h3 id=&#34;con-ambiente-de-desarrollo-lando&#34;&gt;Con ambiente de desarrollo Lando&lt;/h3&gt;
+&lt;h3 id=&#34;lista-de-temas-en-este-curso&#34;&gt;Lista de Temas en este Curso&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/livewire/c01-introduccion/&#34; &gt;Sección 1: Introducción&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/livewire/c02-caracteristicas/&#34; &gt;Sección 2: Características de los componentes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Laravel Ecommerce</title>
+      <link>//localhost:1313/laravel/ecommerce/</link>
+      <pubDate>Fri, 23 Dec 2022 08:59:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/</guid>
+      <description>&lt;h3 id=&#34;sistema-de-comercio-electrónico&#34;&gt;Sistema de Comercio Electrónico&lt;/h3&gt;
+&lt;p&gt;Desarrollar un sistema de Ecommerce con Laravel, Livewire, Tailwind y Alpine.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/Ecommerce/Ecommerce-SceenShot.png&#34; alt=&#34;EcommerceScreenShot&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;con-ambiente-de-desarrollo-lando&#34;&gt;Con ambiente de desarrollo Lando&lt;/h3&gt;
+&lt;h3 id=&#34;lista-de-temas-en-este-curso&#34;&gt;Lista de Temas en este Curso&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s01-introduccion/&#34; &gt;Introducción&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s02-basededatos/&#34; &gt;Diseño de la Base de Datos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s03-insertar-registros/&#34; &gt;Insertar Registros de Prueba&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s04-ajuste-de-estilos/&#34; &gt;Ajustes de Estilos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s05-dise%C3%B1ando-el-header/&#34; &gt;Diseñando el header&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/&#34; &gt;Diseñar Menú&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s07-slider/&#34; &gt;Slider&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s08-categorias/&#34; &gt;Categorías&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s09-products/&#34; &gt;Productos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s10-carrito-compras/&#34; &gt;Carrito de compras&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s11-buscador/&#34; &gt;Buscador&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s12-shoppingcart/&#34; &gt;Shopping cart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s13-crear-ordenes/&#34; &gt;Crear Ordenes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s14-mercado-pago/&#34; &gt;Mercado de pago&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s15-pasarela-paypal/&#34; &gt;Pasarela de pago PayPal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s16-admin-ordenes/&#34; &gt;Administrar Ordenes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s17-agregar-productos/&#34; &gt;Agregar Productos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s18-editar-productos/&#34; &gt;Editar Productos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s19-componente-color/&#34; &gt;Componente color product&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s20-componente-size/&#34; &gt;Componente size product&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s21-subir-imagenes/&#34; &gt;Subir Imágenes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s22-detalles-finales/&#34; &gt;Detalles Finales&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s23-categorias/&#34; &gt;Categorías&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s24-subcategorias/&#34; &gt;Subcategoría&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s25-cruds-finales/&#34; &gt;Cruds finales&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s26-ordenes/&#34; &gt;Ordenes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s27-envios/&#34; &gt;Envíos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s28-laravel-permission/&#34; &gt;Laravel Permission&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s29-dise%C3%B1o-responsivo/&#34; &gt;Diseño responsivo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s30-rese%C3%B1as/&#34; &gt;Reseñas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Laravel Voyager</title>
+      <link>//localhost:1313/laravel/voyager/</link>
+      <pubDate>Fri, 23 Dec 2022 08:59:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/</guid>
+      <description>&lt;h3 id=&#34;implementar-laravel-voyager&#34;&gt;Implementar Laravel Voyager&lt;/h3&gt;
+&lt;p&gt;Implementar Laravel Voyager a un sistema de Laravel.&lt;/p&gt;
+&lt;h3 id=&#34;con-ambiente-de-desarrollo-lando&#34;&gt;Con ambiente de desarrollo Lando&lt;/h3&gt;
+&lt;h3 id=&#34;lista-de-temas-en-este-curso&#34;&gt;Lista de Temas en este Curso&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s01-introduccion/&#34; &gt;Introducción&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s02-bread/&#34; &gt;Bread&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s03-camposformulario/&#34; &gt;Campos de Formulario&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s04-menus/&#34; &gt;Menus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s05-conceptosbasicos/&#34; &gt;Conceptos Básicos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s06-personalizacion/&#34; &gt;Personalización&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Laravel9 desde 0</title>
-      <link>/laravel/laraveldesde0/</link>
+      <link>//localhost:1313/laravel/laraveldesde0/</link>
       <pubDate>Wed, 12 Oct 2022 16:29:24 -0700</pubDate>
-      <guid>/laravel/laraveldesde0/</guid>
-      <description>Con ambiente de desarrollo Lando </description>
+      <guid>//localhost:1313/laravel/laraveldesde0/</guid>
+      <description>&lt;h3 id=&#34;con-ambiente-de-desarrollo-lando&#34;&gt;Con ambiente de desarrollo Lando&lt;/h3&gt;
+&lt;h3 id=&#34;lista-de-temas-en-este-curso&#34;&gt;Lista de Temas en este Curso&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/laraveldesde0/c01-introduccion/&#34; &gt;Introducción&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/laraveldesde0/c02-basededatos/&#34; &gt;Base de datos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/laraveldesde0/c03-eloquent/&#34; &gt;Eloquent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/laraveldesde0/c04-crud/&#34; &gt;Crud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/laraveldesde0/c05-buenaspracticas/&#34; &gt;Buenas Practicas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/laraveldesde0/c06-jetstream/&#34; &gt;Laravel Jetstream&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/laraveldesde0/c07-middlewares/&#34; &gt;Middlewares&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/laraveldesde0/c08-bbdd/&#34; &gt;Diseño de BBDD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/laraveldesde0/c09-relaciones/&#34; &gt;Relaciones Laravel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/laraveldesde0/c10-blogadmin/&#34; &gt;Blog Auto administrable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/laraveldesde0/c11-blogfrontend/&#34; &gt;Frontend del Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/laraveldesde0/c12-blogbackend/&#34; &gt;Backend del blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/laraveldesde0/c13-rolesypermisos/&#34; &gt;Roles y Permisos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/laraveldesde0/c14-cache/&#34; &gt;Cache en Laravel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

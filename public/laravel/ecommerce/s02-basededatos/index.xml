@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diseño de la Base de Datos on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s02-basededatos/</link>
+    <description>Recent content in Diseño de la Base de Datos on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s02-basededatos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maquinación de la BBDD Parte 1</title>
+      <link>//localhost:1313/laravel/ecommerce/s02-basededatos/t04-maquinacion-bbdd1/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s02-basededatos/t04-maquinacion-bbdd1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maquinación de la BBDD Parte 2</title>
+      <link>//localhost:1313/laravel/ecommerce/s02-basededatos/t05-maquinacion-bbdd2/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s02-basededatos/t05-maquinacion-bbdd2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Modelo Físico</title>
+      <link>//localhost:1313/laravel/ecommerce/s02-basededatos/t06-modelofisico/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s02-basededatos/t06-modelofisico/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Generar relaciones Eloquent</title>
+      <link>//localhost:1313/laravel/ecommerce/s02-basededatos/t07-relacioneselouent/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s02-basededatos/t07-relacioneselouent/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

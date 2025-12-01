@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Livewire on TJWeb</title>
+    <link>//localhost:1313/laravel/livewire/</link>
+    <description>Recent content in Livewire on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Feb 2023 12:07:25 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/livewire/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sección 1: Introducción</title>
+      <link>//localhost:1313/laravel/livewire/c01-introduccion/</link>
+      <pubDate>Tue, 14 Feb 2023 12:06:10 -0800</pubDate>
+      <guid>//localhost:1313/laravel/livewire/c01-introduccion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sección 2: Características de los componentes</title>
+      <link>//localhost:1313/laravel/livewire/c02-caracteristicas/</link>
+      <pubDate>Tue, 14 Feb 2023 12:09:37 -0800</pubDate>
+      <guid>//localhost:1313/laravel/livewire/c02-caracteristicas/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project Agent Panel Setup on TJWeb</title>
+    <link>//localhost:1313/laravel/realestate/s12-agentpanelsetup/</link>
+    <description>Recent content in Project Agent Panel Setup on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 May 2023 08:58:13 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/realestate/s12-agentpanelsetup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent Template Setup</title>
+      <link>//localhost:1313/laravel/realestate/s12-agentpanelsetup/t86-template/</link>
+      <pubDate>Fri, 26 May 2023 08:58:27 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s12-agentpanelsetup/t86-template/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agent Logout Option</title>
+      <link>//localhost:1313/laravel/realestate/s12-agentpanelsetup/t87-logout/</link>
+      <pubDate>Fri, 26 May 2023 08:58:44 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s12-agentpanelsetup/t87-logout/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agent Profile &amp; Image Update</title>
+      <link>//localhost:1313/laravel/realestate/s12-agentpanelsetup/t88-profileimage/</link>
+      <pubDate>Fri, 26 May 2023 08:58:52 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s12-agentpanelsetup/t88-profileimage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agent Profile Change Password</title>
+      <link>//localhost:1313/laravel/realestate/s12-agentpanelsetup/t89-password/</link>
+      <pubDate>Fri, 26 May 2023 08:59:01 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s12-agentpanelsetup/t89-password/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

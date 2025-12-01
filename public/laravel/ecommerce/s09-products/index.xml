@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Productos on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s09-products/</link>
+    <description>Recent content in Productos on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s09-products/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crear ruta de productos</title>
+      <link>//localhost:1313/laravel/ecommerce/s09-products/t43-rutas/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s09-products/t43-rutas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Incluir plugin FlexSlider</title>
+      <link>//localhost:1313/laravel/ecommerce/s09-products/t44-flexlider/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s09-products/t44-flexlider/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diseño vista detalle producto</title>
+      <link>//localhost:1313/laravel/ecommerce/s09-products/t45-detalle-product/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s09-products/t45-detalle-product/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Traducir fechas</title>
+      <link>//localhost:1313/laravel/ecommerce/s09-products/t46-traducirfechas/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s09-products/t46-traducirfechas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stock Productos</title>
+      <link>//localhost:1313/laravel/ecommerce/s09-products/t47-stock-products/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s09-products/t47-stock-products/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Habilitar Deshabilitar botones</title>
+      <link>//localhost:1313/laravel/ecommerce/s09-products/t48-habilitarbotones/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s09-products/t48-habilitarbotones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Traer colores de productos</title>
+      <link>//localhost:1313/laravel/ecommerce/s09-products/t49-coloresproductos/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s09-products/t49-coloresproductos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stock productos con color</title>
+      <link>//localhost:1313/laravel/ecommerce/s09-products/t50-stockconcolor/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s09-products/t50-stockconcolor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agregar colores para producto con tallas</title>
+      <link>//localhost:1313/laravel/ecommerce/s09-products/t51-coloresytallas/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s09-products/t51-coloresytallas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mostrar tallas y colores</title>
+      <link>//localhost:1313/laravel/ecommerce/s09-products/t52-tallasycolores/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s09-products/t52-tallasycolores/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Traducir nuestra aplicación</title>
+      <link>//localhost:1313/laravel/ecommerce/s09-products/t53-traducir/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s09-products/t53-traducir/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stock tallas</title>
+      <link>//localhost:1313/laravel/ecommerce/s09-products/t54-stocktallas/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s09-products/t54-stocktallas/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

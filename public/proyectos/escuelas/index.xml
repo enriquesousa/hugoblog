@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gestor de Escuelas on TJWeb</title>
+    <link>//localhost:1313/proyectos/escuelas/</link>
+    <description>Recent content in Gestor de Escuelas on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 May 2025 20:40:18 -0700</lastBuildDate><atom:link href="//localhost:1313/proyectos/escuelas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sumario</title>
+      <link>//localhost:1313/proyectos/escuelas/t00-sumario/</link>
+      <pubDate>Thu, 08 May 2025 20:44:38 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/escuelas/t00-sumario/</guid>
+      <description>&lt;h2 id=&#34;descripción-general&#34;&gt;Descripción General&lt;/h2&gt;
+&lt;p&gt;Sistema para gestionar Escuelas, con este sistema podemos administrar todos los aspectos administrativos de una escuela. Podemos agregar 3 tipos de usuarios al sistema, como son: Administrador, Operador, y Estudiante.Podemos Configurar las clases y materias que se dictan en la escuela, periodos, grupos, horario, categorías de cobro, etc.. Podemos registrar estudiantes con sus datos generales, así como también registrar sus materias en la escuela y cargo por inscripción, cargo por mensualidad y cargo por examen. También podemos registrar empleados (maestros, secretarios, asistentes, director etc..) con sus datos generales, así como fecha de ingreso y salario. Podemos registrar asistencias y/o ausencias de los maestros y asistentes. para llevar un control a su sueldo. También podemos administrar las calificaciones de los estudiantes. Asi como un modulo de administración de cuentas y cobros.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Login</title>
+      <link>//localhost:1313/proyectos/escuelas/t01-login/</link>
+      <pubDate>Sat, 10 May 2025 07:54:04 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/escuelas/t01-login/</guid>
+      <description>&lt;h2 id=&#34;ventana-de-login&#34;&gt;Ventana de Login&lt;/h2&gt;
+&lt;p&gt;Esta es la ventana de login donde podrás iniciar sesión con correo y contraseña, y dependiendo de como te hayan registrado, tu rol sera: Admin, Maestro, Estudiante, y/o Empleado.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/escuelas/escuelas_login_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Documentación | Gestor de Escuelas | Login | TJWeb&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

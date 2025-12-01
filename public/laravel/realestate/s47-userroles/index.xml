@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Setup User Roles on TJWeb</title>
+    <link>//localhost:1313/laravel/realestate/s47-userroles/</link>
+    <description>Recent content in Setup User Roles on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 May 2023 10:39:32 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/realestate/s47-userroles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup User Roles Part 1</title>
+      <link>//localhost:1313/laravel/realestate/s47-userroles/t214-userroles_p1/</link>
+      <pubDate>Fri, 26 May 2023 10:39:47 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s47-userroles/t214-userroles_p1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Setup User Roles Part 2</title>
+      <link>//localhost:1313/laravel/realestate/s47-userroles/t215-userroles_p2/</link>
+      <pubDate>Fri, 26 May 2023 10:39:55 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s47-userroles/t215-userroles_p2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Add Roles in Permission Part 1</title>
+      <link>//localhost:1313/laravel/realestate/s47-userroles/t216-addroles_p1/</link>
+      <pubDate>Fri, 26 May 2023 10:40:03 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s47-userroles/t216-addroles_p1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Add Roles in Permission Part 2</title>
+      <link>//localhost:1313/laravel/realestate/s47-userroles/t217-addroles_p2/</link>
+      <pubDate>Fri, 26 May 2023 10:40:09 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s47-userroles/t217-addroles_p2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Add Roles in Permission Part 3</title>
+      <link>//localhost:1313/laravel/realestate/s47-userroles/t218-addroles_p3/</link>
+      <pubDate>Fri, 26 May 2023 10:40:18 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s47-userroles/t218-addroles_p3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Add Roles in Permission Part 4</title>
+      <link>//localhost:1313/laravel/realestate/s47-userroles/t219-addroles_p4/</link>
+      <pubDate>Fri, 26 May 2023 10:40:28 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s47-userroles/t219-addroles_p4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Add Roles in Permission Part 5</title>
+      <link>//localhost:1313/laravel/realestate/s47-userroles/t220-addroles_p5/</link>
+      <pubDate>Fri, 26 May 2023 10:40:47 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s47-userroles/t220-addroles_p5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Add Roles in Permission Part 6</title>
+      <link>//localhost:1313/laravel/realestate/s47-userroles/t221-addroles_p6/</link>
+      <pubDate>Fri, 26 May 2023 10:40:55 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s47-userroles/t221-addroles_p6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Edit Roles in Permission Part 1</title>
+      <link>//localhost:1313/laravel/realestate/s47-userroles/t222-editroles_p1/</link>
+      <pubDate>Fri, 26 May 2023 10:41:05 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s47-userroles/t222-editroles_p1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Edit Roles in Permission Part 2</title>
+      <link>//localhost:1313/laravel/realestate/s47-userroles/t223-editroles_p2/</link>
+      <pubDate>Fri, 26 May 2023 10:41:18 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s47-userroles/t223-editroles_p2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Delete Roles in Permission</title>
+      <link>//localhost:1313/laravel/realestate/s47-userroles/t224-deleteroles/</link>
+      <pubDate>Fri, 26 May 2023 10:41:27 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s47-userroles/t224-deleteroles/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

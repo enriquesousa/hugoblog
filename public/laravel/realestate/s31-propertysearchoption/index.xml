@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Property Search Option In Home Page on TJWeb</title>
+    <link>//localhost:1313/laravel/realestate/s31-propertysearchoption/</link>
+    <description>Recent content in Property Search Option In Home Page on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 May 2023 10:27:09 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/realestate/s31-propertysearchoption/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Property Search Option in Home Page Part 1</title>
+      <link>//localhost:1313/laravel/realestate/s31-propertysearchoption/t163-pso_p1/</link>
+      <pubDate>Fri, 26 May 2023 10:27:15 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s31-propertysearchoption/t163-pso_p1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Property Search Option in Home Page Part 2</title>
+      <link>//localhost:1313/laravel/realestate/s31-propertysearchoption/t164-pso_p2/</link>
+      <pubDate>Fri, 26 May 2023 10:27:24 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s31-propertysearchoption/t164-pso_p2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Property Search Option in Home Page Part 3</title>
+      <link>//localhost:1313/laravel/realestate/s31-propertysearchoption/t165-pso_p3/</link>
+      <pubDate>Fri, 26 May 2023 10:27:38 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s31-propertysearchoption/t165-pso_p3/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mercado de pago on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s14-mercado-pago/</link>
+    <description>Recent content in Mercado de pago on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s14-mercado-pago/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obtener credenciales de mercado pago</title>
+      <link>//localhost:1313/laravel/ecommerce/s14-mercado-pago/t98-credenciales/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s14-mercado-pago/t98-credenciales/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instalar SDK de mercado pago</title>
+      <link>//localhost:1313/laravel/ecommerce/s14-mercado-pago/t99-sdk-mp/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s14-mercado-pago/t99-sdk-mp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Checkout Mercado Pago</title>
+      <link>//localhost:1313/laravel/ecommerce/s14-mercado-pago/t100-checkout-mp/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s14-mercado-pago/t100-checkout-mp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Simular un pago</title>
+      <link>//localhost:1313/laravel/ecommerce/s14-mercado-pago/t101-simular-pago/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s14-mercado-pago/t101-simular-pago/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Credenciales de producción</title>
+      <link>//localhost:1313/laravel/ecommerce/s14-mercado-pago/t102-credenciales-produccion/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s14-mercado-pago/t102-credenciales-produccion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Webhook</title>
+      <link>//localhost:1313/laravel/ecommerce/s14-mercado-pago/t103-webhook/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s14-mercado-pago/t103-webhook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Obtener un pago</title>
+      <link>//localhost:1313/laravel/ecommerce/s14-mercado-pago/t104-obtenerpago/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s14-mercado-pago/t104-obtenerpago/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Incluir costos de envío</title>
+      <link>//localhost:1313/laravel/ecommerce/s14-mercado-pago/t105-costo-envio/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s14-mercado-pago/t105-costo-envio/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

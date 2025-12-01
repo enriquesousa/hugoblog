@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Administrar Ordenes on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/</link>
+    <description>Recent content in Administrar Ordenes on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s16-admin-ordenes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Detalle de ordenes</title>
+      <link>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t110-detalle-ordenes/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t110-detalle-ordenes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agregar políticas de acceso</title>
+      <link>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t111-politicas-acceso/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t111-politicas-acceso/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruta para mostrar nuestras ordenes</title>
+      <link>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t112-ruta-ordenes/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t112-ruta-ordenes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Detalle de mis ordenes I</title>
+      <link>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t113-detalle-ordenes1/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t113-detalle-ordenes1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Detalle de mis ordenes II</title>
+      <link>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t114-detalle-ordenes2/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t114-detalle-ordenes2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Filtrar ordenes por status</title>
+      <link>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t115-filtrar-status/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t115-filtrar-status/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Avisar que tienes ordenes pendientes</title>
+      <link>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t116-ordenes-pendientes/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t116-ordenes-pendientes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solucionar un pequeño error</title>
+      <link>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t117-error/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t117-error/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Descontar stock</title>
+      <link>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t118-stock/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t118-stock/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anular Ordenes</title>
+      <link>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t119-anular-ordenes/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t119-anular-ordenes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programar tareas</title>
+      <link>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t120-programar-tareas/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/t120-programar-tareas/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

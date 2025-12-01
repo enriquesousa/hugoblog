@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Filament on TJWeb</title>
+    <link>//localhost:1313/laravel/filament-test/</link>
+    <description>Recent content in Filament on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Feb 2023 16:30:14 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/filament-test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Probando Filament PHP</title>
+      <link>//localhost:1313/laravel/filament-test/tutorial/</link>
+      <pubDate>Fri, 24 Feb 2023 16:31:23 -0800</pubDate>
+      <guid>//localhost:1313/laravel/filament-test/tutorial/</guid>
+      <description>&lt;h2 id=&#34;filament-youtube-tutorial&#34;&gt;Filament YouTube Tutorial&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=In8SiXqMwh0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;YouTube&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Construir Recursos&lt;/strong&gt;
+&lt;a href=&#34;https://filamentphp.com/docs/2.x/admin/resources/getting-started&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://filamentphp.com/docs/2.x/admin/resources/getting-started&lt;/a&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;crear-nuevo-proyecto-de-laravel&#34;&gt;Crear nuevo proyecto de laravel&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;laravel&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;filamentPrueba&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;cd&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;filamentPrueba&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;npm&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;install&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;correr-server-y-dev&#34;&gt;Correr server y dev&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;php&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;artisan&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;serve&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;y en otra terminal&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;npm&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;run&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;dev&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;crear-base-de-datos&#34;&gt;Crear base de datos&lt;/h3&gt;
+&lt;p&gt;Para simplificar las cosas usaremos SQLite
+en &lt;strong&gt;.env&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;DB_CONNECTION&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;sqlite&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# DB_CONNECTION=mysql
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# DB_HOST=127.0.0.1
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# DB_PORT=3306
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# DB_DATABASE=filamentprueba
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# DB_USERNAME=root
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# DB_PASSWORD= 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Y crear el archivo &lt;strong&gt;database.sqlite&lt;/strong&gt; en database/database.sqlite&lt;/p&gt;
+&lt;h3 id=&#34;hacer-las-migraciones&#34;&gt;Hacer las Migraciones&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;php&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;artisan&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;migrate&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;instalar-filament&#34;&gt;Instalar &lt;a href=&#34;https://filamentphp.com/docs/2.x/admin/installation#installation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;filament&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Para comenzar con el panel de administración, puede instalarlo usando el comando:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

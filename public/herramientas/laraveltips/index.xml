@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laravel Tips on TJWeb</title>
+    <link>//localhost:1313/herramientas/laraveltips/</link>
+    <description>Recent content in Laravel Tips on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 May 2024 07:10:01 -0700</lastBuildDate><atom:link href="//localhost:1313/herramientas/laraveltips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vs Code Extensions</title>
+      <link>//localhost:1313/herramientas/laraveltips/t08-vscodeextensions/</link>
+      <pubDate>Tue, 21 May 2024 19:36:32 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/laraveltips/t08-vscodeextensions/</guid>
+      <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Instalar las extensiones esenciales para desarrollo en vs code&lt;/em&gt;
+&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id=&#34;extensiones&#34;&gt;Extensiones&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Laravel Extension Pack&lt;/li&gt;
+&lt;li&gt;php Inteliphense&lt;/li&gt;
+&lt;li&gt;Laravel blade spacer&lt;/li&gt;
+&lt;li&gt;Laravel IDE Helper&lt;/li&gt;
+&lt;li&gt;Prettier - Code formatter&lt;/li&gt;
+&lt;li&gt;Code Spell Checker&lt;/li&gt;
+&lt;li&gt;Spanish - Code Spell Checker&lt;/li&gt;
+&lt;li&gt;indent-rainbow&lt;/li&gt;
+&lt;li&gt;Easy Snippet&lt;/li&gt;
+&lt;li&gt;Easy Snippet - Theme&lt;/li&gt;
+&lt;li&gt;Material Icon Theme
+&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Listo!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Validation Form Design</title>
+      <link>//localhost:1313/herramientas/laraveltips/t07-validationformdesign/</link>
+      <pubDate>Mon, 20 May 2024 08:01:15 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/laraveltips/t07-validationformdesign/</guid>
+      <description>&lt;h2 id=&#34;crear-una-vista&#34;&gt;Crear una vista&lt;/h2&gt;
+&lt;p&gt;Crear una vista
+&lt;code&gt;En resources/views/blog/create.blade.php&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;@&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;extends&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;layouts.master&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;@&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;section&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;content&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;container mt-5&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;card&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;card-header&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;h3&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Create&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Blog&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;h3&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;card-body&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;form&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;mb-3&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;label&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;exampleInputEmail1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;form-label&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Category&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;label&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;select&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;category&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;id&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;form-control&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                            &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;option&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Tech&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;option&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;select&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;mb-3&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;label&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;form-label&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Title&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;label&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;input&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;text&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;form-control&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;id&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;mb-3&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;label&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;form-label&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Description&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;label&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;textarea&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;id&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;cols&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;30&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rows&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;10&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;form-control&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;textarea&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;mb-3&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;label&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;exampleInputEmail1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;form-label&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Status&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;label&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;select&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;category&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;id&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;form-control&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                            &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;option&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Show&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;option&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                            &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;option&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Hide&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;option&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;select&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;button&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;submit&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;btn btn-primary&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Submit&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;button&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;form&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;@&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;endsection&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;modificar-master&#34;&gt;Modificar master&lt;/h2&gt;
+&lt;p&gt;Modificar master para incluir bootstrap cdn.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt;
+
+&amp;lt;head&amp;gt;
+    &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt;
+    &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt;
+    &amp;lt;meta http-equiv=&amp;#34;X-UA-Compatible&amp;#34; content=&amp;#34;ie=edge&amp;#34;&amp;gt;
+    &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt;
+
+    &amp;lt;!-- Bootstrap cdn CSS --&amp;gt;
+    &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css&amp;#34; integrity=&amp;#34;sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN&amp;#34; crossorigin=&amp;#34;anonymous&amp;#34;&amp;gt;
+
+
+&amp;lt;/head&amp;gt;
+
+&amp;lt;body&amp;gt;
+
+
+    @yield(&amp;#39;content&amp;#39;)
+
+
+
+    &amp;lt;!-- Bootstrap cdn JS --&amp;gt;
+    &amp;lt;script src=&amp;#34;https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js&amp;#34; integrity=&amp;#34;sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+&amp;#34; crossorigin=&amp;#34;anonymous&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;
+
+&amp;lt;/body&amp;gt;
+
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;mandar-llamar-la-vista&#34;&gt;Mandar llamar la vista&lt;/h2&gt;
+&lt;p&gt;Mandar llamar la vista
+&lt;code&gt;En app/Http/Controllers/BlogController.php&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Relation One To Many</title>
+      <link>//localhost:1313/herramientas/laraveltips/t06-relationonetomany/</link>
+      <pubDate>Mon, 20 May 2024 07:15:16 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/laraveltips/t06-relationonetomany/</guid>
+      <description>&lt;h2 id=&#34;relación-uno-a-muchos&#34;&gt;Relación uno a muchos&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Ahora desde el punto de vista de la tabla de las categorías, podemos crear una relación de una categoría con muchos post de la tabla de blogs.&lt;/em&gt;
+&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id=&#34;modelo-category&#34;&gt;Modelo Category&lt;/h2&gt;
+&lt;p&gt;En el modelo creamos la relacion.
+&lt;code&gt;En app/Models/Category.php&lt;/code&gt;
+Ahora de los dos tipos de relacion que nos ofrece laravel &lt;code&gt;hasMany&lt;/code&gt; o &lt;code&gt;belogsToMany&lt;/code&gt;, el que necesitamos usar es &lt;em&gt;hasMany&lt;/em&gt;:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;class Category extends Model
+{
+    use HasFactory;
+    
+    public function blogs(){
+        return $this-&amp;gt;hasMany(Blog::class);
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;para-desplegar-los-posts&#34;&gt;Para desplegar los posts&lt;/h2&gt;
+&lt;p&gt;Si buscamos uno de los posts y ese post tiene una categoría que existe en otros posts entonces veremos todos los posts donde este esa misma categoría.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eloquent Relation One To One</title>
+      <link>//localhost:1313/herramientas/laraveltips/t05-relationonetoone/</link>
+      <pubDate>Sat, 18 May 2024 17:04:40 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/laraveltips/t05-relationonetoone/</guid>
+      <description>&lt;h2 id=&#34;relación-uno-a-uno&#34;&gt;Relación uno a uno&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Para la relación uno a uno&lt;/em&gt;
+&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id=&#34;crear-nuevo-modelo&#34;&gt;Crear Nuevo modelo&lt;/h2&gt;
+&lt;p&gt;Creamos un nuevo modelo con su tabla de migración.
+&lt;code&gt;php artisan make:model Category -m&lt;/code&gt;
+&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id=&#34;tabla-campos&#34;&gt;Tabla Campos&lt;/h2&gt;
+&lt;p&gt;Crear los campos.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Schema::create(&amp;#39;categories&amp;#39;, function (Blueprint $table) {
+	$table-&amp;gt;id();
+
+	$table-&amp;gt;string(&amp;#39;name&amp;#39;);
+
+	$table-&amp;gt;timestamps();
+});
+&lt;/code&gt;&lt;/pre&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;migrar&#34;&gt;Migrar&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;php artisan migrate&lt;/code&gt;
+&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id=&#34;agregar-la-llave-foránea&#34;&gt;Agregar la Llave Foránea&lt;/h2&gt;
+&lt;p&gt;Agregar la llave foránea. Usamos convención de laravel. &lt;code&gt;$table-&amp;gt;foreignId(&#39;category_id&#39;)-&amp;gt;constrained(&#39;categories&#39;);&lt;/code&gt; como podemos ver tiene que ser el nombre del modelo con minúsculas un guion bajo y id.
+&lt;code&gt;En database/migrations/2024_05_18_163224_create_blogs_table.php&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Working With Eloquent</title>
+      <link>//localhost:1313/herramientas/laraveltips/t03-workingwitheloquent/</link>
+      <pubDate>Fri, 17 May 2024 16:01:56 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/laraveltips/t03-workingwitheloquent/</guid>
+      <description>&lt;h2 id=&#34;traer-todos-los-datos&#34;&gt;Traer todos los datos.&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;$blog = Blog:all()&lt;/code&gt;
+&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id=&#34;crear-nuevo-record&#34;&gt;Crear nuevo record.&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$blog = new Blog();
+$blog-&amp;gt;title = &amp;#39;Esto es un nuevo titulo&amp;#39;;
+$blog-&amp;gt;body = &amp;#39;Esto es un nuevo body&amp;#39;;
+$blog-&amp;gt;status = 1;
+$blog-&amp;gt;save();
+dd($blog)
+&lt;/code&gt;&lt;/pre&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;update&#34;&gt;Update&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$blog = Blog::find(2);
+$blog-&amp;gt;title = &amp;#39;Esto es un nuevo titulo&amp;#39;;
+$blog-&amp;gt;body = &amp;#39;Esto es un nuevo body updated&amp;#39;;
+$blog-&amp;gt;status = 1;
+$blog-&amp;gt;save();
+dd($blog)
+&lt;/code&gt;&lt;/pre&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;get-data-where&#34;&gt;Get Data Where&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$blog = Blog::where(&amp;#39;status&amp;#39;, &amp;#39;=&amp;#39;, 1)-&amp;gt;get();
+dd($blog);
+&lt;/code&gt;&lt;/pre&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;get-data-where-1&#34;&gt;Get Data Where&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$blog = Blog::where(&amp;#39;status&amp;#39;, 1)-&amp;gt;get();
+dd($blog);
+&lt;/code&gt;&lt;/pre&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;get-data-where-2&#34;&gt;Get Data Where&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$blog = Blog::where([&amp;#39;status&amp;#39; =&amp;gt; 0, &amp;#39;id&amp;#39; =&amp;gt; 1])-&amp;gt;get();
+dd($blog);
+&lt;/code&gt;&lt;/pre&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;delete-data&#34;&gt;Delete Data&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$blog = Blog::findOrFail(2);
+$blog = delete();
+dd($blog);
+&lt;/code&gt;&lt;/pre&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;hr&gt;
+&lt;p&gt;Listo!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Funciones Globales</title>
+      <link>//localhost:1313/herramientas/laraveltips/t02-funcionesglobales/</link>
+      <pubDate>Fri, 17 May 2024 07:11:38 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/laraveltips/t02-funcionesglobales/</guid>
+      <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
+&lt;p&gt;Crear funciones globales que podamos llamar de cualquier parte de nuestro código.
+&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id=&#34;crear-archivo&#34;&gt;Crear Archivo&lt;/h2&gt;
+&lt;p&gt;Crear archivo donde vamos a almacenar nuestras funciones.
+&lt;code&gt;En app/Funciones/globales.php&lt;/code&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;?php
+
+
+// Convertir Currency a Numero Float
+function getAmount($money)
+{
+    $cleanString = preg_replace(&amp;#39;/([^0-9\.,])/i&amp;#39;, &amp;#39;&amp;#39;, $money);
+    $onlyNumbersString = preg_replace(&amp;#39;/([^0-9])/i&amp;#39;, &amp;#39;&amp;#39;, $money);
+
+    $separatorsCountToBeErased = strlen($cleanString) - strlen($onlyNumbersString) - 1;
+
+    $stringWithCommaOrDot = preg_replace(&amp;#39;/([,\.])/&amp;#39;, &amp;#39;&amp;#39;, $cleanString, $separatorsCountToBeErased);
+    $removedThousandSeparator = preg_replace(&amp;#39;/(\.|,)(?=[0-9]{3,}$)/&amp;#39;, &amp;#39;&amp;#39;,  $stringWithCommaOrDot);
+
+    return (float) str_replace(&amp;#39;,&amp;#39;, &amp;#39;.&amp;#39;, $removedThousandSeparator);
+}
+
+?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;registrar&#34;&gt;Registrar&lt;/h2&gt;
+&lt;p&gt;Ahora registrar el archivo de funciones globales bajo la sección de auto load.
+&lt;code&gt;En composer.json&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SweetAlert2</title>
+      <link>//localhost:1313/herramientas/laraveltips/t01-sweetalert2/</link>
+      <pubDate>Fri, 17 May 2024 07:11:25 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/laraveltips/t01-sweetalert2/</guid>
+      <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
+&lt;p&gt;Instalar sweet Alert 2.
+&lt;img src=&#34;//localhost:1313/laraveltips/sweetalert2-1.png&#34; alt=&#34;sweetAlert2&#34;&gt;
+&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejemplo&#34;&gt;Ejemplo&lt;/h2&gt;
+&lt;p&gt;Para el botón dele de proveedores.&lt;/p&gt;
+&lt;h2 id=&#34;ruta-en-vista&#34;&gt;Ruta en Vista&lt;/h2&gt;
+&lt;p&gt;Crear ruta en vista.
+&lt;code&gt;En resources/views/backend/supplier/list_supplier.blade.php&lt;/code&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{-- Acciones --}}
+&amp;lt;td&amp;gt;
+	{{-- Edit --}}
+	&amp;lt;a href=&amp;#34;{{ route(&amp;#39;edit.supplier&amp;#39;, $item-&amp;gt;id) }}&amp;#34; class=&amp;#34;btn btn-info sm&amp;#34;
+		title=&amp;#34;Edit Data&amp;#34;&amp;gt;&amp;lt;i class=&amp;#34;fas fa-edit&amp;#34;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;
+
+	{{-- Details --}}
+	&amp;lt;a href=&amp;#34;{{ route(&amp;#39;show.supplier&amp;#39;, $item-&amp;gt;id) }}&amp;#34; class=&amp;#34;btn btn-success sm&amp;#34;
+		title=&amp;#34;Details Data&amp;#34;&amp;gt;&amp;lt;i class=&amp;#34;fas fa-eye&amp;#34;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;
+
+	{{-- Delete --}}
+	&amp;lt;a href=&amp;#34;{{ route(&amp;#39;delete.supplier&amp;#39;, $item-&amp;gt;id) }}&amp;#34; class=&amp;#34;btn btn-danger sm&amp;#34; title=&amp;#34;Delete Data&amp;#34;
+		id=&amp;#34;delete&amp;#34;&amp;gt;&amp;lt;i class=&amp;#34;fas fa-trash-alt&amp;#34;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;web-route&#34;&gt;Web Route&lt;/h2&gt;
+&lt;p&gt;Crear ruta.
+&lt;code&gt;En routes/web.php&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

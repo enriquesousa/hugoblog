@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Property Agent Page In Frontend on TJWeb</title>
+    <link>//localhost:1313/laravel/realestate/s25-propertyagentpagefrontend/</link>
+    <description>Recent content in Property Agent Page In Frontend on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 May 2023 10:22:06 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/realestate/s25-propertyagentpagefrontend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Display Agent Page in Frontend</title>
+      <link>//localhost:1313/laravel/realestate/s25-propertyagentpagefrontend/t140-display/</link>
+      <pubDate>Fri, 26 May 2023 10:22:13 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s25-propertyagentpagefrontend/t140-display/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Display Agent Details Page Part 1</title>
+      <link>//localhost:1313/laravel/realestate/s25-propertyagentpagefrontend/t141-details_p1/</link>
+      <pubDate>Fri, 26 May 2023 10:22:27 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s25-propertyagentpagefrontend/t141-details_p1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Display Agent Details Page Part 2</title>
+      <link>//localhost:1313/laravel/realestate/s25-propertyagentpagefrontend/t142-details_p2/</link>
+      <pubDate>Fri, 26 May 2023 10:22:35 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s25-propertyagentpagefrontend/t142-details_p2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Display Agent Details Page Part 3</title>
+      <link>//localhost:1313/laravel/realestate/s25-propertyagentpagefrontend/t143-details_p3/</link>
+      <pubDate>Fri, 26 May 2023 10:22:42 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s25-propertyagentpagefrontend/t143-details_p3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Display Agent Details Page Part 4</title>
+      <link>//localhost:1313/laravel/realestate/s25-propertyagentpagefrontend/t144-details_p4/</link>
+      <pubDate>Fri, 26 May 2023 10:22:48 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s25-propertyagentpagefrontend/t144-details_p4/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slider on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s07-slider/</link>
+    <description>Recent content in Slider on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s07-slider/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Incluir Glider js a nuestro proyecto</title>
+      <link>//localhost:1313/laravel/ecommerce/s07-slider/t30-glider/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s07-slider/t30-glider/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Slider de productos</title>
+      <link>//localhost:1313/laravel/ecommerce/s07-slider/t31-slider-products/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s07-slider/t31-slider-products/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solucionar desfase</title>
+      <link>//localhost:1313/laravel/ecommerce/s07-slider/t32-desface/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s07-slider/t32-desface/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Slider para todas las categorías</title>
+      <link>//localhost:1313/laravel/ecommerce/s07-slider/t33-slider-todascategories/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s07-slider/t33-slider-todascategories/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agregando filtros</title>
+      <link>//localhost:1313/laravel/ecommerce/s07-slider/t34-filtros/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s07-slider/t34-filtros/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solucionar errores con el slider</title>
+      <link>//localhost:1313/laravel/ecommerce/s07-slider/t35-errores/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s07-slider/t35-errores/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Slider responsivo</title>
+      <link>//localhost:1313/laravel/ecommerce/s07-slider/t36-slider-responsivo/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s07-slider/t36-slider-responsivo/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

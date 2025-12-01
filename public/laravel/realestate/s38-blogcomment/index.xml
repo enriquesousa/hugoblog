@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog Comment Function Frontend Page on TJWeb</title>
+    <link>//localhost:1313/laravel/realestate/s38-blogcomment/</link>
+    <description>Recent content in Blog Comment Function Frontend Page on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 May 2023 10:32:36 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/realestate/s38-blogcomment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Show Blog Comment in Frontend Page Part 1</title>
+      <link>//localhost:1313/laravel/realestate/s38-blogcomment/t184-blogcomment_p1/</link>
+      <pubDate>Fri, 26 May 2023 10:32:44 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s38-blogcomment/t184-blogcomment_p1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Show Blog Comment in Frontend Page Part 2</title>
+      <link>//localhost:1313/laravel/realestate/s38-blogcomment/t185-blogcomment_p2/</link>
+      <pubDate>Fri, 26 May 2023 10:32:50 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s38-blogcomment/t185-blogcomment_p2/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

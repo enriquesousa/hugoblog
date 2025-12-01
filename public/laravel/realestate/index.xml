@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Real Estate Property Listing on TJWeb</title>
+    <link>//localhost:1313/laravel/realestate/</link>
+    <description>Recent content in Real Estate Property Listing on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 May 2023 17:27:54 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/realestate/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi Auth with Breeze</title>
+      <link>//localhost:1313/laravel/realestate/s03-multiauthbreeze/</link>
+      <pubDate>Thu, 25 May 2023 17:28:23 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s03-multiauthbreeze/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s03-multiauthbreeze/t08-install_laravel10/&#34; &gt;Instalar Laravel 10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s03-multiauthbreeze/t09-create_db/&#34; &gt;Create Database&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s03-multiauthbreeze/t10-install_breeze/&#34; &gt;Install Laravel Breeze&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s03-multiauthbreeze/t11-seed_p1/&#34; &gt;Seed Demo User Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s03-multiauthbreeze/t12-seed_p2/&#34; &gt;Seed Demo User Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s03-multiauthbreeze/t13-multiauth_p1/&#34; &gt;Multi Auth Breeze Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s03-multiauthbreeze/t14-multiauth_p2/&#34; &gt;Multi Auth Breeze Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s03-multiauthbreeze/t15-multiauth_p3/&#34; &gt;Multi Auth Breeze Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s03-multiauthbreeze/t16-login/&#34; &gt;Login With Name Email or Phone&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Project Admin Panel Setup</title>
+      <link>//localhost:1313/laravel/realestate/s04-adminpanel/</link>
+      <pubDate>Thu, 25 May 2023 17:30:53 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s04-adminpanel/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s04-adminpanel/t17-project/&#34; &gt;Project Theme Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s04-adminpanel/t18-admin_template/&#34; &gt;Admin Template Setup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s04-adminpanel/t19-dashboard_page_segm/&#34; &gt;Dashboard Page Segmentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s04-adminpanel/t20-admin_logout_option/&#34; &gt;Admin Logout Option&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s04-adminpanel/t21-custom_loginform/&#34; &gt;Customize Login Form&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s04-adminpanel/t22-refresh_template/&#34; &gt;Refresh Admin Template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s04-adminpanel/t23-assets_path/&#34; &gt;Update Admin Assets Path&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s04-adminpanel/t24-profile_image_p1/&#34; &gt;Admin Profile &amp;amp; Image Update Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s04-adminpanel/t25-profile_image_p2/&#34; &gt;Admin Profile &amp;amp; Image Update Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s04-adminpanel/t26-profile_image_p3/&#34; &gt;Admin Profile &amp;amp; Image Update Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s04-adminpanel/t27-profile_image_p4/&#34; &gt;Admin Profile &amp;amp; Image Update Part 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s04-adminpanel/t28-toaster/&#34; &gt;Adding Toaster In For View Message&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s04-adminpanel/t29-changepassword_p1/&#34; &gt;Admin Profile Change Password Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s04-adminpanel/t30-changepassword_p2/&#34; &gt;Admin Profile Change Password Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s04-adminpanel/t31-backup_localhost/&#34; &gt;Take Backup And Restore in Localhost&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Project Frontend Template Setup</title>
+      <link>//localhost:1313/laravel/realestate/s05-frontendtemplate/</link>
+      <pubDate>Fri, 26 May 2023 08:46:31 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s05-frontendtemplate/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s05-frontendtemplate/t32-template_p1/&#34; &gt;Frontend Template Setup Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s05-frontendtemplate/t33-template_p2/&#34; &gt;Frontend Template Setup Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s05-frontendtemplate/t34-template_p3/&#34; &gt;Frontend Template Setup Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s05-frontendtemplate/t35-template_login/&#34; &gt;Frontend Template Login Page Setup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s05-frontendtemplate/t36-template_register/&#34; &gt;Frontend Template Register Page Setup&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Project Frontend User Profile Setup</title>
+      <link>//localhost:1313/laravel/realestate/s06-frontenduserprofile/</link>
+      <pubDate>Fri, 26 May 2023 08:47:59 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s06-frontenduserprofile/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s06-frontenduserprofile/t37-user_profile_p1/&#34; &gt;User Profile Design Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s06-frontenduserprofile/t38-user_profile_p2/&#34; &gt;User Profile Design Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s06-frontenduserprofile/t39-user_profile_p3/&#34; &gt;User Profile Design Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s06-frontenduserprofile/t40-user_logout/&#34; &gt;User Logout Option&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s06-frontenduserprofile/t41-user_password/&#34; &gt;User Profile Password Change&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s06-frontenduserprofile/t42-user_nologin/&#34; &gt;Update User Login Setup with and without Login&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s06-frontenduserprofile/t43-user_notification/&#34; &gt;User Login and Logout Notification&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Project Backend Property Type Setup</title>
+      <link>//localhost:1313/laravel/realestate/s07-backendpropertysetup/</link>
+      <pubDate>Fri, 26 May 2023 08:49:45 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s07-backendpropertysetup/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s07-backendpropertysetup/t44-crud_p1/&#34; &gt;Property Type Crud Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s07-backendpropertysetup/t45-crud_p2/&#34; &gt;Property Type Crud Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s07-backendpropertysetup/t46-crud_p3/&#34; &gt;Property Type Crud Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s07-backendpropertysetup/t47-crud_p4/&#34; &gt;Property Type Crud Part 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s07-backendpropertysetup/t48-crud_p5/&#34; &gt;Property Type Crud Part 5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Project Backend Property Amenities</title>
+      <link>//localhost:1313/laravel/realestate/s08-backendpropertyamenities/</link>
+      <pubDate>Fri, 26 May 2023 08:51:03 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s08-backendpropertyamenities/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s08-backendpropertyamenities/t49-crud_p1/&#34; &gt;Amenities Crud Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s08-backendpropertyamenities/t50-validationmessage/&#34; &gt;Add Validation Message&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s08-backendpropertyamenities/t51-crud_p2/&#34; &gt;Amenities Crud Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Backend Add Property Page Design</title>
+      <link>//localhost:1313/laravel/realestate/s09-backendpropertypage/</link>
+      <pubDate>Fri, 26 May 2023 08:52:04 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s09-backendpropertypage/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s09-backendpropertypage/t52-db_p1/&#34; &gt;Add Property Database Design Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s09-backendpropertypage/t53-db_p2/&#34; &gt;Add Property Database Design Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s09-backendpropertypage/t54-db_pd_p1/&#34; &gt;Add Property Database and Page Design Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s09-backendpropertypage/t55-db_pd_p2/&#34; &gt;Add Property Database and Page Design Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s09-backendpropertypage/t56-image_js/&#34; &gt;Show Image Using Javascript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s09-backendpropertypage/t57-db_pd_p5/&#34; &gt;Add Property Database and Page Design Part 5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s09-backendpropertypage/t58-db_pd_p6/&#34; &gt;Add Property Database and Page Design Part 6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s09-backendpropertypage/t59-db_pd_p7/&#34; &gt;Add Property Database and Page Design Part 7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s09-backendpropertypage/t60-db_pd_p8/&#34; &gt;Add Property Database and Page Design Part 8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s09-backendpropertypage/t61-validation_js/&#34; &gt;Add Property JavaScript Validation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Backend Insert Property Setup</title>
+      <link>//localhost:1313/laravel/realestate/s10-backendinsertproperty/</link>
+      <pubDate>Fri, 26 May 2023 08:53:53 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s10-backendinsertproperty/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t62-imageintervention/&#34; &gt;Install Image Intervention Package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t63-insert_db_p1/&#34; &gt;Property Insert Database Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t64-insert_db_p2/&#34; &gt;Property Insert Database Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t65-insert_db_p3/&#34; &gt;Property Insert Database Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t66-insert_db_p4/&#34; &gt;Property Insert Database Part 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t67-readall/&#34; &gt;Manage Property Read All Product&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t68-edit_p1/&#34; &gt;Manage Property Edit Option Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t69-edit_p2/&#34; &gt;Manage Property Edit Option Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t70-updateoption/&#34; &gt;Manage Property Update Option&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t71-updatesingle_p1/&#34; &gt;Manage Property Update Single and Multiple Image Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t72-updatesingle_p2/&#34; &gt;Manage Property Update Single and Multiple Image Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t73-updatesingle_p3/&#34; &gt;Manage Property Update Single and Multiple Image Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t74-updatesingle_p4/&#34; &gt;Manage Property Update Single and Multiple Image Part 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t75-image_del/&#34; &gt;Multiple Image Delete&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t76-multiimage/&#34; &gt;Add Multi Image In Property&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t77-update_p1/&#34; &gt;Manage Property Update Facility Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t78-update_p2/&#34; &gt;Manage Property Update Facility Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t79-multi_del/&#34; &gt;Property Delete With Multiple Image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t80-details_p1/&#34; &gt;Create Property Details Page Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t81-details_p2/&#34; &gt;Create Property Details Page Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t82-activeinactive/&#34; &gt;Property Active Inactive From Details Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s10-backendinsertproperty/t83-redirect/&#34; &gt;Bug Fixed for Redirect Login Page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Add Agent Register Page Setup</title>
+      <link>//localhost:1313/laravel/realestate/s11-registerpagesetup/</link>
+      <pubDate>Fri, 26 May 2023 08:57:34 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s11-registerpagesetup/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s11-registerpagesetup/t84-rps_p1/&#34; &gt;Add Agent Register Page Setup Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s11-registerpagesetup/t85-rps_p2/&#34; &gt;Add Agent Register Page Setup Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Project Agent Panel Setup</title>
+      <link>//localhost:1313/laravel/realestate/s12-agentpanelsetup/</link>
+      <pubDate>Fri, 26 May 2023 08:58:13 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s12-agentpanelsetup/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s12-agentpanelsetup/t86-template/&#34; &gt;Agent Template Setup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s12-agentpanelsetup/t87-logout/&#34; &gt;Agent Logout Option&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s12-agentpanelsetup/t88-profileimage/&#34; &gt;Agent Profile &amp;amp; Image Update&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s12-agentpanelsetup/t89-password/&#34; &gt;Agent Profile Change Password&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Manage Agent In Admin Dashboard</title>
+      <link>//localhost:1313/laravel/realestate/s13-agentadmindashboard/</link>
+      <pubDate>Fri, 26 May 2023 08:59:18 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s13-agentadmindashboard/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s13-agentadmindashboard/t90-adminpage_p1/&#34; &gt;Manage Agent In admin Page Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s13-agentadmindashboard/t91-adminpage_p2/&#34; &gt;Manage Agent In admin Page Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s13-agentadmindashboard/t92-adminpage_p3/&#34; &gt;Manage Agent In admin Page Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s13-agentadmindashboard/t93-agentdashboard/&#34; &gt;Active Inactive In Agent Dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s13-agentadmindashboard/t94-agentadmin/&#34; &gt;Active Inactive Agent From Admin Page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Backend Add Property From Agent</title>
+      <link>//localhost:1313/laravel/realestate/s14-backendpropertyagent/</link>
+      <pubDate>Fri, 26 May 2023 09:00:46 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s14-backendpropertyagent/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s14-backendpropertyagent/t95-propertyagent_p1/&#34; &gt;Add Property From Agent Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s14-backendpropertyagent/t96-propertyagent_p2/&#34; &gt;Add Property From Agent Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s14-backendpropertyagent/t97-propertyagent_p3/&#34; &gt;Add Property From Agent Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s14-backendpropertyagent/t98-propertyagent_p4/&#34; &gt;Add Property From Agent Part 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s14-backendpropertyagent/t99-propertyagent_p5/&#34; &gt;Add Property From Agent Part 5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s14-backendpropertyagent/t100-update/&#34; &gt;Update Add Property Amenities Fields&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Backend Agent Buy Packages Option</title>
+      <link>//localhost:1313/laravel/realestate/s15-backendbuypackage/</link>
+      <pubDate>Fri, 26 May 2023 09:01:54 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s15-backendbuypackage/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s15-backendbuypackage/t101-design/&#34; &gt;Design Buy Package Agent Dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s15-backendbuypackage/t102-package_p1/&#34; &gt;Agent Buy Package Option Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s15-backendbuypackage/t103-package_p2/&#34; &gt;Agent Buy Package Option Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s15-backendbuypackage/t104-package_p3/&#34; &gt;Agent Buy Package Option Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s15-backendbuypackage/t105-package_p4/&#34; &gt;Agent Buy Package Option Part 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s15-backendbuypackage/t106-package_p5/&#34; &gt;Agent Buy Package Option Part 5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Package Sales Report In Agent Dashboard With PDF</title>
+      <link>//localhost:1313/laravel/realestate/s16-packagesalesreport/</link>
+      <pubDate>Fri, 26 May 2023 10:14:12 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s16-packagesalesreport/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s16-packagesalesreport/t107-psr_p1/&#34; &gt;Package sales Report In Agent Dashboard Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s16-packagesalesreport/t108-psr_p2/&#34; &gt;Package sales Report In Agent Dashboard Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s16-packagesalesreport/t109-psr_p3/&#34; &gt;Package sales Report In Agent Dashboard Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Package Sales Report In Admin Dashboard With PDF</title>
+      <link>//localhost:1313/laravel/realestate/s17-packagesalesreportadmin/</link>
+      <pubDate>Fri, 26 May 2023 10:14:59 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s17-packagesalesreportadmin/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s17-packagesalesreportadmin/t110-psra_p1/&#34; &gt;Package Sales Report In Admin Dashboard Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s17-packagesalesreportadmin/t111-psra_p2/&#34; &gt;Package Sales Report In Admin Dashboard Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Display Property Type In Frontend</title>
+      <link>//localhost:1313/laravel/realestate/s18-displaypropertytype/</link>
+      <pubDate>Fri, 26 May 2023 10:15:36 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s18-displaypropertytype/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s18-displaypropertytype/t112-frontend_p1/&#34; &gt;Show Property Type In Frontend Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s18-displaypropertytype/t113-frontend_p2/&#34; &gt;Show Property Type In Frontend Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Display Features Property In Frontend</title>
+      <link>//localhost:1313/laravel/realestate/s19-displayfeaturesproperty/</link>
+      <pubDate>Fri, 26 May 2023 10:16:11 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s19-displayfeaturesproperty/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s19-displayfeaturesproperty/t114-fpf_p1/&#34; &gt;Show Features Property In Frontend Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s19-displayfeaturesproperty/t115-fpf_p2/&#34; &gt;Show Features Property In Frontend Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Setup Property Details Page</title>
+      <link>//localhost:1313/laravel/realestate/s20-propertydetailspage/</link>
+      <pubDate>Fri, 26 May 2023 10:16:31 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s20-propertydetailspage/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s20-propertydetailspage/t116-setup_p1/&#34; &gt;Setup Property Details Page Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s20-propertydetailspage/t117-setup_p2/&#34; &gt;Setup Property Details Page Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s20-propertydetailspage/t118-setup_p3/&#34; &gt;Setup Property Details Page Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s20-propertydetailspage/t119-setup_p4/&#34; &gt;Setup Property Details Page Part 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s20-propertydetailspage/t120-setup_p5/&#34; &gt;Setup Property Details Page Part 5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s20-propertydetailspage/t121-setupdeails/&#34; &gt;Setup Property Details Related Page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Setup Property Wishlist Option</title>
+      <link>//localhost:1313/laravel/realestate/s21-setuppropertywishlist/</link>
+      <pubDate>Fri, 26 May 2023 10:17:43 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s21-setuppropertywishlist/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s21-setuppropertywishlist/t122-wishlist_p1/&#34; &gt;Property Wishlist Setup Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s21-setuppropertywishlist/t123-wishlist_p2/&#34; &gt;Property Wishlist Setup Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s21-setuppropertywishlist/t124-wishlist_p3/&#34; &gt;Property Wishlist Setup Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s21-setuppropertywishlist/t125-wishlist_p4/&#34; &gt;Property Wishlist Setup Part 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s21-setuppropertywishlist/t126-wishlist_p5/&#34; &gt;Property Wishlist Setup Part 5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s21-setuppropertywishlist/t127-wishlist_p6/&#34; &gt;Property Wishlist Setup Part 6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s21-setuppropertywishlist/t128-wishlist_p7/&#34; &gt;Property Wishlist Setup Part 7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Setup Property Compare Option</title>
+      <link>//localhost:1313/laravel/realestate/s22-setuppropertycompare/</link>
+      <pubDate>Fri, 26 May 2023 10:19:37 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s22-setuppropertycompare/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s22-setuppropertycompare/t129-compare_p1/&#34; &gt;Property Compare Setup Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s22-setuppropertycompare/t130-compare_p2/&#34; &gt;Property Compare Setup Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s22-setuppropertycompare/t131-compare_p3/&#34; &gt;Property Compare Setup Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s22-setuppropertycompare/t132-compare_p4/&#34; &gt;Property Compare Setup Part 4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Setup Send Message From Details Page</title>
+      <link>//localhost:1313/laravel/realestate/s23-setupsendmessage/</link>
+      <pubDate>Fri, 26 May 2023 10:20:36 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s23-setupsendmessage/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s23-setupsendmessage/t133-send_p1/&#34; &gt;Send Message To agent Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s23-setupsendmessage/t134-send_p2/&#34; &gt;Send Message To agent Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s23-setupsendmessage/t135-send_p3/&#34; &gt;Send Message To agent Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Setup Property Message In Agent Dashboard</title>
+      <link>//localhost:1313/laravel/realestate/s24-setupsendmessagedashboard/</link>
+      <pubDate>Fri, 26 May 2023 10:21:25 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s24-setupsendmessagedashboard/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s24-setupsendmessagedashboard/t136-sma_p1/&#34; &gt;Send Message To Agent Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s24-setupsendmessagedashboard/t137-sma_p2/&#34; &gt;Send Message To Agent Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s24-setupsendmessagedashboard/t138-sma_p3/&#34; &gt;Send Message To Agent Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s24-setupsendmessagedashboard/t139-showmessage/&#34; &gt;Show Message In Admin Dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Property Agent Page In Frontend</title>
+      <link>//localhost:1313/laravel/realestate/s25-propertyagentpagefrontend/</link>
+      <pubDate>Fri, 26 May 2023 10:22:06 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s25-propertyagentpagefrontend/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s25-propertyagentpagefrontend/t140-display/&#34; &gt;Display Agent Page in Frontend&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s25-propertyagentpagefrontend/t141-details_p1/&#34; &gt;Display Agent Details Page Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s25-propertyagentpagefrontend/t142-details_p2/&#34; &gt;Display Agent Details Page Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s25-propertyagentpagefrontend/t143-details_p3/&#34; &gt;Display Agent Details Page Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s25-propertyagentpagefrontend/t144-details_p4/&#34; &gt;Display Agent Details Page Part 4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Setup Property Buy and Rent List Page</title>
+      <link>//localhost:1313/laravel/realestate/s26-buyrentlist/</link>
+      <pubDate>Fri, 26 May 2023 10:23:03 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s26-buyrentlist/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s26-buyrentlist/t145-rent_p1/&#34; &gt;Property Rent List Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s26-buyrentlist/t146-rent_p2/&#34; &gt;Property Rent List Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s26-buyrentlist/t147-buylist/&#34; &gt;Property Buy List&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s26-buyrentlist/t148-wise/&#34; &gt;Get Type Wise Property&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s26-buyrentlist/t149-header/&#34; &gt;Update Header Menu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Create Custom Pagination</title>
+      <link>//localhost:1313/laravel/realestate/s27-custompagination/</link>
+      <pubDate>Fri, 26 May 2023 10:23:55 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s27-custompagination/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s27-custompagination/t150-custom_p1/&#34; &gt;Add Custom Pagination Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s27-custompagination/t151-custom_p2/&#34; &gt;Add Custom Pagination Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Display Hot Latest Property In Frontend</title>
+      <link>//localhost:1313/laravel/realestate/s28-latestproperty/</link>
+      <pubDate>Fri, 26 May 2023 10:24:22 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s28-latestproperty/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s28-latestproperty/t152-hotproperty/&#34; &gt;Show Hot Property in Frontend&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Work For Property Location By State In Admin</title>
+      <link>//localhost:1313/laravel/realestate/s29-locationstate/</link>
+      <pubDate>Fri, 26 May 2023 10:24:49 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s29-locationstate/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s29-locationstate/t153-stateadmin_p1/&#34; &gt;Property Location By State in Admin Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s29-locationstate/t154-stateadmin_p2/&#34; &gt;Property Location By State in Admin Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s29-locationstate/t155-stateadmin_p3/&#34; &gt;Property Location By State in Admin Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s29-locationstate/t156-stateadmin_p4/&#34; &gt;Property Location By State in Admin Part 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s29-locationstate/t157-addedit_p1/&#34; &gt;Update Admin Add and Edit Property for State Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s29-locationstate/t158-addedit_p2/&#34; &gt;Update Admin Add and Edit Property for State Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s29-locationstate/t159-addeditproperty/&#34; &gt;Update Agent Add and Edit Property for State&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Property Location Area In Frontend</title>
+      <link>//localhost:1313/laravel/realestate/s30-propertylocationarea/</link>
+      <pubDate>Fri, 26 May 2023 10:26:09 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s30-propertylocationarea/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s30-propertylocationarea/t160-plaf_p1/&#34; &gt;Property Location Area in Frontend Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s30-propertylocationarea/t161-plaf_p2/&#34; &gt;Property Location Area in Frontend Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s30-propertylocationarea/t162-plaf_p3/&#34; &gt;Property Location Area in Frontend Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Property Search Option In Home Page</title>
+      <link>//localhost:1313/laravel/realestate/s31-propertysearchoption/</link>
+      <pubDate>Fri, 26 May 2023 10:27:09 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s31-propertysearchoption/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s31-propertysearchoption/t163-pso_p1/&#34; &gt;Property Search Option in Home Page Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s31-propertysearchoption/t164-pso_p2/&#34; &gt;Property Search Option in Home Page Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s31-propertysearchoption/t165-pso_p3/&#34; &gt;Property Search Option in Home Page Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Property Search Option In Category Page</title>
+      <link>//localhost:1313/laravel/realestate/s32-propertysearchcategory/</link>
+      <pubDate>Fri, 26 May 2023 10:27:46 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s32-propertysearchcategory/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s32-propertysearchcategory/t166-category/&#34; &gt;Property Search Option in Category Page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Setup Testimonials From Admin Backend</title>
+      <link>//localhost:1313/laravel/realestate/s33-testimonialsadminbackend/</link>
+      <pubDate>Fri, 26 May 2023 10:28:32 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s33-testimonialsadminbackend/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s33-testimonialsadminbackend/t167-testi_p1/&#34; &gt;Setup Testimonials from Admin Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s33-testimonialsadminbackend/t168-testi_p2/&#34; &gt;Setup Testimonials from Admin Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s33-testimonialsadminbackend/t169-testi_p3/&#34; &gt;Setup Testimonials from Admin Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s33-testimonialsadminbackend/t170-frontend/&#34; &gt;Setup Testimonials in Frontend&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Admin Blog Category Setup</title>
+      <link>//localhost:1313/laravel/realestate/s34-blogcategory/</link>
+      <pubDate>Fri, 26 May 2023 10:29:28 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s34-blogcategory/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s34-blogcategory/t171-blog_p1/&#34; &gt;Advance Blog Category Setup Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s34-blogcategory/t172-blog_p2/&#34; &gt;Advance Blog Category Setup Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s34-blogcategory/t173-blog_p3/&#34; &gt;Advance Blog Category Setup Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s34-blogcategory/t174-blog_p4/&#34; &gt;Advance Blog Category Setup Part 4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Admin Blog Management Setup</title>
+      <link>//localhost:1313/laravel/realestate/s35-blogmanage/</link>
+      <pubDate>Fri, 26 May 2023 10:30:17 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s35-blogmanage/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s35-blogmanage/t175-blogpost_p1/&#34; &gt;Blog Post Setup Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s35-blogmanage/t176-blogpost_p2/&#34; &gt;Blog Post Setup Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s35-blogmanage/t177-blogpost_p3/&#34; &gt;Blog Post Setup Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s35-blogmanage/t178-blogpost_p4/&#34; &gt;Blog Post Setup Part 4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Show Blog In Front Page</title>
+      <link>//localhost:1313/laravel/realestate/s36-showblog/</link>
+      <pubDate>Fri, 26 May 2023 10:31:18 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s36-showblog/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s36-showblog/t179-blogfrontend_p1/&#34; &gt;Show Blog in Frontend Page Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s36-showblog/t180-blogfrontend_p2/&#34; &gt;Show Blog in Frontend Page Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s36-showblog/t181-blogfrontend_p3/&#34; &gt;Show Blog in Frontend Page Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Category Wise Blog List Page</title>
+      <link>//localhost:1313/laravel/realestate/s37-bloglist/</link>
+      <pubDate>Fri, 26 May 2023 10:32:03 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s37-bloglist/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s37-bloglist/t182-categorylist/&#34; &gt;Show Blog Category List Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s37-bloglist/t183-bloglist/&#34; &gt;Show Blog List Page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Blog Comment Function Frontend Page</title>
+      <link>//localhost:1313/laravel/realestate/s38-blogcomment/</link>
+      <pubDate>Fri, 26 May 2023 10:32:36 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s38-blogcomment/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s38-blogcomment/t184-blogcomment_p1/&#34; &gt;Show Blog Comment in Frontend Page Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s38-blogcomment/t185-blogcomment_p2/&#34; &gt;Show Blog Comment in Frontend Page Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Blog Comment Function Backend With Replay</title>
+      <link>//localhost:1313/laravel/realestate/s39-blogcommentbackend/</link>
+      <pubDate>Fri, 26 May 2023 10:33:21 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s39-blogcommentbackend/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s39-blogcommentbackend/t186-commentbackend_p1/&#34; &gt;Comment Function Backend With Replay Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s39-blogcommentbackend/t187-commentbackend_p2/&#34; &gt;Comment Function Backend With Replay Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s39-blogcommentbackend/t188-commentbackend_p3/&#34; &gt;Comment Function Backend With Replay Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Schedule a Tour Setup for Property</title>
+      <link>//localhost:1313/laravel/realestate/s40-scheduletour/</link>
+      <pubDate>Fri, 26 May 2023 10:34:17 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s40-scheduletour/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s40-scheduletour/t189-schedule_p1/&#34; &gt;Property Schedule a Tour Setup Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s40-scheduletour/t190-schedule_p2/&#34; &gt;Property Schedule a Tour Setup Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Schedule a Tour Setup In Admin With Email</title>
+      <link>//localhost:1313/laravel/realestate/s41-scheduletouradmin/</link>
+      <pubDate>Fri, 26 May 2023 10:34:54 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s41-scheduletouradmin/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s41-scheduletouradmin/t191-scheduleadmin_p1/&#34; &gt;Schedule a Tour in Admin With Email Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s41-scheduletouradmin/t192-scheduleadmin_p2/&#34; &gt;Schedule a Tour in Admin With Email Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s41-scheduletouradmin/t193-scheduleadmin_p3/&#34; &gt;Schedule a Tour in Admin With Email Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s41-scheduletouradmin/t194-scheduleadmin_p4/&#34; &gt;Schedule a Tour in Admin With Email Part 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s41-scheduletouradmin/t195-scheduleadmin_p5/&#34; &gt;Schedule a Tour in Admin With Email Part 5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Dynamic Email Configuration In Laravel Edit env</title>
+      <link>//localhost:1313/laravel/realestate/s42-dynamicemail/</link>
+      <pubDate>Fri, 26 May 2023 10:35:56 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s42-dynamicemail/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s42-dynamicemail/t196-dynamic_p1/&#34; &gt;Dynamic Email Configuration Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s42-dynamicemail/t197-dynamic_p2/&#34; &gt;Dynamic Email Configuration Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s42-dynamicemail/t198-dynamic_p3/&#34; &gt;Dynamic Email Configuration Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Property Schedule in User Dashboard</title>
+      <link>//localhost:1313/laravel/realestate/s43-propertyschedule/</link>
+      <pubDate>Fri, 26 May 2023 10:36:33 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s43-propertyschedule/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s43-propertyschedule/t199-dashboard_p1/&#34; &gt;Schedule in User Dashboard Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s43-propertyschedule/t200-dashboard_p2/&#34; &gt;Schedule in User Dashboard Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Site Setting Option Update</title>
+      <link>//localhost:1313/laravel/realestate/s44-sitesettings/</link>
+      <pubDate>Fri, 26 May 2023 10:36:57 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s44-sitesettings/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s44-sitesettings/t201-settings_p1/&#34; &gt;Site Setting Option Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s44-sitesettings/t202-settings_p2/&#34; &gt;Site Setting Option Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s44-sitesettings/t203-settings_p3/&#34; &gt;Site Setting Option Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s44-sitesettings/t204-title/&#34; &gt;Update Custom Title&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Setup User Permission</title>
+      <link>//localhost:1313/laravel/realestate/s45-userpermission/</link>
+      <pubDate>Fri, 26 May 2023 10:37:46 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s45-userpermission/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s45-userpermission/t205-intro/&#34; &gt;User Permission Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s45-userpermission/t206-spatiepermission/&#34; &gt;Install Laravel Spatie Permission&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s45-userpermission/t207-setupuserpermission_p1/&#34; &gt;Setup User Permission Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s45-userpermission/t208-setupuserpermission_p2/&#34; &gt;Setup User Permission Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s45-userpermission/t209-setupuserpermission_p3/&#34; &gt;Setup User Permission Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Permission Import and Export From Excel File</title>
+      <link>//localhost:1313/laravel/realestate/s46-permissionimportexport/</link>
+      <pubDate>Fri, 26 May 2023 10:38:46 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s46-permissionimportexport/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s46-permissionimportexport/t210-excelpackage/&#34; &gt;Install Laravel Excel Package in Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s46-permissionimportexport/t211-importexport_p1/&#34; &gt;How to Import and Export Permission Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s46-permissionimportexport/t212-importexport_p2/&#34; &gt;How to Import and Export Permission Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s46-permissionimportexport/t213-importexport_p3/&#34; &gt;How to Import and Export Permission Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Setup User Roles</title>
+      <link>//localhost:1313/laravel/realestate/s47-userroles/</link>
+      <pubDate>Fri, 26 May 2023 10:39:32 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s47-userroles/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s47-userroles/t214-userroles_p1/&#34; &gt;Setup User Roles Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s47-userroles/t215-userroles_p2/&#34; &gt;Setup User Roles Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s47-userroles/t216-addroles_p1/&#34; &gt;Add Roles in Permission Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s47-userroles/t217-addroles_p2/&#34; &gt;Add Roles in Permission Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s47-userroles/t218-addroles_p3/&#34; &gt;Add Roles in Permission Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s47-userroles/t219-addroles_p4/&#34; &gt;Add Roles in Permission Part 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s47-userroles/t220-addroles_p5/&#34; &gt;Add Roles in Permission Part 5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s47-userroles/t221-addroles_p6/&#34; &gt;Add Roles in Permission Part 6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s47-userroles/t222-editroles_p1/&#34; &gt;Edit Roles in Permission Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s47-userroles/t223-editroles_p2/&#34; &gt;Edit Roles in Permission Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s47-userroles/t224-deleteroles/&#34; &gt;Delete Roles in Permission&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Multi Admin For Store</title>
+      <link>//localhost:1313/laravel/realestate/s48-multiadminstore/</link>
+      <pubDate>Fri, 26 May 2023 10:41:41 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s48-multiadminstore/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s48-multiadminstore/t225-multiadmin_p1/&#34; &gt;Multi Admin Setup Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s48-multiadminstore/t226-multiadmin_p2/&#34; &gt;Multi Admin Setup Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s48-multiadminstore/t227-multiadmin_p3/&#34; &gt;Multi Admin Setup Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s48-multiadminstore/t228-multiadmin_p4/&#34; &gt;Multi Admin Setup Part 4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Add Role And Permission in Sidebar</title>
+      <link>//localhost:1313/laravel/realestate/s49-addrolesidebar/</link>
+      <pubDate>Fri, 26 May 2023 10:42:25 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s49-addrolesidebar/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s49-addrolesidebar/t229-addrole_p1/&#34; &gt;Add Role and Permission for Admin User Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s49-addrolesidebar/t230-addrole_p2/&#34; &gt;Add Role and Permission for Admin User Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Create 404 and 403 Page</title>
+      <link>//localhost:1313/laravel/realestate/s50-404and403page/</link>
+      <pubDate>Fri, 26 May 2023 10:42:52 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s50-404and403page/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s50-404and403page/t231-404/&#34; &gt;How to Create 404 Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s50-404and403page/t232-403/&#34; &gt;How to Create 403 Page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Live Chat Application System For User and Agent</title>
+      <link>//localhost:1313/laravel/realestate/s51-livechatsystem/</link>
+      <pubDate>Fri, 26 May 2023 10:43:13 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s51-livechatsystem/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s51-livechatsystem/t233-intro/&#34; &gt;Live Chat Application Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s51-livechatsystem/t234-app_p1/&#34; &gt;Live Chat Application Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s51-livechatsystem/t235-app_p2/&#34; &gt;Live Chat Application Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s51-livechatsystem/t236-app_p3/&#34; &gt;Live Chat Application Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s51-livechatsystem/t237-app_p4/&#34; &gt;Live Chat Application Part 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s51-livechatsystem/t238-app_p5/&#34; &gt;Live Chat Application Part 5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s51-livechatsystem/t239-userpage_p1/&#34; &gt;Live Chat Application In User Page Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s51-livechatsystem/t240-userpage_p2/&#34; &gt;Live Chat Application In User Page Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s51-livechatsystem/t241-userpage_p3/&#34; &gt;Live Chat Application In User Page Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s51-livechatsystem/t242-userpage_p4/&#34; &gt;Live Chat Application In User Page Part 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s51-livechatsystem/t243-userpage_p5/&#34; &gt;Live Chat Application In User Page Part 5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s51-livechatsystem/t244-userpage_p6/&#34; &gt;Live Chat Application In User Page Part 6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s51-livechatsystem/t245-userpage_p7/&#34; &gt;Live Chat Application In User Page Part 7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s51-livechatsystem/t246-dateformat/&#34; &gt;Update Date Format With Moment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s51-livechatsystem/t247-agent_p1/&#34; &gt;Live Chat Application for Agent Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/realestate/s51-livechatsystem/t248-agent_p2/&#34; &gt;Live Chat Application for Agent Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

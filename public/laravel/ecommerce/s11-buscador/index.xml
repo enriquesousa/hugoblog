@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Buscador on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s11-buscador/</link>
+    <description>Recent content in Buscador on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s11-buscador/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diseñar buscador I</title>
+      <link>//localhost:1313/laravel/ecommerce/s11-buscador/t67-buscador1/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s11-buscador/t67-buscador1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diseñar buscador II</title>
+      <link>//localhost:1313/laravel/ecommerce/s11-buscador/t68-buscador2/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s11-buscador/t68-buscador2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apuntar a un producto</title>
+      <link>//localhost:1313/laravel/ecommerce/s11-buscador/t69-apuntaraproducto/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s11-buscador/t69-apuntaraproducto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mostrar resultado de búsqueda I</title>
+      <link>//localhost:1313/laravel/ecommerce/s11-buscador/t70-mostrar-busqueda1/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s11-buscador/t70-mostrar-busqueda1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mostrar resultado de búsqueda II</title>
+      <link>//localhost:1313/laravel/ecommerce/s11-buscador/t71-mostrar-busqueda2/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s11-buscador/t71-mostrar-busqueda2/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

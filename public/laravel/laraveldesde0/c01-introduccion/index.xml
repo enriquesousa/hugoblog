@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introducción on TJWeb</title>
+    <link>//localhost:1313/laravel/laraveldesde0/c01-introduccion/</link>
+    <description>Recent content in Introducción on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Oct 2022 16:35:30 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/laraveldesde0/c01-introduccion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crear Proyecto Nuevo</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c01-introduccion/t01-creatnewproject/</link>
+      <pubDate>Sat, 22 Oct 2022 18:23:58 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c01-introduccion/t01-creatnewproject/</guid>
+      <description>&lt;p&gt;Ver el tema 2
+Configure mi entorno de desarrollo con Lando!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Usando Lando</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c01-introduccion/t02-lando/</link>
+      <pubDate>Sat, 22 Oct 2022 18:24:24 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c01-introduccion/t02-lando/</guid>
+      <description>&lt;h2 id=&#34;que-es-lando&#34;&gt;Que es lando&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.lando.dev/getting-started/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lando&lt;/a&gt;
+ es para desarrolladores que quieren:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Rápidamente poner en marcha un ambiente de desarrollo con todas las herramientas necesarias para desarrollar todos sus proyectos.&lt;/li&gt;
+&lt;li&gt;Envíe estas dependencias de desarrollo local en un archivo de configuración por proyecto, el archivo de configuracion se puede compartir en tu git.&lt;/li&gt;
+&lt;li&gt;Automatice pasos de compilación complejos, configuraciones de prueba, implementaciones u otros flujos de trabajo repetidos más de una vez.&lt;/li&gt;
+&lt;li&gt;Evite el masoquismo incorporado de usar directamente &lt;strong&gt;docker&lt;/strong&gt; o &lt;strong&gt;docker-compose&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Es un entorno de desarrollo local gratuito, de código abierto, multiplataforma y una herramienta DevOps basada en la tecnología de contenedores Docker y desarrollada por Tandem. Diseñado para trabajar con la mayoría de los principales lenguajes, marcos y servicios, Lando proporciona una manera fácil para que los desarrolladores de todos los niveles de habilidad especifiquen requisitos simples o complejos para sus proyectos y luego se pongan a trabajar rápidamente en ellos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rutas en Laravel</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c01-introduccion/t03-rutas/</link>
+      <pubDate>Sat, 22 Oct 2022 18:24:33 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c01-introduccion/t03-rutas/</guid>
+      <description>&lt;h2 id=&#34;punto-de-entrada-a-nuestra-aplicación&#34;&gt;Punto de entrada a nuestra aplicación.&lt;/h2&gt;
+&lt;p&gt;Nuestro único punto de entrada a nuestra aplicación lo tenemos en el archivo:
+&lt;strong&gt;public/index.php&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;para-administrar-las-rutas&#34;&gt;Para Administrar las rutas&lt;/h2&gt;
+&lt;p&gt;Laravel nos proporciona el siguiente archivo.
+&lt;strong&gt;routes/web.php&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cuando un usuario escribe una &lt;em&gt;url&lt;/em&gt; laravel revisa si esta ruta esta definida en este archivo.
+El código básico que ya esta por omisión es la ruta principal de la aplicación (&amp;quot;/&amp;quot;)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Route&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;get&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; () {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;view&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;welcome&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;El nos regresa la pagina de Bienvenida de Laravel!
+Estas paginas Laravel las maneja como vistas (views).
+Ahora si quitamos este código, e intentamos ingresar a la pagina principal &lt;em&gt;&lt;a href=&#34;http://laravel9desde0.lndo.site/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://laravel9desde0.lndo.site/&lt;/a&gt;
+&lt;/em&gt;&amp;quot; veremos el despliegue de una vista de error diciendo, &lt;strong&gt;404 | NOT FOUND&lt;/strong&gt; ya ue laravel encuentra que esta que esta ruta no esta definida!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Controladores</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c01-introduccion/t04-controladores/</link>
+      <pubDate>Sat, 22 Oct 2022 18:24:43 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c01-introduccion/t04-controladores/</guid>
+      <description>&lt;h3 id=&#34;porque-tenemos-la-necesidad-de-crear-un-controlador&#34;&gt;Porque tenemos la necesidad de crear un Controlador?&lt;/h3&gt;
+&lt;p&gt;Laravel se basa en un modelo&lt;/p&gt;
+&lt;h3 id=&#34;modelo-vista-controlador&#34;&gt;Modelo, Vista, Controlador.&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;MVC&lt;/strong&gt; (modelo, vista, controlador) es un patrón arquitectónico de software que separa una aplicación en tres capas descritas como su acrónimo lo indica. Laravel, así como la mayoría de frameworks en PHP implementan este patrón de diseño en donde cada capa maneja un aspecto de la aplicación. Pero antes de ver cómo Laravel está diseñado para implementar este patrón de software, vamos a tratar de dejar este concepto un poco más claro definiendo cada una de sus partes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Grupo de Rutas</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c01-introduccion/t05-gruporutas/</link>
+      <pubDate>Sat, 22 Oct 2022 18:24:50 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c01-introduccion/t05-gruporutas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vistas en Laravel</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c01-introduccion/t06-vistas/</link>
+      <pubDate>Sat, 22 Oct 2022 18:24:54 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c01-introduccion/t06-vistas/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

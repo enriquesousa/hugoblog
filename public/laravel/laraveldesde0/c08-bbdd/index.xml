@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diseño de BBDD on TJWeb</title>
+    <link>//localhost:1313/laravel/laraveldesde0/c08-bbdd/</link>
+    <description>Recent content in Diseño de BBDD on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Oct 2022 13:16:10 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/laraveldesde0/c08-bbdd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modelo conceptual</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c08-bbdd/t35-modeloconceptual/</link>
+      <pubDate>Sat, 22 Oct 2022 13:17:03 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c08-bbdd/t35-modeloconceptual/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Modelo lógico</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c08-bbdd/t36-modelologico/</link>
+      <pubDate>Sat, 22 Oct 2022 13:17:12 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c08-bbdd/t36-modelologico/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Normalización</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c08-bbdd/t37-normalizacion/</link>
+      <pubDate>Sat, 22 Oct 2022 13:17:19 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c08-bbdd/t37-normalizacion/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

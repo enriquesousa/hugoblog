@@ -1,34 +1,70 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog Documentación on Blog</title>
-    <link>/</link>
-    <description>Recent content in Blog Documentación on Blog</description>
+    <title>TJWeb Documentación on TJWeb</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in TJWeb Documentación on TJWeb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Oct 2022 08:06:18 -0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Nov 2025 08:47:53 -0800</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Laravel</title>
-      <link>/laravel/</link>
-      <pubDate>Wed, 12 Oct 2022 17:10:32 -0700</pubDate>
-      <guid>/laravel/</guid>
-      <description>Lorem Ipsum.</description>
+      <link>//localhost:1313/laravel/</link>
+      <pubDate>Fri, 26 May 2023 10:46:39 -0700</pubDate>
+      <guid>//localhost:1313/laravel/</guid>
+      <description>&lt;p&gt;Proyectos y Cursos de Laravel&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Hugo</title>
-      <link>/hugo/</link>
-      <pubDate>Thu, 13 Oct 2022 08:06:18 -0700</pubDate>
-      <guid>/hugo/</guid>
-      <description>Hugo is one of the simplest static site generators to install, because it’s distributed as a single binary. This means that everything is included in one package, and you don’t have to manage anything. Even though Hugo is built in Go, you don’t need that installed!
-Note
-There are two versions of Hugo: standard and extended. If you are a user of SCSS/SASS, the extended version is recommended, as this gives you built-in processing capabilities.</description>
+      <title>Herramientas</title>
+      <link>//localhost:1313/herramientas/</link>
+      <pubDate>Sun, 30 Nov 2025 08:47:53 -0800</pubDate>
+      <guid>//localhost:1313/herramientas/</guid>
+      <description>&lt;p&gt;Herramientas de Desarrollo&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Editores</title>
-      <link>/editores/</link>
-      <pubDate>Thu, 13 Oct 2022 08:05:44 -0700</pubDate>
-      <guid>/editores/</guid>
-      <description>Cheat-Sheet Varios Editores</description>
+      <title>Proyectos</title>
+      <link>//localhost:1313/proyectos/</link>
+      <pubDate>Sun, 18 May 2025 07:49:37 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/</guid>
+      <description>&lt;h3 id=&#34;acerca-de-mi&#34;&gt;Acerca de Mi&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/fotojess_300x300.jpg&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hola mi nombre es Enrique Sousa, mi pasión es la programación, y soy desarrollador web. Algunas de las tecnologías que uso son HTML, CSS, JavaScript, PHP, MySQL, Laravel y Bootstrap 5, LiveWire, Vue.js, React.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Algunos de los proyectos que he realizado son:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Sistema de &lt;strong&gt;Bienes Raíces&lt;/strong&gt; con Laravel 10&lt;/td&gt;
+          &lt;td&gt;Sistema &lt;strong&gt;Punto de Venta&lt;/strong&gt; con Laravel 9&lt;/td&gt;
+          &lt;td&gt;Sistema &lt;strong&gt;Manejo de Inventarios&lt;/strong&gt; con Laravel 9&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Sistema &lt;strong&gt;E-Commerce&lt;/strong&gt; Ordenes Restaurante con Laravel 11&lt;/td&gt;
+          &lt;td&gt;Sistema para administración de  &lt;strong&gt;Veterinarias&lt;/strong&gt; con Laravel 11&lt;/td&gt;
+          &lt;td&gt;Sistema &lt;strong&gt;Portafolios y Blog&lt;/strong&gt;  con Laravel 11&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;En este sitio encontrarás información sobre mí, mis proyectos, mis habilidades y mis servicios. También te puedes contactar conmigo a través de mi correo o teléfono. Además en la sección de Blog estaré publicando artículos sobre Laravel, Programación, Tecnologías de la información y temas interesantes. En mi tiempo libre, me gusta tocar el piano, jugar video juegos, ver series y películas, y aprender cosas nuevas.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

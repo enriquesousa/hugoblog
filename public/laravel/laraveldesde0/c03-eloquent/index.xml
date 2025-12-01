@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eloquent on TJWeb</title>
+    <link>//localhost:1313/laravel/laraveldesde0/c03-eloquent/</link>
+    <description>Recent content in Eloquent on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Oct 2022 15:36:33 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/laraveldesde0/c03-eloquent/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducción al manejo de BBDD con eloquent</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c03-eloquent/t12-introduccion/</link>
+      <pubDate>Fri, 21 Oct 2022 15:22:44 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c03-eloquent/t12-introduccion/</guid>
+      <description>&lt;p&gt;DDBB es una forma de referirse a las Bases de Datos, en español los plurales de sustantivos que se componen de dos palabras se abrevian duplicando la primera letra de la palabra. ej.: EEUU - Estados Unidos, RRHH - Recursos Humanos, AAVV - Asociación.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Seeders en Laravel</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c03-eloquent/t13-seeders/</link>
+      <pubDate>Fri, 21 Oct 2022 15:36:10 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c03-eloquent/t13-seeders/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Factories en Laravel</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c03-eloquent/t14-factories/</link>
+      <pubDate>Fri, 21 Oct 2022 15:36:21 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c03-eloquent/t14-factories/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Generador de consultas de eloquent</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c03-eloquent/t15-consultas/</link>
+      <pubDate>Fri, 21 Oct 2022 15:36:28 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c03-eloquent/t15-consultas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mutadores y Accesores</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c03-eloquent/t16-mutadores/</link>
+      <pubDate>Fri, 21 Oct 2022 15:36:33 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c03-eloquent/t16-mutadores/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Insertar Registros de Prueba on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s03-insertar-registros/</link>
+    <description>Recent content in Insertar Registros de Prueba on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s03-insertar-registros/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Insertar registros en la tabla categories</title>
+      <link>//localhost:1313/laravel/ecommerce/s03-insertar-registros/t08-regtabcategories/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s03-insertar-registros/t08-regtabcategories/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Insertar registros en la tabla subcategories</title>
+      <link>//localhost:1313/laravel/ecommerce/s03-insertar-registros/t09-regtabsubcategories/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s03-insertar-registros/t09-regtabsubcategories/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Insertar registros en la tabla brands</title>
+      <link>//localhost:1313/laravel/ecommerce/s03-insertar-registros/t10-regtabbrands/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s03-insertar-registros/t10-regtabbrands/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Insertar registros en la tabla products</title>
+      <link>//localhost:1313/laravel/ecommerce/s03-insertar-registros/t11-regtabproducts/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s03-insertar-registros/t11-regtabproducts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Insertar registros en la tabla colors</title>
+      <link>//localhost:1313/laravel/ecommerce/s03-insertar-registros/t12-regtabcolors/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s03-insertar-registros/t12-regtabcolors/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Insertar registros en la tabla tallas</title>
+      <link>//localhost:1313/laravel/ecommerce/s03-insertar-registros/t13-regtabtallas/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s03-insertar-registros/t13-regtabtallas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Descargar imágenes para los productos</title>
+      <link>//localhost:1313/laravel/ecommerce/s03-insertar-registros/t14-regtabimagenes/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s03-insertar-registros/t14-regtabimagenes/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

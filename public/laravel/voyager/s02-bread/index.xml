@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bread on TJWeb</title>
+    <link>//localhost:1313/laravel/voyager/s02-bread/</link>
+    <description>Recent content in Bread on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/voyager/s02-bread/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crear Nueva Tabla</title>
+      <link>//localhost:1313/laravel/voyager/s02-bread/t04-crearnuevatabla/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s02-bread/t04-crearnuevatabla/</guid>
+      <description>&lt;p&gt;Para crear una nueva tabla, entrar al sistema y dentro del side menu entrar a tools/database.
+Dar click en &amp;ldquo;Crear tabla&amp;rdquo; y nombrarla &amp;ldquo;products&amp;rdquo;
+Incluir modelo!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/Voyager/primertablaproducts.png&#34; alt=&#34;Widgets&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Asi de fácil es crear nuevas tablas con Voyager!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Implementar Nuevo Bread</title>
+      <link>//localhost:1313/laravel/voyager/s02-bread/t05-implementarnuevobread/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s02-bread/t05-implementarnuevobread/</guid>
+      <description>&lt;h3 id=&#34;paso-1&#34;&gt;Paso 1&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Opción 1&lt;/em&gt;:
+Dentro del side menu de Voyager ir a Tools/Database, si vemos nuestra nueva tabla &amp;ldquo;products&amp;rdquo;, ahi tenemos la opción de &amp;ldquo;Añadir BREAD a esta tabla&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Opción 2&lt;/em&gt;:
+Dentro del side menu de Voyager ir a Tools/BREAD, ahi podemos también &amp;ldquo;Añadir BREAD a esta tabla&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Que es Bread?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BROWSE&lt;/strong&gt; (field will show up when you browse the current data)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;READ&lt;/strong&gt; (field will show when you click to view the current data)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;EDIT&lt;/strong&gt; (field will be visible and allow you to edit the data)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ADD&lt;/strong&gt; (field will be visible when you choose to create a new data type)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;DELETE&lt;/em&gt; (doesn&amp;rsquo;t pertain to delete so this can be checked or unchecked)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;paso-2&#34;&gt;Paso 2&lt;/h3&gt;
+&lt;p&gt;Llenamos en formulario.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Elegir el tipo de campo del formulario</title>
+      <link>//localhost:1313/laravel/voyager/s02-bread/t06-campoformulario/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s02-bread/t06-campoformulario/</guid>
+      <description>&lt;p&gt;Entrar a Tools/Bread editar Products y modificar las propiedades asi:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/Voyager/editar-prop1.png&#34; alt=&#34;Widgets&#34;&gt;
+&lt;img src=&#34;//localhost:1313/Voyager/editar-prop2.png&#34; alt=&#34;Widgets&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Ahora si regresamos a ver nuestro formulario en &lt;a href=&#34;http://voyager.lndo.site/admin/products/create&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://voyager.lndo.site/admin/products/create&lt;/a&gt;
+ podemos ver la diferencia:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/Voyager/formulario-producto1.png&#34; alt=&#34;Widgets&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Agregar Relaciones</title>
+      <link>//localhost:1313/laravel/voyager/s02-bread/t07-agregarrelaciones/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s02-bread/t07-agregarrelaciones/</guid>
+      <description>&lt;p&gt;En &lt;a href=&#34;http://voyager.lndo.site/admin/bread/products/edit&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://voyager.lndo.site/admin/bread/products/edit&lt;/a&gt;
+ ir al final al botón que dice &amp;ldquo;Crear una relación&amp;rdquo;.&lt;/p&gt;
+&lt;h3 id=&#34;paso-1&#34;&gt;Paso 1&lt;/h3&gt;
+&lt;p&gt;Crear una relación de tipo: &lt;strong&gt;Belongs To&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;paso-2&#34;&gt;Paso 2&lt;/h3&gt;
+&lt;p&gt;En Category escoger el modelo con el cual lo quiero relacionar, en este caso queremos una relación con el modelo &lt;strong&gt;&amp;ldquo;User&amp;rdquo;&lt;/strong&gt;.
+En el recuadro de la derecha especificamos donde se encuentra este modelo: &lt;strong&gt;&amp;ldquo;App\Models\User&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;paso-3&#34;&gt;Paso 3&lt;/h3&gt;
+&lt;p&gt;Escoger la llave foránea: &lt;strong&gt;&amp;ldquo;user_id&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;paso-4&#34;&gt;Paso 4&lt;/h3&gt;
+&lt;p&gt;Después escoger que campo queremos mostrar del usuario: &lt;strong&gt;&amp;ldquo;name&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tagging</title>
+      <link>//localhost:1313/laravel/voyager/s02-bread/t08-tagging/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s02-bread/t08-tagging/</guid>
+      <description>&lt;h3 id=&#34;crear-tabla-tags&#34;&gt;Crear Tabla Tags&lt;/h3&gt;
+&lt;p&gt;Crear una nueva tabla, ir a Database y click botón &amp;ldquo;Crear nueva tabla&amp;rdquo; y nombrarla &amp;ldquo;&lt;strong&gt;tags&lt;/strong&gt;&amp;rdquo; también generar modelo &amp;ldquo;&lt;strong&gt;Si, por favor&lt;/strong&gt;&amp;rdquo;, agregar campo &amp;ldquo;&lt;strong&gt;name&lt;/strong&gt;&amp;rdquo;, y también añadir los dos campo de time stamp con el botón &amp;ldquo;&lt;strong&gt;Añadir Timestamp&lt;/strong&gt;&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/Voyager/CrearTabla-tags.png&#34; alt=&#34;Widgets&#34;&gt;&lt;/p&gt;
+&lt;p&gt;En Database viendo a la tabla de &amp;ldquo;&lt;strong&gt;tags&lt;/strong&gt;&amp;rdquo; ya podemos &amp;ldquo;&lt;strong&gt;Añadir BREAD a esta tabla&lt;/strong&gt;&amp;rdquo;.
+Agregar un icono &amp;ldquo;&lt;strong&gt;voyager-tag&lt;/strong&gt;&amp;rdquo;, por ahorita es todo lo que vamos a modificar aquí, ahora dar click en el botón de &amp;ldquo;&lt;strong&gt;Enviar&lt;/strong&gt;&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Opciones Avanzadas (relaciones)</title>
+      <link>//localhost:1313/laravel/voyager/s02-bread/t09-opcionesavanzadas/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s02-bread/t09-opcionesavanzadas/</guid>
+      <description>&lt;h3 id=&#34;convenciones-para-nombres&#34;&gt;Convenciones para nombres&lt;/h3&gt;
+&lt;p&gt;Si no seguimos las convenciones para nombres de las tablas, modelos y llaves foráneas, podemos especificar en detalles de la relación el nombre especifico que le queremos dar a nuestra llave foránea, en este caso podemos darle el mismo nombre que ya le dimos.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;foreign_pivot_key&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;product_id&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;related_pivot_key&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;tag_id&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Si tu llave primaria no fuera id, entonces tenemos que especificar una:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;foreign_pivot_key&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;product_id&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;related_pivot_key&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;tag_id&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;parent_key&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;id&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;mostrar-tags-en-orden-alfabético&#34;&gt;Mostrar tags en orden alfabético&lt;/h3&gt;
+&lt;p&gt;Si nos vamos al side bar Producto y no dirigimos a editar alguno de los productos, y vemos el orden que tienen los tags.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Validaciones</title>
+      <link>//localhost:1313/laravel/voyager/s02-bread/t10-validaciones/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s02-bread/t10-validaciones/</guid>
+      <description>&lt;h3 id=&#34;validar-un-campo&#34;&gt;Validar un campo&lt;/h3&gt;
+&lt;p&gt;Entrar a Tools/BREAD y dirigirnos a nuestra tabla &lt;strong&gt;products&lt;/strong&gt; y luego a &lt;strong&gt;Editar&lt;/strong&gt;, escoger un campo por ejemplo &lt;strong&gt;name&lt;/strong&gt;, ir a la ultima columna (&lt;strong&gt;Detalles opcionales&lt;/strong&gt;) y colocar nuestro código de validación ahi, asignar un atributo que se llame &lt;strong&gt;validation&lt;/strong&gt; y asignarle un objeto en donde ya podemos asignar las reglas asi.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;validation&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;rule&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;required&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;messages&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;required&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;El campo nombre es obligatorio&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Lo mismo podemos hacer para los demás campos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ordenar Items</title>
+      <link>//localhost:1313/laravel/voyager/s02-bread/t11-ordenaritems/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s02-bread/t11-ordenaritems/</guid>
+      <description>&lt;h3 id=&#34;ordenar-campos&#34;&gt;Ordenar campos&lt;/h3&gt;
+&lt;p&gt;Por ejemplo para ordenar los campos en la tabla Category por medio de la columna &amp;ldquo;order&amp;rdquo;.
+Nos dirigimos aquí &lt;a href=&#34;http://voyager.lndo.site/admin/bread/categories/edit&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://voyager.lndo.site/admin/bread/categories/edit&lt;/a&gt;
+ y cambiamos &amp;ldquo;Columna de ordenación&amp;rdquo; a &amp;ldquo;order&amp;rdquo; y en &amp;ldquo;Columna texto de ordenación&amp;rdquo; escogemos &amp;ldquo;nombre&amp;rdquo; y en el &amp;ldquo;Sentido de la ordenación&amp;rdquo; podemos escoger Ascendente. Para Activar los cambio damos el botón de Enviar.&lt;/p&gt;
+&lt;p&gt;Con esto al regresar a &lt;a href=&#34;http://voyager.lndo.site/admin/categories&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://voyager.lndo.site/admin/categories&lt;/a&gt;
+ ya aparece un nuevo botón que se llama Orden. Si entramos ahi podemos ver que nos nuestra los &amp;ldquo;nombres&amp;rdquo; de las categorías y podemos ordenar simplemente moviendo el nombre de la categoría para darle prioridad de ordenación.
+Si regresamos a categorías podemos ver que en la columna de Order ya aparece el orden que le dimos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Query Scopes</title>
+      <link>//localhost:1313/laravel/voyager/s02-bread/t12-queryscopes/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s02-bread/t12-queryscopes/</guid>
+      <description>&lt;h3 id=&#34;query-scopes&#34;&gt;Query Scopes&lt;/h3&gt;
+&lt;p&gt;Nos ayudan para filtrar que solo podamos ver y editar los productos que están a nombre de la persona que esta logiada.
+Agregar código en app/Models/Product.php:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;php&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;namespace&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;App\Models&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;use&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Illuminate\Database\Eloquent\Model&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Product&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;extends&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Model&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// Con esto filtramos que solo el user que esta log in pueda ver solo productos ue están a su nombre
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;scopeCurrentUser&lt;/span&gt;($query)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        $query&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;where&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;user_id&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;auth&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;user&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;id&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;El siguiente paso es modificar el parámetro de &amp;ldquo;Alcance&amp;rdquo; en BREAD/products a quedar en &amp;ldquo;currentUser&amp;rdquo;, nota como ya en forma automática Voyager ya nos detecta la función de scope.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

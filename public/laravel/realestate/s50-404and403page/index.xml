@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Create 404 and 403 Page on TJWeb</title>
+    <link>//localhost:1313/laravel/realestate/s50-404and403page/</link>
+    <description>Recent content in Create 404 and 403 Page on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 May 2023 10:42:52 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/realestate/s50-404and403page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Create 404 Page</title>
+      <link>//localhost:1313/laravel/realestate/s50-404and403page/t231-404/</link>
+      <pubDate>Fri, 26 May 2023 10:43:00 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s50-404and403page/t231-404/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>How to Create 403 Page</title>
+      <link>//localhost:1313/laravel/realestate/s50-404and403page/t232-403/</link>
+      <pubDate>Fri, 26 May 2023 10:43:06 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s50-404and403page/t232-403/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

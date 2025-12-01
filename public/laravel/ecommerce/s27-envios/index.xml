@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Envíos on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s27-envios/</link>
+    <description>Recent content in Envíos on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s27-envios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crud de departamentos I</title>
+      <link>//localhost:1313/laravel/ecommerce/s27-envios/t174-departamentos1/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s27-envios/t174-departamentos1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crud de departamentos II</title>
+      <link>//localhost:1313/laravel/ecommerce/s27-envios/t175-departamentos2/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s27-envios/t175-departamentos2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crud de ciudades</title>
+      <link>//localhost:1313/laravel/ecommerce/s27-envios/t176-ciudades/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s27-envios/t176-ciudades/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crud de distritos I</title>
+      <link>//localhost:1313/laravel/ecommerce/s27-envios/t177-distritos1/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s27-envios/t177-distritos1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crud de distritos II</title>
+      <link>//localhost:1313/laravel/ecommerce/s27-envios/t178-distritos2/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s27-envios/t178-distritos2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Modificar migraciones</title>
+      <link>//localhost:1313/laravel/ecommerce/s27-envios/t179-migraciones/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s27-envios/t179-migraciones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eliminar datos de envió</title>
+      <link>//localhost:1313/laravel/ecommerce/s27-envios/t180-eliminardatos/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s27-envios/t180-eliminardatos/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

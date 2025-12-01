@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Campos de Formulario on TJWeb</title>
+    <link>//localhost:1313/laravel/voyager/s03-camposformulario/</link>
+    <description>Recent content in Campos de Formulario on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/voyager/s03-camposformulario/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personalizar Campos</title>
+      <link>//localhost:1313/laravel/voyager/s03-camposformulario/t13-personalizarcampos/</link>
+      <pubDate>Sat, 31 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s03-camposformulario/t13-personalizarcampos/</guid>
+      <description>&lt;h3 id=&#34;nota&#34;&gt;Nota&lt;/h3&gt;
+&lt;p&gt;Cambiar todas las reglas de validación de los campos para que solo sea requerido el campo.&lt;/p&gt;
+&lt;p&gt;En los campos &amp;ldquo;name&amp;rdquo;, &amp;ldquo;description&amp;rdquo;, y &amp;ldquo;user_id&amp;rdquo; dejar solo el siguiente código.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;validation&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;rule&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;required&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;} 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Y solo para el campo &amp;ldquo;image_url&amp;rdquo; dejar la regla que es requerido solo en el caso de añadir una nueva imagen, asi:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;validation&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;add&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;rule&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;required&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Esto lo hacemos para que el usuario pueda editar u producto sin necesidad de mandar una nueva imagen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Checkbox</title>
+      <link>//localhost:1313/laravel/voyager/s03-camposformulario/t14-checkbox/</link>
+      <pubDate>Sat, 31 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s03-camposformulario/t14-checkbox/</guid>
+      <description>&lt;h3 id=&#34;agregar-campo-adicional-checkbox&#34;&gt;Agregar campo adicional checkbox&lt;/h3&gt;
+&lt;p&gt;Vamos a agregar una campo adicional a a tabla &amp;ldquo;products&amp;rdquo; con el objetivo de que nos ayude a determinar si dicho producto se debe de publicar en nuestra tienda o no (true or false).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paso 1: Generar campo en Base de Datos&lt;/strong&gt;
+Generamos el campo en la base de datos con Tools Database Editar Añadir Columna. Como no existe en mysql un campo de tipo booleano lo que hacemos es poner el tipo de &amp;ldquo;TINYINT&amp;rdquo; y de longitud &amp;ldquo;1&amp;rdquo;, lo que estaremos almacenando en realidad el un 1 para true y un 0 para false, al terminar &amp;ldquo;Actualizar tabla&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fechas</title>
+      <link>//localhost:1313/laravel/voyager/s03-camposformulario/t15-fechas/</link>
+      <pubDate>Sat, 31 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s03-camposformulario/t15-fechas/</guid>
+      <description>&lt;h3 id=&#34;cambiar-el-formato-fechas&#34;&gt;Cambiar el formato fechas&lt;/h3&gt;
+&lt;p&gt;Para cambiar el formato en el que se despliegan las fechas, nos vamos a los atributos del campo de &amp;ldquo;created_at&amp;rdquo; y modificamos asi:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;format&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%d-%m-%Y&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;} 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Con %Y nos despliega el año con los 4 caracteres &amp;ldquo;2023&amp;rdquo;, si lo ponemos en minúscula los lo deja en 2 caracteres &amp;ldquo;23&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Listo!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Select Dropdown</title>
+      <link>//localhost:1313/laravel/voyager/s03-camposformulario/t16-dropdown/</link>
+      <pubDate>Sat, 31 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s03-camposformulario/t16-dropdown/</guid>
+      <description>&lt;h3 id=&#34;usar-un-select-dropdown&#34;&gt;Usar un Select Dropdown&lt;/h3&gt;
+&lt;p&gt;Cambiar el campo de &amp;ldquo;active&amp;rdquo; a que sea &amp;ldquo;Select Dropdown&amp;rdquo; y entrar el siguiente código.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;options&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Activo&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Inactivo&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Imágenes</title>
+      <link>//localhost:1313/laravel/voyager/s03-camposformulario/t17-imagenes/</link>
+      <pubDate>Sat, 31 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s03-camposformulario/t17-imagenes/</guid>
+      <description>&lt;h3 id=&#34;especificar-ancho-de-imágenes&#34;&gt;Especificar Ancho de Imágenes&lt;/h3&gt;
+&lt;p&gt;Nosotros podemos especificar el ancho que queramos que tengan nuestras imágenes, en el campo &amp;ldquo;image_url&amp;rdquo; podemos agregar el siguiente código.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;resize&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;width&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;500&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;height&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;null&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   },
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;validation&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;add&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;           &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;rule&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;required&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;} 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Asi podemos controlar el tamaño de las imágenes que almacenamos en nuestro servidor. Esto funciona muy bien para imágenes que sean mayor a el ancho de 500px.&lt;/p&gt;
+&lt;h3 id=&#34;upsize-image&#34;&gt;Upsize Image&lt;/h3&gt;
+&lt;p&gt;Pero que pasa si queremos subir una imagen que sea menor a 500px de ancho, con el código que tenemos ahorita la imagen no la subiría a 500px, si queremos que si la pueda subir, tenemos que agregar el siguiente código &amp;ldquo;upsize&amp;rdquo;: true, en el su area correspondiente.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Number</title>
+      <link>//localhost:1313/laravel/voyager/s03-camposformulario/t18-number/</link>
+      <pubDate>Sat, 31 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s03-camposformulario/t18-number/</guid>
+      <description>&lt;h3 id=&#34;campo-numérico&#34;&gt;Campo numérico&lt;/h3&gt;
+&lt;p&gt;Por el momento el único campo que tenemos que es numérico es id, asi que poner en el tipo de entrada &amp;ldquo;Number&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Imaginemos que queramos tener un campo de tipo &amp;ldquo;Float&amp;rdquo; y queremos incluir los decimales, 2 decimales , con un valor numérico que mínimo puede ser 1, hasta un valor máximo de 100, y valor por defecto 1, aquí esta el código para poder hacer eso.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;step&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0.01&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;min&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;max&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;default&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

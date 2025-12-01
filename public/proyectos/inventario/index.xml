@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gestor de Inventario on TJWeb</title>
+    <link>//localhost:1313/proyectos/inventario/</link>
+    <description>Recent content in Gestor de Inventario on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 May 2025 10:15:20 -0700</lastBuildDate><atom:link href="//localhost:1313/proyectos/inventario/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sumario</title>
+      <link>//localhost:1313/proyectos/inventario/t00-sumario/</link>
+      <pubDate>Sun, 11 May 2025 10:15:37 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/inventario/t00-sumario/</guid>
+      <description>&lt;h2 id=&#34;descripción-general&#34;&gt;Descripción General&lt;/h2&gt;
+&lt;p&gt;Sistema de Control de Inventario. Con este sistema de Inventarios podemos llevar el control de Proveedores, Clientes, Productos, Compras y Facturas del negocio. En el modulo de productos podemos ver una lista de productos que podemos ordenar por proveedor o categoría, y podemos  ver la cantidad de productos que tenemos en almacén, al agregar un producto, las unidades de medida las podemos agregar las que nosotros mismos definamos, por ejemplo: Piezas, Litros, Gramos, Kilogramos Etc.. En el modulo de Facturas podemos generar las ventas del sistema.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Login</title>
+      <link>//localhost:1313/proyectos/inventario/t01-login/</link>
+      <pubDate>Sun, 11 May 2025 10:15:44 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/inventario/t01-login/</guid>
+      <description>&lt;h2 id=&#34;ventana-de-login&#34;&gt;Ventana de Login&lt;/h2&gt;
+&lt;p&gt;Esta es la ventana de login donde podrás iniciar sesión con correo y contraseña. Y tendrás acceso al sistema dependiendo el rol y permiso que se te haya asignado.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/inventarios/inventario_login_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Documentación | Gestor de Inventario | Inventario | TJWeb&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

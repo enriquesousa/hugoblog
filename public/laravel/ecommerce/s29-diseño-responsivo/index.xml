@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diseño responsivo on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s29-dise%C3%B1o-responsivo/</link>
+    <description>Recent content in Diseño responsivo on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s29-dise%C3%B1o-responsivo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diseño responsivo 1</title>
+      <link>//localhost:1313/laravel/ecommerce/s29-dise%C3%B1o-responsivo/t186-responsivo1/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s29-dise%C3%B1o-responsivo/t186-responsivo1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diseño responsivo 2</title>
+      <link>//localhost:1313/laravel/ecommerce/s29-dise%C3%B1o-responsivo/t187-responsivo2/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s29-dise%C3%B1o-responsivo/t187-responsivo2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diseño responsivo 3</title>
+      <link>//localhost:1313/laravel/ecommerce/s29-dise%C3%B1o-responsivo/t188-responsivo3/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s29-dise%C3%B1o-responsivo/t188-responsivo3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diseño responsivo 4</title>
+      <link>//localhost:1313/laravel/ecommerce/s29-dise%C3%B1o-responsivo/t189-responsivo4/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s29-dise%C3%B1o-responsivo/t189-responsivo4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diseño responsivo 5</title>
+      <link>//localhost:1313/laravel/ecommerce/s29-dise%C3%B1o-responsivo/t190-responsivo5/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s29-dise%C3%B1o-responsivo/t190-responsivo5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diseño responsivo 6</title>
+      <link>//localhost:1313/laravel/ecommerce/s29-dise%C3%B1o-responsivo/t191-responsivo6/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s29-dise%C3%B1o-responsivo/t191-responsivo6/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

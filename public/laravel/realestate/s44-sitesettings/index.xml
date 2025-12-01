@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Site Setting Option Update on TJWeb</title>
+    <link>//localhost:1313/laravel/realestate/s44-sitesettings/</link>
+    <description>Recent content in Site Setting Option Update on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 May 2023 10:36:57 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/realestate/s44-sitesettings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Site Setting Option Part 1</title>
+      <link>//localhost:1313/laravel/realestate/s44-sitesettings/t201-settings_p1/</link>
+      <pubDate>Fri, 26 May 2023 10:37:02 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s44-sitesettings/t201-settings_p1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Site Setting Option Part 2</title>
+      <link>//localhost:1313/laravel/realestate/s44-sitesettings/t202-settings_p2/</link>
+      <pubDate>Fri, 26 May 2023 10:37:22 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s44-sitesettings/t202-settings_p2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Site Setting Option Part 3</title>
+      <link>//localhost:1313/laravel/realestate/s44-sitesettings/t203-settings_p3/</link>
+      <pubDate>Fri, 26 May 2023 10:37:31 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s44-sitesettings/t203-settings_p3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Update Custom Title</title>
+      <link>//localhost:1313/laravel/realestate/s44-sitesettings/t204-title/</link>
+      <pubDate>Fri, 26 May 2023 10:37:37 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s44-sitesettings/t204-title/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

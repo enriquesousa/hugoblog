@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Roles y Permisos on TJWeb</title>
+    <link>//localhost:1313/laravel/laraveldesde0/c13-rolesypermisos/</link>
+    <description>Recent content in Roles y Permisos on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Oct 2022 13:39:34 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/laraveldesde0/c13-rolesypermisos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalar el paquete Laravel Permission</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c13-rolesypermisos/t63-install/</link>
+      <pubDate>Sat, 22 Oct 2022 13:40:25 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c13-rolesypermisos/t63-install/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cómo crear roles y permisos</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c13-rolesypermisos/t64-crearrolesypermisos/</link>
+      <pubDate>Sat, 22 Oct 2022 13:40:31 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c13-rolesypermisos/t64-crearrolesypermisos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Asignar rol a usuario</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c13-rolesypermisos/t65-asignarrol/</link>
+      <pubDate>Sat, 22 Oct 2022 13:40:36 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c13-rolesypermisos/t65-asignarrol/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cómo ocultar botones según el permiso</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c13-rolesypermisos/t66-ocultarboton/</link>
+      <pubDate>Sat, 22 Oct 2022 13:40:42 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c13-rolesypermisos/t66-ocultarboton/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proteger rutas de acuerdo al rol</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c13-rolesypermisos/t67-protegerrutas/</link>
+      <pubDate>Sat, 22 Oct 2022 13:40:47 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c13-rolesypermisos/t67-protegerrutas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crear crud de roles</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c13-rolesypermisos/t68-crudroles/</link>
+      <pubDate>Sat, 22 Oct 2022 13:40:51 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c13-rolesypermisos/t68-crudroles/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

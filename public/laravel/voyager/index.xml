@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laravel Voyager on TJWeb</title>
+    <link>//localhost:1313/laravel/voyager/</link>
+    <description>Recent content in Laravel Voyager on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 08:59:01 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/voyager/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducción</title>
+      <link>//localhost:1313/laravel/voyager/s01-introduccion/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s01-introduccion/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s01-introduccion/t01-instalarvoyager/&#34; &gt;Instalar Voyager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s01-introduccion/t02-estructura-bbdd/&#34; &gt;Estructura de la bbdd creada por Voyager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s01-introduccion/t03-configuracion/&#34; &gt;Archivo de Configuración de Voyager&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Bread</title>
+      <link>//localhost:1313/laravel/voyager/s02-bread/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s02-bread/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s02-bread/t04-crearnuevatabla/&#34; &gt;Crear Nueva Tabla&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s02-bread/t05-implementarnuevobread/&#34; &gt;Implementar Nuevo Bread&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s02-bread/t06-campoformulario/&#34; &gt;Elegir el tipo de campo del formulario&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s02-bread/t07-agregarrelaciones/&#34; &gt;Agregar Relaciones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s02-bread/t08-tagging/&#34; &gt;Tagging&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s02-bread/t09-opcionesavanzadas/&#34; &gt;Opciones Avanzadas (relaciones)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s02-bread/t10-validaciones/&#34; &gt;Validaciones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s02-bread/t11-ordenaritems/&#34; &gt;Ordenar Items&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s02-bread/t12-queryscopes/&#34; &gt;Query Scopes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Campos de Formulario</title>
+      <link>//localhost:1313/laravel/voyager/s03-camposformulario/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s03-camposformulario/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s03-camposformulario/t13-personalizarcampos/&#34; &gt;Personalizar Campos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s03-camposformulario/t14-checkbox/&#34; &gt;Checkbox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s03-camposformulario/t15-fechas/&#34; &gt;Fechas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s03-camposformulario/t16-dropdown/&#34; &gt;Select Dropdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s03-camposformulario/t17-imagenes/&#34; &gt;Imágenes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s03-camposformulario/t18-number/&#34; &gt;Number&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Menus</title>
+      <link>//localhost:1313/laravel/voyager/s04-menus/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s04-menus/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s04-menus/t19-creareditar/&#34; &gt;Crear y Editar Menús&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s04-menus/t20-estilosmenus/&#34; &gt;Dar Estilos a Menús&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Conceptos Básicos</title>
+      <link>//localhost:1313/laravel/voyager/s05-conceptosbasicos/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s05-conceptosbasicos/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s05-conceptosbasicos/t21-enrutamiento/&#34; &gt;Enrutamiento&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s05-conceptosbasicos/t22-settings/&#34; &gt;Settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s05-conceptosbasicos/t23-compass/&#34; &gt;Compass&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s05-conceptosbasicos/t24-rolespermisos/&#34; &gt;Roles y Permisos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Personalización</title>
+      <link>//localhost:1313/laravel/voyager/s06-personalizacion/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s06-personalizacion/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s06-personalizacion/t25-plantilla/&#34; &gt;Personalización de Plantilla&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s06-personalizacion/t26-jscss/&#34; &gt;JS y CSS Adicional&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s06-personalizacion/t27-motrarposts/&#34; &gt;Mostrar Posts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/voyager/s06-personalizacion/t28-mostrarpaginas/&#34; &gt;Mostrar Páginas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

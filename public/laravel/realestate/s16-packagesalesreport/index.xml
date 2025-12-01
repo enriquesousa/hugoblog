@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Package Sales Report In Agent Dashboard With PDF on TJWeb</title>
+    <link>//localhost:1313/laravel/realestate/s16-packagesalesreport/</link>
+    <description>Recent content in Package Sales Report In Agent Dashboard With PDF on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 May 2023 10:14:12 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/realestate/s16-packagesalesreport/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Package sales Report In Agent Dashboard Part 1</title>
+      <link>//localhost:1313/laravel/realestate/s16-packagesalesreport/t107-psr_p1/</link>
+      <pubDate>Fri, 26 May 2023 10:14:20 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s16-packagesalesreport/t107-psr_p1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Package sales Report In Agent Dashboard Part 2</title>
+      <link>//localhost:1313/laravel/realestate/s16-packagesalesreport/t108-psr_p2/</link>
+      <pubDate>Fri, 26 May 2023 10:14:42 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s16-packagesalesreport/t108-psr_p2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Package sales Report In Agent Dashboard Part 3</title>
+      <link>//localhost:1313/laravel/realestate/s16-packagesalesreport/t109-psr_p3/</link>
+      <pubDate>Fri, 26 May 2023 10:14:51 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s16-packagesalesreport/t109-psr_p3/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

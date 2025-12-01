@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laravel Jetstream on TJWeb</title>
+    <link>//localhost:1313/laravel/laraveldesde0/c06-jetstream/</link>
+    <description>Recent content in Laravel Jetstream on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Oct 2022 19:24:47 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/laraveldesde0/c06-jetstream/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kits de inicio: Laravel Breeze y Laravel Jetstream</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c06-jetstream/t28-breezeyjetstream/</link>
+      <pubDate>Fri, 21 Oct 2022 19:25:09 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c06-jetstream/t28-breezeyjetstream/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Como utilizar Bootstrap con Laravel Jetstream</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c06-jetstream/t29-bootstrap/</link>
+      <pubDate>Fri, 21 Oct 2022 19:25:14 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c06-jetstream/t29-bootstrap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Laravel ahora usa Vite. Que ocurrió con Webpack?</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c06-jetstream/t30-vite/</link>
+      <pubDate>Fri, 21 Oct 2022 19:25:18 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c06-jetstream/t30-vite/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Componentes blade (de clase y anónimos)</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c06-jetstream/t31-blade/</link>
+      <pubDate>Fri, 21 Oct 2022 19:25:23 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c06-jetstream/t31-blade/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Como modificar la plantilla de Jetstream</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c06-jetstream/t32-modplantillajetstream/</link>
+      <pubDate>Fri, 21 Oct 2022 19:25:28 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c06-jetstream/t32-modplantillajetstream/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Como reutilizar la plantilla de Jetstream</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c06-jetstream/t33-reutilizarlantillajetstream/</link>
+      <pubDate>Fri, 21 Oct 2022 19:25:33 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c06-jetstream/t33-reutilizarlantillajetstream/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

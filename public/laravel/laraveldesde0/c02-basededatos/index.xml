@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Base de datos on TJWeb</title>
+    <link>//localhost:1313/laravel/laraveldesde0/c02-basededatos/</link>
+    <description>Recent content in Base de datos on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Oct 2022 17:09:54 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/laraveldesde0/c02-basededatos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Base de Datos Introducción</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c02-basededatos/t08-intro/</link>
+      <pubDate>Sat, 22 Oct 2022 18:42:09 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c02-basededatos/t08-intro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Migraciones</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c02-basededatos/t09-migraciones/</link>
+      <pubDate>Sat, 22 Oct 2022 18:42:22 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c02-basededatos/t09-migraciones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crear nuestras propias migraciones</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c02-basededatos/t10-propiasmigraciones/</link>
+      <pubDate>Sat, 22 Oct 2022 18:42:29 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c02-basededatos/t10-propiasmigraciones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Como modificar tablas con las migraciones de Laravel</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c02-basededatos/t11-modtablas/</link>
+      <pubDate>Sat, 22 Oct 2022 18:42:34 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c02-basededatos/t11-modtablas/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

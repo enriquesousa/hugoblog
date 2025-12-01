@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Setup User Permission on TJWeb</title>
+    <link>//localhost:1313/laravel/realestate/s45-userpermission/</link>
+    <description>Recent content in Setup User Permission on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 May 2023 10:37:46 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/realestate/s45-userpermission/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>User Permission Introduction</title>
+      <link>//localhost:1313/laravel/realestate/s45-userpermission/t205-intro/</link>
+      <pubDate>Fri, 26 May 2023 10:37:52 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s45-userpermission/t205-intro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Install Laravel Spatie Permission</title>
+      <link>//localhost:1313/laravel/realestate/s45-userpermission/t206-spatiepermission/</link>
+      <pubDate>Fri, 26 May 2023 10:37:59 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s45-userpermission/t206-spatiepermission/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Setup User Permission Part 1</title>
+      <link>//localhost:1313/laravel/realestate/s45-userpermission/t207-setupuserpermission_p1/</link>
+      <pubDate>Fri, 26 May 2023 10:38:15 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s45-userpermission/t207-setupuserpermission_p1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Setup User Permission Part 2</title>
+      <link>//localhost:1313/laravel/realestate/s45-userpermission/t208-setupuserpermission_p2/</link>
+      <pubDate>Fri, 26 May 2023 10:38:25 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s45-userpermission/t208-setupuserpermission_p2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Setup User Permission Part 3</title>
+      <link>//localhost:1313/laravel/realestate/s45-userpermission/t209-setupuserpermission_p3/</link>
+      <pubDate>Fri, 26 May 2023 10:38:33 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s45-userpermission/t209-setupuserpermission_p3/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

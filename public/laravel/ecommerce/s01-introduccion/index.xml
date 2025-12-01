@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introducción on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s01-introduccion/</link>
+    <description>Recent content in Introducción on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s01-introduccion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programas Necesarios</title>
+      <link>//localhost:1313/laravel/ecommerce/s01-introduccion/t01-programasnecesarios/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s01-introduccion/t01-programasnecesarios/</guid>
+      <description>&lt;p&gt;En el momento de probar este programa Ecommerce, las versiones instaladas en mi sistema son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;docker&lt;/strong&gt; - Docker image and container command line interface
+&lt;ul&gt;
+&lt;li&gt;Version
+&lt;ul&gt;
+&lt;li&gt;20.10.22, build 3a2c30b&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;docker-compose&lt;/strong&gt; - Define and run multi-container applications with Docker
+&lt;ul&gt;
+&lt;li&gt;Version
+&lt;ul&gt;
+&lt;li&gt;1.25.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;composer&lt;/strong&gt; - dependency management in PHP
+&lt;ul&gt;
+&lt;li&gt;Version
+&lt;ul&gt;
+&lt;li&gt;2.3.10&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;npm&lt;/strong&gt; - javascript package manager
+&lt;ul&gt;
+&lt;li&gt;Version
+&lt;ul&gt;
+&lt;li&gt;6.14.4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;node&lt;/strong&gt; — server-side JavaScript runtime
+&lt;ul&gt;
+&lt;li&gt;Version
+&lt;ul&gt;
+&lt;li&gt;v10.19.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;lando&lt;/strong&gt; - local development environment and DevOps tool built on Docker container technology
+&lt;ul&gt;
+&lt;li&gt;Version
+&lt;ul&gt;
+&lt;li&gt;v3.6.4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vscode&lt;/strong&gt; - Editor de Código
+&lt;ul&gt;
+&lt;li&gt;Version
+&lt;ul&gt;
+&lt;li&gt;v1.74&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DBeaver&lt;/strong&gt; - Universal DataBase Manager
+&lt;ul&gt;
+&lt;li&gt;Version
+&lt;ul&gt;
+&lt;li&gt;22.3.1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MySQL Workbench&lt;/strong&gt; - GUI tool for MySQL DataBase Manager
+&lt;ul&gt;
+&lt;li&gt;Version
+&lt;ul&gt;
+&lt;li&gt;8.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mi Laptop:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Instalación</title>
+      <link>//localhost:1313/laravel/ecommerce/s01-introduccion/t02-instalacion/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s01-introduccion/t02-instalacion/</guid>
+      <description>&lt;h2 id=&#34;que-es-lando&#34;&gt;Que es lando&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.lando.dev/getting-started/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lando&lt;/a&gt;
+ es para desarrolladores que quieren:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Rápidamente poner en marcha un ambiente de desarrollo con todas las herramientas necesarias para desarrollar todos sus proyectos.&lt;/li&gt;
+&lt;li&gt;Envíe estas dependencias de desarrollo local en un archivo de configuración por proyecto, el archivo de configuracion se puede compartir en tu git.&lt;/li&gt;
+&lt;li&gt;Automatice pasos de compilación complejos, configuraciones de prueba, implementaciones u otros flujos de trabajo repetidos más de una vez.&lt;/li&gt;
+&lt;li&gt;Evite el masoquismo incorporado de usar directamente &lt;strong&gt;docker&lt;/strong&gt; o &lt;strong&gt;docker-compose&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Es un entorno de desarrollo local gratuito, de código abierto, multiplataforma y una herramienta DevOps basada en la tecnología de contenedores Docker y desarrollada por Tandem. Diseñado para trabajar con la mayoría de los principales lenguajes, marcos y servicios, Lando proporciona una manera fácil para que los desarrolladores de todos los niveles de habilidad especifiquen requisitos simples o complejos para sus proyectos y luego se pongan a trabajar rápidamente en ellos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Extensiones VSC</title>
+      <link>//localhost:1313/laravel/ecommerce/s01-introduccion/t03-extensionesvsc/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s01-introduccion/t03-extensionesvsc/</guid>
+      <description>&lt;h3 id=&#34;vscode---list-installed-extensions&#34;&gt;Vscode - List Installed Extensions&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;code --list-extensions
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;adrianwilczynski.alpine-js-intellisense
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;amiralizadeh9480.laravel-extra-intellisense
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;austenc.laravel-blade-spacer
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bmewburn.vscode-intelephense-client
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bradlc.vscode-tailwindcss
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bungcip.better-toml
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cierra.livewire-vscode
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;codingyu.laravel-goto-view
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;dbankier.vscode-quick-select
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;EditorConfig.EditorConfig
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;equinusocio.vsc-material-theme-icons
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Grepper.grepper
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mikestead.dotenv
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mrmlnc.vscode-duplicate
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;onecentlin.laravel-blade
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;onecentlin.laravel5-snippets
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;PKief.material-icon-theme
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Shan.code-settings-sync
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;shufo.vscode-blade-formatter
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;streetsidesoftware.code-spell-checker
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;streetsidesoftware.code-spell-checker-spanish
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tobiasalthoff.atom-material-theme
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xdebug.php-debug
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xdebug.php-pack
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;zobo.php-intellisense
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

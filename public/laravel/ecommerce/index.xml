@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laravel Ecommerce on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/</link>
+    <description>Recent content in Laravel Ecommerce on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 08:59:01 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducción</title>
+      <link>//localhost:1313/laravel/ecommerce/s01-introduccion/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s01-introduccion/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s01-introduccion/t01-programasnecesarios/&#34; &gt;Programas Necesarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s01-introduccion/t02-instalacion/&#34; &gt;Instalación&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s01-introduccion/t03-extensionesvsc/&#34; &gt;Extensiones VSC&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Diseño de la Base de Datos</title>
+      <link>//localhost:1313/laravel/ecommerce/s02-basededatos/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s02-basededatos/</guid>
+      <description>&lt;h3 id=&#34;lista-de-subtemas&#34;&gt;Lista de Subtemas&lt;/h3&gt;
+
+&lt;ul class=&#34;children children-li children-sort-&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s02-basededatos/t04-maquinacion-bbdd1/&#34; &gt;Maquinación de la BBDD Parte 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s02-basededatos/t05-maquinacion-bbdd2/&#34; &gt;Maquinación de la BBDD Parte 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s02-basededatos/t06-modelofisico/&#34; &gt;Modelo Físico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//localhost:1313/laravel/ecommerce/s02-basededatos/t07-relacioneselouent/&#34; &gt;Generar relaciones Eloquent&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Insertar Registros de Prueba</title>
+      <link>//localhost:1313/laravel/ecommerce/s03-insertar-registros/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s03-insertar-registros/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ajustes de Estilos</title>
+      <link>//localhost:1313/laravel/ecommerce/s04-ajuste-de-estilos/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s04-ajuste-de-estilos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diseñando el header</title>
+      <link>//localhost:1313/laravel/ecommerce/s05-dise%C3%B1ando-el-header/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s05-dise%C3%B1ando-el-header/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diseñar Menú</title>
+      <link>//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Slider</title>
+      <link>//localhost:1313/laravel/ecommerce/s07-slider/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s07-slider/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Categorías</title>
+      <link>//localhost:1313/laravel/ecommerce/s08-categorias/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s08-categorias/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productos</title>
+      <link>//localhost:1313/laravel/ecommerce/s09-products/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s09-products/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Carrito de compras</title>
+      <link>//localhost:1313/laravel/ecommerce/s10-carrito-compras/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s10-carrito-compras/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Buscador</title>
+      <link>//localhost:1313/laravel/ecommerce/s11-buscador/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s11-buscador/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shopping cart</title>
+      <link>//localhost:1313/laravel/ecommerce/s12-shoppingcart/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s12-shoppingcart/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crear Ordenes</title>
+      <link>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mercado de pago</title>
+      <link>//localhost:1313/laravel/ecommerce/s14-mercado-pago/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s14-mercado-pago/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pasarela de pago PayPal</title>
+      <link>//localhost:1313/laravel/ecommerce/s15-pasarela-paypal/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s15-pasarela-paypal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Administrar Ordenes</title>
+      <link>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s16-admin-ordenes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agregar Productos</title>
+      <link>//localhost:1313/laravel/ecommerce/s17-agregar-productos/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s17-agregar-productos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Editar Productos</title>
+      <link>//localhost:1313/laravel/ecommerce/s18-editar-productos/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s18-editar-productos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Componente color product</title>
+      <link>//localhost:1313/laravel/ecommerce/s19-componente-color/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s19-componente-color/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Componente size product</title>
+      <link>//localhost:1313/laravel/ecommerce/s20-componente-size/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s20-componente-size/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Subir Imágenes</title>
+      <link>//localhost:1313/laravel/ecommerce/s21-subir-imagenes/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s21-subir-imagenes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Detalles Finales</title>
+      <link>//localhost:1313/laravel/ecommerce/s22-detalles-finales/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s22-detalles-finales/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Categorías</title>
+      <link>//localhost:1313/laravel/ecommerce/s23-categorias/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s23-categorias/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Subcategoría</title>
+      <link>//localhost:1313/laravel/ecommerce/s24-subcategorias/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s24-subcategorias/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cruds finales</title>
+      <link>//localhost:1313/laravel/ecommerce/s25-cruds-finales/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s25-cruds-finales/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ordenes</title>
+      <link>//localhost:1313/laravel/ecommerce/s26-ordenes/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s26-ordenes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Envíos</title>
+      <link>//localhost:1313/laravel/ecommerce/s27-envios/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s27-envios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Laravel Permission</title>
+      <link>//localhost:1313/laravel/ecommerce/s28-laravel-permission/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s28-laravel-permission/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diseño responsivo</title>
+      <link>//localhost:1313/laravel/ecommerce/s29-dise%C3%B1o-responsivo/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s29-dise%C3%B1o-responsivo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reseñas</title>
+      <link>//localhost:1313/laravel/ecommerce/s30-rese%C3%B1as/</link>
+      <pubDate>Fri, 23 Dec 2022 11:18:41 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s30-rese%C3%B1as/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crud on TJWeb</title>
+    <link>//localhost:1313/laravel/laraveldesde0/c04-crud/</link>
+    <description>Recent content in Crud on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Oct 2022 15:39:51 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/laraveldesde0/c04-crud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como listar y leer registros en Laravel</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c04-crud/t17-listaryleer/</link>
+      <pubDate>Fri, 21 Oct 2022 15:39:56 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c04-crud/t17-listaryleer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Como agregar y actualizar registros desde un formulario</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c04-crud/t18-agregaryactualizar/</link>
+      <pubDate>Fri, 21 Oct 2022 15:40:01 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c04-crud/t18-agregaryactualizar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Como validar formularios en Laravel</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c04-crud/t19-validar/</link>
+      <pubDate>Fri, 21 Oct 2022 15:40:05 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c04-crud/t19-validar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Que son los Form Request</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c04-crud/t20-formrequest/</link>
+      <pubDate>Fri, 21 Oct 2022 15:40:09 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c04-crud/t20-formrequest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Que es asignación masiva</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c04-crud/t21-asignacionmasiva/</link>
+      <pubDate>Fri, 21 Oct 2022 15:40:15 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c04-crud/t21-asignacionmasiva/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Como eliminar un registro de la base de datos</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c04-crud/t22-eliminar/</link>
+      <pubDate>Fri, 21 Oct 2022 15:40:22 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c04-crud/t22-eliminar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Como crear rutas con route resource</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c04-crud/t23-routesresource/</link>
+      <pubDate>Fri, 21 Oct 2022 15:40:26 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c04-crud/t23-routesresource/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

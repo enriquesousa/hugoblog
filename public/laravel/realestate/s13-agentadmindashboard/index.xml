@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manage Agent In Admin Dashboard on TJWeb</title>
+    <link>//localhost:1313/laravel/realestate/s13-agentadmindashboard/</link>
+    <description>Recent content in Manage Agent In Admin Dashboard on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 May 2023 08:59:18 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/realestate/s13-agentadmindashboard/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manage Agent In admin Page Part 1</title>
+      <link>//localhost:1313/laravel/realestate/s13-agentadmindashboard/t90-adminpage_p1/</link>
+      <pubDate>Fri, 26 May 2023 08:59:26 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s13-agentadmindashboard/t90-adminpage_p1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Manage Agent In admin Page Part 2</title>
+      <link>//localhost:1313/laravel/realestate/s13-agentadmindashboard/t91-adminpage_p2/</link>
+      <pubDate>Fri, 26 May 2023 08:59:54 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s13-agentadmindashboard/t91-adminpage_p2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Manage Agent In admin Page Part 3</title>
+      <link>//localhost:1313/laravel/realestate/s13-agentadmindashboard/t92-adminpage_p3/</link>
+      <pubDate>Fri, 26 May 2023 09:00:07 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s13-agentadmindashboard/t92-adminpage_p3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Active Inactive In Agent Dashboard</title>
+      <link>//localhost:1313/laravel/realestate/s13-agentadmindashboard/t93-agentdashboard/</link>
+      <pubDate>Fri, 26 May 2023 09:00:15 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s13-agentadmindashboard/t93-agentdashboard/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Active Inactive Agent From Admin Page</title>
+      <link>//localhost:1313/laravel/realestate/s13-agentadmindashboard/t94-agentadmin/</link>
+      <pubDate>Fri, 26 May 2023 09:00:22 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s13-agentadmindashboard/t94-agentadmin/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gimp2 on TJWeb</title>
+    <link>//localhost:1313/herramientas/gimp2/</link>
+    <description>Recent content in Gimp2 on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 May 2025 05:56:05 -0700</lastBuildDate><atom:link href="//localhost:1313/herramientas/gimp2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crear KB Shortcuts</title>
+      <link>//localhost:1313/herramientas/gimp2/t01-crearkbshortcuts/</link>
+      <pubDate>Thu, 01 May 2025 05:56:36 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/gimp2/t01-crearkbshortcuts/</guid>
+      <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Crear Keyboard Short Cuts&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;habilitar&#34;&gt;Habilitar&lt;/h2&gt;
+&lt;p&gt;Enable dynamic keyboard shortcuts
+&lt;img src=&#34;//localhost:1313/herramientas/gimp2/Pasted_image_20250501052117.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;p&gt;con esto ya podemos acceder al menu &lt;strong&gt;edit/keyboard shortcuts&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;shortcut---image-indexed&#34;&gt;Shortcut - Image Indexed&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Alt+Shift+m&lt;/code&gt;
+&lt;img src=&#34;//localhost:1313/herramientas/gimp2/Pasted_image_20250501053535.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;shortcut---scale-image&#34;&gt;Shortcut - Scale Image&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Alt+Shift+s&lt;/code&gt;
+&lt;img src=&#34;//localhost:1313/herramientas/gimp2/Pasted_image_20250501053634.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Herramientas - Gimp - Crear Keyboard Shortcuts&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

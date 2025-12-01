@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bitácora on TJWeb</title>
+    <link>//localhost:1313/herramientas/bitacora/</link>
+    <description>Recent content in Bitácora on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Aug 2024 08:44:31 -0700</lastBuildDate><atom:link href="//localhost:1313/herramientas/bitacora/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DIC 2025</title>
+      <link>//localhost:1313/herramientas/bitacora/t07-dic25/</link>
+      <pubDate>Sun, 30 Nov 2025 08:47:53 -0800</pubDate>
+      <guid>//localhost:1313/herramientas/bitacora/t07-dic25/</guid>
+      <description>&lt;h2 id=&#34;mon-01-12-25-0712&#34;&gt;Mon 01-12-25 07:12&lt;/h2&gt;
+&lt;h3 id=&#34;tema&#34;&gt;Tema&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Instalar Hugo en windows&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Instale Hugo en windows, me tope con un error de compilación que lo resolví con la ayuda de la &lt;strong&gt;AI&lt;/strong&gt; de google. Para la instalación Seguir estos pasos del video! YouTube &lt;a href=&#34;https://www.youtube.com/watch?v=8BrADPJgA-4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;
+ y para la solución ver los apuntes que hice en como instalar Hugo  [[Install in Windows]].&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NOV 2025</title>
+      <link>//localhost:1313/herramientas/bitacora/t06-nov25/</link>
+      <pubDate>Sun, 30 Nov 2025 08:42:12 -0800</pubDate>
+      <guid>//localhost:1313/herramientas/bitacora/t06-nov25/</guid>
+      <description>&lt;h2 id=&#34;sun-30-11-25-0811&#34;&gt;Sun 30-11-25 08:11&lt;/h2&gt;
+&lt;p&gt;Voy a configurar un archivo por mes, para que así sea mas fácil crear una bitácora que pueda subir y actualizar diariamente en &lt;strong&gt;Hugo&lt;/strong&gt; con:&lt;code&gt;hugo new herramientas/bitacora/t06-NOV25.md&lt;/code&gt; De esta manera puedo editar rápidamente la bitácora aquí en obsidian y cada día copy paste al archivo correspondiente en &lt;strong&gt;hugo&lt;/strong&gt; y así puedo hacer un push diario a &lt;strong&gt;GitHub&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;La lista de creación de archivos en &lt;strong&gt;hugo&lt;/strong&gt; la sigo manteniendo en [[Herramientas - Bitácora]]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>29NOV25 - Examen Modulo 9</title>
+      <link>//localhost:1313/herramientas/bitacora/t05-29nov25/</link>
+      <pubDate>Sat, 29 Nov 2025 10:39:14 -0800</pubDate>
+      <guid>//localhost:1313/herramientas/bitacora/t05-29nov25/</guid>
+      <description>&lt;h1 id=&#34;cisco---curso-fundamentos-de-análisis-de-datos&#34;&gt;CISCO - Curso Fundamentos de Análisis de Datos&lt;/h1&gt;
+&lt;p&gt;Cisco Termine Examen Modulo 9&lt;/p&gt;
+&lt;h2 id=&#34;crear-en-hugo&#34;&gt;Crear en hugo&lt;/h2&gt;
+&lt;p&gt;hugo new herramientas/bitacora/t04-28NOV25.md
+hugo new herramientas/bitacora/t05-29NOV25.md&lt;/p&gt;
+&lt;h2 id=&#34;mejor-voy-a-crear-un-archivo-por-mes&#34;&gt;Mejor voy a crear un archivo por mes&lt;/h2&gt;
+&lt;p&gt;hugo new herramientas/bitacora/t06-NOV25.md&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

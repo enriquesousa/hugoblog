@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diseñando el header on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s05-dise%C3%B1ando-el-header/</link>
+    <description>Recent content in Diseñando el header on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s05-dise%C3%B1ando-el-header/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diseñando el header</title>
+      <link>//localhost:1313/laravel/ecommerce/s05-dise%C3%B1ando-el-header/t17-dise%C3%B1ando-header/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s05-dise%C3%B1ando-el-header/t17-dise%C3%B1ando-header/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Incluir icono de lupa</title>
+      <link>//localhost:1313/laravel/ecommerce/s05-dise%C3%B1ando-el-header/t18-icono-lupa/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s05-dise%C3%B1ando-el-header/t18-icono-lupa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Incluir dropdown</title>
+      <link>//localhost:1313/laravel/ecommerce/s05-dise%C3%B1ando-el-header/t19-dropdown/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s05-dise%C3%B1ando-el-header/t19-dropdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Incluir icono de carrito de compras</title>
+      <link>//localhost:1313/laravel/ecommerce/s05-dise%C3%B1ando-el-header/t20-icono-carrito/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s05-dise%C3%B1ando-el-header/t20-icono-carrito/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

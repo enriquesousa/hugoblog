@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multi Admin For Store on TJWeb</title>
+    <link>//localhost:1313/laravel/realestate/s48-multiadminstore/</link>
+    <description>Recent content in Multi Admin For Store on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 May 2023 10:41:41 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/realestate/s48-multiadminstore/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi Admin Setup Part 1</title>
+      <link>//localhost:1313/laravel/realestate/s48-multiadminstore/t225-multiadmin_p1/</link>
+      <pubDate>Fri, 26 May 2023 10:41:51 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s48-multiadminstore/t225-multiadmin_p1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multi Admin Setup Part 2</title>
+      <link>//localhost:1313/laravel/realestate/s48-multiadminstore/t226-multiadmin_p2/</link>
+      <pubDate>Fri, 26 May 2023 10:42:05 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s48-multiadminstore/t226-multiadmin_p2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multi Admin Setup Part 3</title>
+      <link>//localhost:1313/laravel/realestate/s48-multiadminstore/t227-multiadmin_p3/</link>
+      <pubDate>Fri, 26 May 2023 10:42:11 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s48-multiadminstore/t227-multiadmin_p3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multi Admin Setup Part 4</title>
+      <link>//localhost:1313/laravel/realestate/s48-multiadminstore/t228-multiadmin_p4/</link>
+      <pubDate>Fri, 26 May 2023 10:42:17 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s48-multiadminstore/t228-multiadmin_p4/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

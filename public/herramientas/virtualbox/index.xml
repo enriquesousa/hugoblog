@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Virtualbox on TJWeb</title>
+    <link>//localhost:1313/herramientas/virtualbox/</link>
+    <description>Recent content in Virtualbox on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Apr 2024 05:27:29 -0700</lastBuildDate><atom:link href="//localhost:1313/herramientas/virtualbox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Virtual Box</title>
+      <link>//localhost:1313/herramientas/virtualbox/t01-install/</link>
+      <pubDate>Tue, 09 Apr 2024 06:50:23 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/virtualbox/t01-install/</guid>
+      <description>&lt;p&gt;En mx linux lo instale con el mx package installer.
+How to Run an Ubuntu Server VM with VirtualBox (and login via SSH)  con &lt;em&gt;Tony Teaches Thec&lt;/em&gt;.
+&lt;a href=&#34;https://www.youtube.com/watch?v=wqm_DXh0PlQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;YouTube&lt;/a&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;instale-un-server-ubuntu-2204&#34;&gt;Instale un server ubuntu 22.04&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;user: enrique
+server: ubuntu
+pasw: linuxmint
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;asegurarnos-de-instalar&#34;&gt;Asegurarnos de Instalar&lt;/h2&gt;
+&lt;p&gt;Asegurarnos de tener instalado &lt;a href=&#34;https://www.youtube.com/watch?v=n86ywwkPDMU&amp;amp;t=191s&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;
+.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;sudo apt update&lt;/li&gt;
+&lt;li&gt;sudo apt upgrade&lt;/li&gt;
+&lt;li&gt;sudo apt install openssh-server&lt;/li&gt;
+&lt;li&gt;sudo service ssh start&lt;/li&gt;
+&lt;li&gt;sudo systemctl status ssh&lt;/li&gt;
+&lt;li&gt;sudo ufw allow ssh&lt;/li&gt;
+&lt;li&gt;sudo ufw enable&lt;/li&gt;
+&lt;li&gt;sudo ufw status
+&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;configuración-nat&#34;&gt;Configuración NAT&lt;/h2&gt;
+&lt;p&gt;Para configurar el que podamos entrar a la maquina via &lt;code&gt;ssh&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LEMP stack - Install Nginx</title>
+      <link>//localhost:1313/herramientas/virtualbox/t02-lempstack/</link>
+      <pubDate>Tue, 09 Apr 2024 06:51:01 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/virtualbox/t02-lempstack/</guid>
+      <description>&lt;p&gt;Instalar lemp stack en nuestro server en virtual box.
+How to Run WordPress Locally (in a VirtualBox VM)
+&lt;a href=&#34;https://www.youtube.com/watch?v=PsMhopODLTY&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;YouTube&lt;/a&gt;
+.
+&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id=&#34;login-al-server&#34;&gt;Login al Server&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;ssh enrique@localhost -p 2222&lt;/code&gt;
+&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id=&#34;update-and-upgrade&#34;&gt;Update and Upgrade&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;sudo apt update&lt;/code&gt;
+&lt;code&gt;sudo apt upgrade&lt;/code&gt;
+&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id=&#34;instalar-nginx&#34;&gt;Instalar nginx&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;sudo apt install nginx&lt;/code&gt;
+&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id=&#34;check-listening-ports-with-netstat&#34;&gt;Check Listening Ports with netstat&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://linuxize.com/post/check-listening-ports-linux/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;
+
+&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

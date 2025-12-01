@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Subir Imágenes on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s21-subir-imagenes/</link>
+    <description>Recent content in Subir Imágenes on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s21-subir-imagenes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Subir imágenes con Dropzone</title>
+      <link>//localhost:1313/laravel/ecommerce/s21-subir-imagenes/t149-dropzone/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s21-subir-imagenes/t149-dropzone/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mostrar y eliminar imágenes</title>
+      <link>//localhost:1313/laravel/ecommerce/s21-subir-imagenes/t150-mostar-eliminar/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s21-subir-imagenes/t150-mostar-eliminar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solucionar error</title>
+      <link>//localhost:1313/laravel/ecommerce/s21-subir-imagenes/t151-error/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s21-subir-imagenes/t151-error/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Refrescar imágenes</title>
+      <link>//localhost:1313/laravel/ecommerce/s21-subir-imagenes/t152-refrescar/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s21-subir-imagenes/t152-refrescar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solucionar error</title>
+      <link>//localhost:1313/laravel/ecommerce/s21-subir-imagenes/t153-solucionar-error/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s21-subir-imagenes/t153-solucionar-error/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eliminar datos sobrantes</title>
+      <link>//localhost:1313/laravel/ecommerce/s21-subir-imagenes/t154-eliminar-datos/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s21-subir-imagenes/t154-eliminar-datos/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frontend del Blog on TJWeb</title>
+    <link>//localhost:1313/laravel/laraveldesde0/c11-blogfrontend/</link>
+    <description>Recent content in Frontend del Blog on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Oct 2022 13:29:47 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/laraveldesde0/c11-blogfrontend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mostrar el listado de posts</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c11-blogfrontend/t49-listapost/</link>
+      <pubDate>Sat, 22 Oct 2022 13:30:43 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c11-blogfrontend/t49-listapost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mostrar el detalle de un post</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c11-blogfrontend/t50-showpost/</link>
+      <pubDate>Sat, 22 Oct 2022 13:30:48 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c11-blogfrontend/t50-showpost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Filtrar los posts por categorías</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c11-blogfrontend/t51-filtrocategoria/</link>
+      <pubDate>Sat, 22 Oct 2022 13:30:53 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c11-blogfrontend/t51-filtrocategoria/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Filtrar los posts por etiquetas</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c11-blogfrontend/t52-filtroetiqueta/</link>
+      <pubDate>Sat, 22 Oct 2022 13:30:57 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c11-blogfrontend/t52-filtroetiqueta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cómo integrar AdminLTE 3 en tu proyecto de Laravel</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c11-blogfrontend/t53-adminlte/</link>
+      <pubDate>Sat, 22 Oct 2022 13:31:01 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c11-blogfrontend/t53-adminlte/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

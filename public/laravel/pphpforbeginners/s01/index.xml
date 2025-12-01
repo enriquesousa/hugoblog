@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sección 1: Lo Fundamental on TJWeb</title>
+    <link>//localhost:1313/laravel/pphpforbeginners/s01/</link>
+    <description>Recent content in Sección 1: Lo Fundamental on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Mar 2023 09:08:02 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/pphpforbeginners/s01/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El Maestro</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s01/t01-maestro/</link>
+      <pubDate>Wed, 01 Mar 2023 09:12:45 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s01/t01-maestro/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Hola, soy Jeffrey. Soy el creador de Laracasts y paso la mayor parte de mis días construyendo el sitio y pensando en nuevas formas de enseñar conceptos confusos. Vivo en Orlando, Florida con mi esposa y mis dos hijos.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Herramientas</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s01/t02-herramientas/</link>
+      <pubDate>Wed, 01 Mar 2023 09:14:52 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s01/t02-herramientas/</guid>
+      <description>&lt;p&gt;Lista de Herramientas que utilize para este curso&lt;/p&gt;
+&lt;h2 id=&#34;environments&#34;&gt;Environments&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;Homebrew 
+Laragon 
+WSL
+XAMPP *
+MAMP
+PHP Local Server *
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;code-editors&#34;&gt;Code Editors&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;PHPStorm 
+Sublime Text
+Visual Studio Code *
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;terminals&#34;&gt;Terminals&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;Warp 
+iTerm
+Windows Terminal
+GNOME Terminal *
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;database-guis&#34;&gt;Database GUIs&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;Table Plus 
+PHPMyAdmin
+DBeaver *
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Tu primera etiqueta PHP</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s01/t03-etiquetaphp/</link>
+      <pubDate>Wed, 01 Mar 2023 09:15:08 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s01/t03-etiquetaphp/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Acerca de esta lección&lt;/strong&gt;: Nuestra primera orden del día es preparar algo de HTML básico, iniciar un servidor PHP y verlo en el navegador.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PHP Tags&lt;/li&gt;
+&lt;li&gt;Strings&lt;/li&gt;
+&lt;li&gt;echo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tarea&#34;&gt;Tarea&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Cree un párrafo que use PHP para hacer eco de cualquier oración básica de su elección. Practique escribir las etiquetas &amp;lt;?php de apertura y cierre.&lt;/p&gt;
+&lt;h2 id=&#34;crear-primer-archivo&#34;&gt;Crear primer archivo&lt;/h2&gt;
+&lt;p&gt;En &lt;code&gt;index.php&lt;/code&gt; en alguna carpeta por ejemplo learn-php/
+Empezamos con el clásico &amp;ldquo;Hola, Mundo!&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Variables</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s01/t04-variables/</link>
+      <pubDate>Wed, 01 Mar 2023 09:15:19 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s01/t04-variables/</guid>
+      <description>&lt;p&gt;Bien, avancemos y revisemos la concatenación básica y las variables. La primera vez que aprendí sobre las variables, mi primer pensamiento fue: &amp;ldquo;¿Pero por qué?&amp;rdquo;. ¡Hablemos de eso!&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Concatenation&lt;/li&gt;
+&lt;li&gt;Variables&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;concatenar-strings&#34;&gt;Concatenar strings.&lt;/h2&gt;
+&lt;h2 id=&#34;modo-1&#34;&gt;Modo 1&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;h1&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;php&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hola, &amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Mundo!&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;?&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&amp;lt;/h1&amp;gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;modo-2&#34;&gt;Modo 2&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;php&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    $saludo &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hola&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;echo&lt;/span&gt; $saludo&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Mundo!&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;?&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;refactoring-1&#34;&gt;Refactoring 1&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;php&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    $saludo &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hola&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;$saludo&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; Mundo!&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;?&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;definición-de-refactoring&#34;&gt;Definición de Refactoring&lt;/h1&gt;
+&lt;p&gt;Cuando modificamos el código sin necesariamente modificar el resultado para el usuario final!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Condicionales y Booleanos</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s01/t05-condicionales/</link>
+      <pubDate>Wed, 01 Mar 2023 09:15:33 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s01/t05-condicionales/</guid>
+      <description>&lt;p&gt;Para este próximo episodio, crearemos una página web rápida que muestre un mensaje dinámico basado en si ha leído o no un libro en particular. Esto nos dará la oportunidad de revisar tanto los condicionales como los booleanos.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Conditionals&lt;/li&gt;
+&lt;li&gt;Booleans&lt;/li&gt;
+&lt;li&gt;Short Echo Tags&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;desplegar-un-titulo-de-un-libro&#34;&gt;Desplegar un titulo de un libro&lt;/h2&gt;
+&lt;p&gt;Cambiamos un poco el estilo css del body tag para que se vea un poco mas estético.
+&lt;details&gt;
+    &lt;div class=&#34;highlight-wrapper&#34;&gt;
+        
+        
+        &lt;summary&gt;Código PHP&lt;/summary&gt;
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;!&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;DOCTYPE&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;html&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;html&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;lang&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;head&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;meta&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;charset&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;UTF-8&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;meta&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;http&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;equiv&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;X-UA-Compatible&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;content&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;IE=edge&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;meta&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;viewport&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;content&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Learn&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;PHP&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;style&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a6e22e&#34;&gt;body&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#a6e22e&#34;&gt;display&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;grid&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#a6e22e&#34;&gt;place&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;items&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;center&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#a6e22e&#34;&gt;height&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;vh&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#a6e22e&#34;&gt;margin&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#a6e22e&#34;&gt;font&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;family&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sans&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;serif&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;style&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;head&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;body&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;php&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        $name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Dark Matter&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;?&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;    &amp;lt;h1&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;        Tu haz leído &amp;#34;&amp;lt;?php echo $name; ?&amp;gt;.&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;    &amp;lt;/h1&amp;gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&amp;lt;/body&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&amp;lt;/html&amp;gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Arreglos (array)</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s01/t06-arreglos/</link>
+      <pubDate>Wed, 01 Mar 2023 09:15:44 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s01/t06-arreglos/</guid>
+      <description>&lt;p&gt;En este punto, debes de saber cómo crear una variable para una cadena o número primitivo. Pero, ¿qué pasa con las situaciones en las que queremos declarar una colección o una lista de cosas? ¿Una lista de nombres de usuario, títulos de libros o tuits? En estas situaciones, podemos buscar arreglos.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Arrays&lt;/li&gt;
+&lt;li&gt;Foreach&lt;/li&gt;
+&lt;li&gt;Alternative Syntax&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;--books--&#34;&gt;- Books -&lt;/h3&gt;
+&lt;h3 id=&#34;do-androids-dream-of-electric-sheep&#34;&gt;Do Androids Dream of Electric Sheep?&lt;/h3&gt;
+&lt;p&gt;Info&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Author&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;Philip&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;K&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Dick&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Country&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;United&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;States&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Language&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;English&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Genre&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Science&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fiction&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;philosophical&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fiction&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;noir&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fiction&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Publisher&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Doubleday&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Publication_date&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1968&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Media_type&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;Print&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;hardback&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;paperback&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Pages&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;	&lt;span style=&#34;color:#ae81ff&#34;&gt;210&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;wiki&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;https&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;://&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;en&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;wikipedia&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;org&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;wiki&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Do_Androids_Dream_of_Electric_Sheep&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;F&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Description&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Arreglos Asociativos (Associative Arrays)</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s01/t07-arreglosasociativos/</link>
+      <pubDate>Wed, 01 Mar 2023 09:16:18 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s01/t07-arreglosasociativos/</guid>
+      <description>&lt;p&gt;Sigamos con las matrices un poco más. En este episodio, aprenderá la sintaxis para acceder a elementos individuales dentro de una matriz. También aprenderá sobre matrices asociativas, que le permiten asociar una clave con cada valor.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Array Access&lt;/li&gt;
+&lt;li&gt;Key-Value Pairs&lt;/li&gt;
+&lt;li&gt;Data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para poder acceder a elementos individuales dentro de un arreglo.
+Por ejemplo para recuperar el primer libro del arreglo.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;p&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;?=&lt;/span&gt; $books[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;] &lt;span style=&#34;color:#75715e&#34;&gt;?&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&amp;lt;/p&amp;gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ahora si deseamos tener mas datos asociados a cada libro.
+Podemos usar arreglos dentro de arreglos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Funciones y Filtros</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s01/t08-funcionesfiltros/</link>
+      <pubDate>Wed, 01 Mar 2023 09:16:43 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s01/t08-funcionesfiltros/</guid>
+      <description>&lt;p&gt;¡Felicitaciones por llegar tan lejos! Vayamos un paso más allá ahora y revisemos las funciones. Puedes pensar en las funciones como los verbos del mundo de la programación.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Functions&lt;/li&gt;
+&lt;li&gt;Array Filtering&lt;/li&gt;
+&lt;li&gt;Checking for Equality&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Filtrar por autor&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;php&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;foreach&lt;/span&gt; ($books &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; $book) &lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;?&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;    &amp;lt;?php if($book[&amp;#39;author&amp;#39;] == &amp;#39;Andy Weir&amp;#39;) : ?&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;        &amp;lt;li&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;            &amp;lt;a href=&amp;#34;&amp;lt;?= $book[&amp;#39;purchaseUrl&amp;#39;] ?&amp;gt;&amp;#34;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;                &amp;lt;?= $book[&amp;#39;name&amp;#39;] ?&amp;gt; (&amp;lt;?= $book[&amp;#39;Publication_date&amp;#39;]?&amp;gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;            &amp;lt;/a&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;        &amp;lt;/li&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;    &amp;lt;?php endif; ?&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&amp;lt;?php endforeach; ?&amp;gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Operadores comparativos php&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Funciones Lambda</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s01/t09-funcioneslambda/</link>
+      <pubDate>Wed, 01 Mar 2023 09:17:14 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s01/t09-funcioneslambda/</guid>
+      <description>&lt;p&gt;¡Abróchate el cinturón, porque tenemos mucho que cubrir en este episodio! Como parte de nuestra primera refactorización de código, analizaremos qué son las funciones lambda, así como cuándo y por qué podría utilizarlas.&lt;/p&gt;
+&lt;p&gt;Para poder filtrar por diferentes parámetros, no solo por autor si no por cualquier otro parámetro que tengamos en nuestro arreglo de $books, inicialmente nos veríamos tentados a empezar a duplicar código para filtrar por otro parámetro, pero para evitar esta duplicación de código, podemos aplicar las técnicas de las funciones lambda de php.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Separemos la Lógica de la plantilla</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s01/t10-separatelogic/</link>
+      <pubDate>Wed, 01 Mar 2023 09:17:26 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s01/t10-separatelogic/</guid>
+      <description>&lt;p&gt;Antes de continuar con el control técnico de este capítulo, dediquemos un poco de tiempo a discutir la organización del código y por qué podríamos querer separar nuestra lógica PHP de la vista o HTML.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Code Organization&lt;/li&gt;
+&lt;li&gt;Logic Separation&lt;/li&gt;
+&lt;li&gt;require and include&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mover-código&#34;&gt;Mover código&lt;/h2&gt;
+&lt;p&gt;Mover código php a parte superior, como un primer paso podemos mover el código php y a la parte superior del archivo html así:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Verificación Técnica 1</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s01/t11-verificaciontecnica1/</link>
+      <pubDate>Wed, 01 Mar 2023 09:17:37 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s01/t11-verificaciontecnica1/</guid>
+      <description>&lt;p&gt;Antes de pasar a la sección dos, hagamos una verificación técnica rápida para asegurarnos de que todo lo que ha aprendido hasta ahora se ha memorizado. Y no olvides completar el cuestionario antes de continuar.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Variables&lt;/li&gt;
+&lt;li&gt;Conditionals&lt;/li&gt;
+&lt;li&gt;Loops&lt;/li&gt;
+&lt;li&gt;Functions&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

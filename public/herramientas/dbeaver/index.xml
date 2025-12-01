@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dbeaver on TJWeb</title>
+    <link>//localhost:1313/herramientas/dbeaver/</link>
+    <description>Recent content in Dbeaver on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Mar 2023 11:50:46 -0800</lastBuildDate><atom:link href="//localhost:1313/herramientas/dbeaver/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Keyboard Short Cuts</title>
+      <link>//localhost:1313/herramientas/dbeaver/t01-kbshortcuts/</link>
+      <pubDate>Tue, 07 Mar 2023 11:54:34 -0800</pubDate>
+      <guid>//localhost:1313/herramientas/dbeaver/t01-kbshortcuts/</guid>
+      <description>&lt;p&gt;Aquí hay una lista completa de teclas de &lt;a href=&#34;https://dbeaver.com/2023/02/10/shortcuts-0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;acceso rápido&lt;/a&gt;
+ predeterminadas en DBeaver UI para usuarios de Windows, Linux y macOS. Le ayudará a trabajar en DBeaver de manera más rápida y eficiente. Recuerda que siempre puedes cambiar el atajo de teclado en la configuración de DBeaver. Vaya a: Ventana - Preferencias - Interfaz de usuario y Keys, Seleccione el comando y agregue un atajo de teclado a la fila Encuadernación.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Copy Schema Structure</title>
+      <link>//localhost:1313/herramientas/dbeaver/t02-copyschema/</link>
+      <pubDate>Tue, 07 Mar 2023 11:56:58 -0800</pubDate>
+      <guid>//localhost:1313/herramientas/dbeaver/t02-copyschema/</guid>
+      <description>&lt;p&gt;Copiar el schema de la tabla para poder reproducirla después con código SQL.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Abrir pestaña de &lt;code&gt;propiedades&lt;/code&gt; de la tabla
+&lt;img src=&#34;//localhost:1313/dbeaver/dbeaver_properties.png&#34; alt=&#34;Widgets&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Entrar a &lt;code&gt;DDL&lt;/code&gt; (Data Definition Language)
+&lt;img src=&#34;//localhost:1313/dbeaver/ddl.png&#34; alt=&#34;Widgets&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Que es &lt;code&gt;DDL&lt;/code&gt;?
+El lenguaje de definición de datos (DDL) se utiliza para crear y modificar la estructura de los objetos en una base de datos utilizando comandos predefinidos y una sintaxis específica. Estos objetos de base de datos incluyen tablas, secuencias, ubicaciones, alias, esquemas e índices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Importar Datos a Tabla</title>
+      <link>//localhost:1313/herramientas/dbeaver/t03-importardata/</link>
+      <pubDate>Tue, 07 Mar 2023 12:01:28 -0800</pubDate>
+      <guid>//localhost:1313/herramientas/dbeaver/t03-importardata/</guid>
+      <description>&lt;p&gt;Para importar datos a una tabla, dar click derecho a la tabla donde queremos importar los datos y escoger &lt;code&gt;CSV file&lt;/code&gt;, podemos importar datos por ejemplo:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-csv&#34; data-lang=&#34;csv&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;id&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;name&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;email&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;Jeffrey Way&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;JeffreyWay@laracast.com&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;Enrique Sousa&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;enrique.sousa@gmail.com&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;3&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;Ashley C. Burke&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;AshleyCBurke@jourrapide.com&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;4&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;Scott D. Wang&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;ScottDWang@rhyta.com&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;5&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;Lorenzo T. Painter&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;LorenzoTPainter@jourrapide.com&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

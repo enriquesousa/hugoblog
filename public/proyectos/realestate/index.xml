@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gestor de Bienes Raíces on TJWeb</title>
+    <link>//localhost:1313/proyectos/realestate/</link>
+    <description>Recent content in Gestor de Bienes Raíces on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 May 2025 09:48:28 -0700</lastBuildDate><atom:link href="//localhost:1313/proyectos/realestate/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sumario</title>
+      <link>//localhost:1313/proyectos/realestate/t00-sumario/</link>
+      <pubDate>Tue, 13 May 2025 09:51:14 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/realestate/t00-sumario/</guid>
+      <description>&lt;h2 id=&#34;descripción-general&#34;&gt;Descripción General&lt;/h2&gt;
+&lt;p&gt;Gestor de Bienes Raíces. Con este sistema de administración de bienes raíces, podemos crear un sistema de gestión de bienes raíces (Real Estate) todo controlado desde nuestro &lt;strong&gt;back end&lt;/strong&gt;, podemos controlar el contenido de las siguientes secciones del &lt;strong&gt;front end&lt;/strong&gt;, como son: Banner Principal, Categorías, Propiedades Populares, Video de Promoción, Mejores Ofertas, Testimonios , Porque Elegirnos, Lugares Populares, Nuestros Agentes, Acceso Rápido Compra o Renta Propiedades,  Blog (Artículos y Noticias), Descarga nuestra App Mobil, Pie de Pagina (Footer).
+También el sistema cuenta con un módulo de mensajes para poder mandar mensajes privados a un agente de ventas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Login</title>
+      <link>//localhost:1313/proyectos/realestate/t01-login/</link>
+      <pubDate>Tue, 13 May 2025 09:59:13 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/realestate/t01-login/</guid>
+      <description>&lt;h2 id=&#34;ventana-de-login&#34;&gt;Ventana de Login&lt;/h2&gt;
+&lt;p&gt;Esta es la ventana de login donde podrás iniciar sesión con correo y contraseña. Y tendrás acceso al sistema dependiendo el rol y permiso que se te haya asignado. Ademas tienes la ventaja de poder iniciar sesión con Correo Electrónico, Solo tu Nombre o con tu Teléfono, cualquiera de las tres.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/realestate/realstate_fe_login_opt_700x500.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Documentación | Gestor de Bienes Raíces | Login | TJWeb&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

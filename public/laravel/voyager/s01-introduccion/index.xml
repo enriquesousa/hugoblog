@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introducción on TJWeb</title>
+    <link>//localhost:1313/laravel/voyager/s01-introduccion/</link>
+    <description>Recent content in Introducción on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/voyager/s01-introduccion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalar Voyager</title>
+      <link>//localhost:1313/laravel/voyager/s01-introduccion/t01-instalarvoyager/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s01-introduccion/t01-instalarvoyager/</guid>
+      <description>&lt;h3 id=&#34;paso-1&#34;&gt;Paso 1&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Instalar Proyecto nuevo de Laravel&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Iniciar un proyecto nuevo de laravel con ambiente de desarrollo &lt;strong&gt;lando&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Nota!&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;No&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;hacer&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;las&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;migraciones&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;todavía&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Usando los 10 pasos explicados &lt;a href=&#34;//localhost:1313/laravel/ecommerce/s01-introduccion/t02-instalacion/&#34; title=&#34;About Us&#34;&gt;Aquí&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Correr lando con:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;lando&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;start&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;lando&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;npm&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;run&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;dev&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Vite responde con:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;VITE&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;v4&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.3&lt;/span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;ready&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;726&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;ms&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;➜&lt;/span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;Local&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;   &lt;span style=&#34;color:#a6e22e&#34;&gt;http&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;://&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;localhost&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;5173&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;➜&lt;/span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;Network&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;use&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;host&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;expose&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;➜&lt;/span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;press&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;h&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;show&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;help&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;LARAVEL&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;v9&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;45.1&lt;/span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;plugin&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;v0&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;7.3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;➜&lt;/span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;APP_URL&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;http&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;://&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;voyager&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;lndo&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;site&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Nuestro proyecto quedara en esta carpeta:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;home&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;enrique&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;laravel&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;lando&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;EnriqueSousa&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;voyager&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Problema, NO renderiza elementos de tailwind
+Encontré la solución aquí, agregando el watch en package.json asi:
+&lt;a href=&#34;https://laracasts.com/discuss/channels/vite/equivalent-of-vite-watch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://laracasts.com/discuss/channels/vite/equivalent-of-vite-watch&lt;/a&gt;
+
+we can then run npm run watch and have the same automatically built production resources.
+If you want hot reloading as well, open a second terminal window and run npm run dev. When code changes then both scripts run, creating production assets and hot reloading.
+Couple also with Freek&amp;rsquo;s tip about hot reloading on blade updates &lt;a href=&#34;https://freek.dev/2277-using-laravel-vite-to-automatically-refresh-your-browser-when-changing-a-blade-file&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://freek.dev/2277-using-laravel-vite-to-automatically-refresh-your-browser-when-changing-a-blade-file&lt;/a&gt;
+&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Estructura de la bbdd creada por Voyager</title>
+      <link>//localhost:1313/laravel/voyager/s01-introduccion/t02-estructura-bbdd/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s01-introduccion/t02-estructura-bbdd/</guid>
+      <description>&lt;h3 id=&#34;algunas-tablas-generadas-por-voyager&#34;&gt;Algunas tablas generadas por Voyager&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;categories&lt;/li&gt;
+&lt;li&gt;menus&lt;/li&gt;
+&lt;li&gt;menu_items&lt;/li&gt;
+&lt;li&gt;pages&lt;/li&gt;
+&lt;li&gt;posts&lt;/li&gt;
+&lt;li&gt;users&lt;/li&gt;
+&lt;li&gt;roles&lt;/li&gt;
+&lt;li&gt;permission_rol&lt;/li&gt;
+&lt;li&gt;user_roles&lt;/li&gt;
+&lt;li&gt;permissions&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Archivo de Configuración de Voyager</title>
+      <link>//localhost:1313/laravel/voyager/s01-introduccion/t03-configuracion/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/voyager/s01-introduccion/t03-configuracion/</guid>
+      <description>&lt;h3 id=&#34;donde-esta-el-archivo-de-configuración&#34;&gt;Donde esta el archivo de configuración&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;config&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;voyager&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;php&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;user-config&#34;&gt;User config&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;user&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; [
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;add_default_role_on_register&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;default_role&amp;#39;&lt;/span&gt;                 &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;user&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;default_avatar&amp;#39;&lt;/span&gt;               &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;users/default.png&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;redirect&amp;#39;&lt;/span&gt;                     &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/admin&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Por omisión Voyager ya asigna dos tipos de roles, uno de tipo usuario y otro de tipo admin, esto se ve en la tabla que genero llamada &amp;ldquo;roles&amp;rdquo;.
+La forma en que voyager pudo asignar rol de user es porque modifico el modelo app/Models/User.php para que ahora extienda de la clase \TCG\Voyager\Models\User.&lt;/p&gt;
+&lt;p&gt;Como podemos darnos cuenta en la tabla &amp;ldquo;users&amp;rdquo; Voyager a agregado un campo llamado &amp;ldquo;avatar&amp;rdquo; para almacenar una foto de perfil, pero por otro lado como estamos usando Jetstream también tenemos el campo de &amp;ldquo;profile_photo_path&amp;rdquo; para asignar foto a nuestros usuarios.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

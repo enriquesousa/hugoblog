@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Add Role And Permission in Sidebar on TJWeb</title>
+    <link>//localhost:1313/laravel/realestate/s49-addrolesidebar/</link>
+    <description>Recent content in Add Role And Permission in Sidebar on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 May 2023 10:42:25 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/realestate/s49-addrolesidebar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add Role and Permission for Admin User Part 1</title>
+      <link>//localhost:1313/laravel/realestate/s49-addrolesidebar/t229-addrole_p1/</link>
+      <pubDate>Fri, 26 May 2023 10:42:37 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s49-addrolesidebar/t229-addrole_p1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Add Role and Permission for Admin User Part 2</title>
+      <link>//localhost:1313/laravel/realestate/s49-addrolesidebar/t230-addrole_p2/</link>
+      <pubDate>Fri, 26 May 2023 10:42:44 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s49-addrolesidebar/t230-addrole_p2/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

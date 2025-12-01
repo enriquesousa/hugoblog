@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crear Ordenes on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/</link>
+    <description>Recent content in Crear Ordenes on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s13-crear-ordenes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crear ruta para nuevas ordenes</title>
+      <link>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t82-ruta-ordenes/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t82-ruta-ordenes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Generar eventos y oyentes</title>
+      <link>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t83-eventos-oyentes/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t83-eventos-oyentes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agregar lógica en los oyentes</title>
+      <link>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t84-logica-oyentes/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t84-logica-oyentes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crear las tablas necesarias</title>
+      <link>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t85-tablas-necesarias/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t85-tablas-necesarias/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agregar campos</title>
+      <link>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t86-agregar-campos/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t86-agregar-campos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Corregir errores</title>
+      <link>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t87-corregir-errores/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t87-corregir-errores/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crear relaciones</title>
+      <link>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t88-crear-relaciones/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t88-crear-relaciones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Llenar con datos falsos</title>
+      <link>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t89-datos-falsos/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t89-datos-falsos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crear la vista para crear una orden I</title>
+      <link>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t90-vista-orden1/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t90-vista-orden1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crear la vista para crear una orden II</title>
+      <link>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t91-vista-orden2/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t91-vista-orden2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Interactuar Alpine con Livewire</title>
+      <link>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t92-alpine-livewire/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t92-alpine-livewire/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crear ordenes I</title>
+      <link>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t93-crear-ordenes1/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t93-crear-ordenes1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crear ordenes II</title>
+      <link>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t94-crear-ordenes2/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t94-crear-ordenes2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crear ordenes III</title>
+      <link>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t95-crear-ordenes3/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t95-crear-ordenes3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crear ordenes IV</title>
+      <link>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t96-crear-ordenes4/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t96-crear-ordenes4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Generar vista de resumen de orden</title>
+      <link>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t97-resumen-orden/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s13-crear-ordenes/t97-resumen-orden/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

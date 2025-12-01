@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Detalles Finales on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s22-detalles-finales/</link>
+    <description>Recent content in Detalles Finales on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s22-detalles-finales/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cambiar status del producto</title>
+      <link>//localhost:1313/laravel/ecommerce/s22-detalles-finales/t155-status-producto/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s22-detalles-finales/t155-status-producto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eliminar productos</title>
+      <link>//localhost:1313/laravel/ecommerce/s22-detalles-finales/t156-eliminar-producto/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s22-detalles-finales/t156-eliminar-producto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Modificar plantilla admin</title>
+      <link>//localhost:1313/laravel/ecommerce/s22-detalles-finales/t157-mod-plantilla/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s22-detalles-finales/t157-mod-plantilla/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

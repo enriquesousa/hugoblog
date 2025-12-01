@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Admin Blog Category Setup on TJWeb</title>
+    <link>//localhost:1313/laravel/realestate/s34-blogcategory/</link>
+    <description>Recent content in Admin Blog Category Setup on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 May 2023 10:29:28 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/realestate/s34-blogcategory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advance Blog Category Setup Part 1</title>
+      <link>//localhost:1313/laravel/realestate/s34-blogcategory/t171-blog_p1/</link>
+      <pubDate>Fri, 26 May 2023 10:29:35 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s34-blogcategory/t171-blog_p1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Advance Blog Category Setup Part 2</title>
+      <link>//localhost:1313/laravel/realestate/s34-blogcategory/t172-blog_p2/</link>
+      <pubDate>Fri, 26 May 2023 10:29:52 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s34-blogcategory/t172-blog_p2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Advance Blog Category Setup Part 3</title>
+      <link>//localhost:1313/laravel/realestate/s34-blogcategory/t173-blog_p3/</link>
+      <pubDate>Fri, 26 May 2023 10:30:00 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s34-blogcategory/t173-blog_p3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Advance Blog Category Setup Part 4</title>
+      <link>//localhost:1313/laravel/realestate/s34-blogcategory/t174-blog_p4/</link>
+      <pubDate>Fri, 26 May 2023 10:30:07 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s34-blogcategory/t174-blog_p4/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

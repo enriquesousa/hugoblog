@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agregar Productos on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s17-agregar-productos/</link>
+    <description>Recent content in Agregar Productos on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s17-agregar-productos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crear ruta de administrador</title>
+      <link>//localhost:1313/laravel/ecommerce/s17-agregar-productos/t121-ruta-admin/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s17-agregar-productos/t121-ruta-admin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mostrar productos I</title>
+      <link>//localhost:1313/laravel/ecommerce/s17-agregar-productos/t122-mostrar-productos1/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s17-agregar-productos/t122-mostrar-productos1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mostrar productos II</title>
+      <link>//localhost:1313/laravel/ecommerce/s17-agregar-productos/t123-mostrar-productos2/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s17-agregar-productos/t123-mostrar-productos2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Habilitar buscador</title>
+      <link>//localhost:1313/laravel/ecommerce/s17-agregar-productos/t124-habilitar-buscador/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s17-agregar-productos/t124-habilitar-buscador/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vista crear productos I</title>
+      <link>//localhost:1313/laravel/ecommerce/s17-agregar-productos/t125-crear-productos1/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s17-agregar-productos/t125-crear-productos1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vista crear productos II</title>
+      <link>//localhost:1313/laravel/ecommerce/s17-agregar-productos/t126-crear-productos2/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s17-agregar-productos/t126-crear-productos2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vista crear productos III</title>
+      <link>//localhost:1313/laravel/ecommerce/s17-agregar-productos/t127-crear-productos3/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s17-agregar-productos/t127-crear-productos3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vista crear productos IV</title>
+      <link>//localhost:1313/laravel/ecommerce/s17-agregar-productos/t128-crear-productos4/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s17-agregar-productos/t128-crear-productos4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reglas de validación</title>
+      <link>//localhost:1313/laravel/ecommerce/s17-agregar-productos/t129-reglas-validacion/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s17-agregar-productos/t129-reglas-validacion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agregar registro a la BBDD</title>
+      <link>//localhost:1313/laravel/ecommerce/s17-agregar-productos/t130-registro-bbdd/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s17-agregar-productos/t130-registro-bbdd/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

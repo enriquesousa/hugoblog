@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reseñas on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s30-rese%C3%B1as/</link>
+    <description>Recent content in Reseñas on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s30-rese%C3%B1as/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Formulario de reseñas</title>
+      <link>//localhost:1313/laravel/ecommerce/s30-rese%C3%B1as/t192-formulario/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s30-rese%C3%B1as/t192-formulario/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mostrar formulario a personas que compraron el producto</title>
+      <link>//localhost:1313/laravel/ecommerce/s30-rese%C3%B1as/t193-mostrar/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s30-rese%C3%B1as/t193-mostrar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Almacenar reseña</title>
+      <link>//localhost:1313/laravel/ecommerce/s30-rese%C3%B1as/t194-almacenar/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s30-rese%C3%B1as/t194-almacenar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mostrar reseñas</title>
+      <link>//localhost:1313/laravel/ecommerce/s30-rese%C3%B1as/t195-mostrarrese%C3%B1as/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s30-rese%C3%B1as/t195-mostrarrese%C3%B1as/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

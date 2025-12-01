@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gestor de Archivos on TJWeb</title>
+    <link>//localhost:1313/proyectos/fms/</link>
+    <description>Recent content in Gestor de Archivos on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 May 2025 10:36:00 -0700</lastBuildDate><atom:link href="//localhost:1313/proyectos/fms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sumario</title>
+      <link>//localhost:1313/proyectos/fms/t00-sumario/</link>
+      <pubDate>Fri, 16 May 2025 10:38:51 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/fms/t00-sumario/</guid>
+      <description>&lt;h2 id=&#34;descripción-general&#34;&gt;Descripción General&lt;/h2&gt;
+&lt;p&gt;Sistema gestor de archivos. Con este sistema (&lt;strong&gt;Gestor de Archivos&lt;/strong&gt;) podemos gestionar subir archivos y bajar archivos a diferentes plataformas de almacenamiento de archivos (&lt;strong&gt;Cloud Storage&lt;/strong&gt;) como lo pueden ser: AWS, VIMEO, CLOUDINARY, MAILCHIMP, y nuestro propio SERVIDOR. Todo esto controlado desde una sola aplicación. Esta aplicación NO usa Laravel, esta desarrollada solo con PHP, MySQL, Bootstrap 5 y JavaScript.  La mayoría de estas plataformas de &lt;strong&gt;Cloud Storage&lt;/strong&gt; cuentan con un plan inicial de almacenamiento gratuito de algunos cuantos Gigas que podemos aprovechar, al sumar este tipo de almacenamiento gratuito podemos tener hasta 200 GB de archivos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Login</title>
+      <link>//localhost:1313/proyectos/fms/t01-login/</link>
+      <pubDate>Fri, 16 May 2025 10:46:54 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/fms/t01-login/</guid>
+      <description>&lt;h2 id=&#34;ventana-de-login&#34;&gt;Ventana de Login&lt;/h2&gt;
+&lt;p&gt;Esta es la ventana de login donde podrás iniciar sesión con correo y contraseña.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/fms/gestorArchivos_login_opt_540x330.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Documentación | Gestor de Archivos | fms | Login | TJWeb&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backend Agent Buy Packages Option on TJWeb</title>
+    <link>//localhost:1313/laravel/realestate/s15-backendbuypackage/</link>
+    <description>Recent content in Backend Agent Buy Packages Option on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 May 2023 09:01:54 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/realestate/s15-backendbuypackage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Design Buy Package Agent Dashboard</title>
+      <link>//localhost:1313/laravel/realestate/s15-backendbuypackage/t101-design/</link>
+      <pubDate>Fri, 26 May 2023 09:02:03 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s15-backendbuypackage/t101-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agent Buy Package Option Part 1</title>
+      <link>//localhost:1313/laravel/realestate/s15-backendbuypackage/t102-package_p1/</link>
+      <pubDate>Fri, 26 May 2023 09:02:20 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s15-backendbuypackage/t102-package_p1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agent Buy Package Option Part 2</title>
+      <link>//localhost:1313/laravel/realestate/s15-backendbuypackage/t103-package_p2/</link>
+      <pubDate>Fri, 26 May 2023 09:02:33 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s15-backendbuypackage/t103-package_p2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agent Buy Package Option Part 3</title>
+      <link>//localhost:1313/laravel/realestate/s15-backendbuypackage/t104-package_p3/</link>
+      <pubDate>Fri, 26 May 2023 09:02:43 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s15-backendbuypackage/t104-package_p3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agent Buy Package Option Part 4</title>
+      <link>//localhost:1313/laravel/realestate/s15-backendbuypackage/t105-package_p4/</link>
+      <pubDate>Fri, 26 May 2023 09:02:51 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s15-backendbuypackage/t105-package_p4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agent Buy Package Option Part 5</title>
+      <link>//localhost:1313/laravel/realestate/s15-backendbuypackage/t106-package_p5/</link>
+      <pubDate>Fri, 26 May 2023 09:02:59 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s15-backendbuypackage/t106-package_p5/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

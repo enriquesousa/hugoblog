@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dynamic Email Configuration In Laravel Edit env on TJWeb</title>
+    <link>//localhost:1313/laravel/realestate/s42-dynamicemail/</link>
+    <description>Recent content in Dynamic Email Configuration In Laravel Edit env on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 May 2023 10:35:56 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/realestate/s42-dynamicemail/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamic Email Configuration Part 1</title>
+      <link>//localhost:1313/laravel/realestate/s42-dynamicemail/t196-dynamic_p1/</link>
+      <pubDate>Fri, 26 May 2023 10:36:02 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s42-dynamicemail/t196-dynamic_p1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dynamic Email Configuration Part 2</title>
+      <link>//localhost:1313/laravel/realestate/s42-dynamicemail/t197-dynamic_p2/</link>
+      <pubDate>Fri, 26 May 2023 10:36:11 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s42-dynamicemail/t197-dynamic_p2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dynamic Email Configuration Part 3</title>
+      <link>//localhost:1313/laravel/realestate/s42-dynamicemail/t198-dynamic_p3/</link>
+      <pubDate>Fri, 26 May 2023 10:36:17 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s42-dynamicemail/t198-dynamic_p3/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Schedule a Tour Setup In Admin With Email on TJWeb</title>
+    <link>//localhost:1313/laravel/realestate/s41-scheduletouradmin/</link>
+    <description>Recent content in Schedule a Tour Setup In Admin With Email on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 May 2023 10:34:54 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/realestate/s41-scheduletouradmin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Schedule a Tour in Admin With Email Part 1</title>
+      <link>//localhost:1313/laravel/realestate/s41-scheduletouradmin/t191-scheduleadmin_p1/</link>
+      <pubDate>Fri, 26 May 2023 10:35:05 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s41-scheduletouradmin/t191-scheduleadmin_p1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Schedule a Tour in Admin With Email Part 2</title>
+      <link>//localhost:1313/laravel/realestate/s41-scheduletouradmin/t192-scheduleadmin_p2/</link>
+      <pubDate>Fri, 26 May 2023 10:35:22 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s41-scheduletouradmin/t192-scheduleadmin_p2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Schedule a Tour in Admin With Email Part 3</title>
+      <link>//localhost:1313/laravel/realestate/s41-scheduletouradmin/t193-scheduleadmin_p3/</link>
+      <pubDate>Fri, 26 May 2023 10:35:28 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s41-scheduletouradmin/t193-scheduleadmin_p3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Schedule a Tour in Admin With Email Part 4</title>
+      <link>//localhost:1313/laravel/realestate/s41-scheduletouradmin/t194-scheduleadmin_p4/</link>
+      <pubDate>Fri, 26 May 2023 10:35:35 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s41-scheduletouradmin/t194-scheduleadmin_p4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Schedule a Tour in Admin With Email Part 5</title>
+      <link>//localhost:1313/laravel/realestate/s41-scheduletouradmin/t195-scheduleadmin_p5/</link>
+      <pubDate>Fri, 26 May 2023 10:35:42 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s41-scheduletouradmin/t195-scheduleadmin_p5/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Editores on TJWeb</title>
+    <link>//localhost:1313/herramientas/editores/</link>
+    <description>Recent content in Editores on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Oct 2022 16:29:24 -0700</lastBuildDate><atom:link href="//localhost:1313/herramientas/editores/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MarkDown</title>
+      <link>//localhost:1313/herramientas/editores/markdown/</link>
+      <pubDate>Thu, 13 Oct 2022 08:05:44 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/editores/markdown/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This Markdown &lt;a href=&#34;https://www.markdownguide.org/cheat-sheet/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cheat sheet&lt;/a&gt;
+ provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for basic syntax and extended syntax.&lt;/p&gt;
+&lt;h2 id=&#34;basic-syntax&#34;&gt;Basic Syntax&lt;/h2&gt;
+&lt;p&gt;Elementos de la sintaxis básica de markdown.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Elemento&lt;/th&gt;
+          &lt;th&gt;Syntax&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Heading&lt;/td&gt;
+          &lt;td&gt;# H1 
+ &lt;br&gt; ## H2 
+ &lt;br&gt; ## H3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Paragraph&lt;/td&gt;
+          &lt;td&gt;Text&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Bold&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;bold text&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Italic&lt;/td&gt;
+          &lt;td&gt;&lt;em&gt;italicized text&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Blockquote&lt;/td&gt;
+          &lt;td&gt;&amp;gt; blockquote&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Ordered List&lt;/td&gt;
+          &lt;td&gt;1. First item 
+ &lt;br&gt; 2. Second item 
+ &lt;br&gt; 3. Third item&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Unordered List&lt;/td&gt;
+          &lt;td&gt;- First item 
+ &lt;br&gt; - Second item 
+ &lt;br&gt; - Third item&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Code&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Horizontal&lt;/td&gt;
+          &lt;td&gt;Rule	&amp;mdash;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Link&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.example.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;title&lt;/a&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Image&lt;/td&gt;
+          &lt;td&gt;&lt;img src=&#34;image.jpg&#34; alt=&#34;alt text&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;extended-syntax&#34;&gt;Extended Syntax&lt;/h2&gt;
+&lt;p&gt;Estos elementos extienden la sintaxis básica para agregar funcionalidad adicional.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

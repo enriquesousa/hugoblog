@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sección 2: Aplicaciones Web Dinámicas on TJWeb</title>
+    <link>//localhost:1313/laravel/pphpforbeginners/s02/</link>
+    <description>Recent content in Sección 2: Aplicaciones Web Dinámicas on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Mar 2023 09:18:04 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/pphpforbeginners/s02/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ligas a paginas (Page Links)</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s02/t12-pagelinks/</link>
+      <pubDate>Wed, 01 Mar 2023 09:18:30 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s02/t12-pagelinks/</guid>
+      <description>&lt;p&gt;¡Bienvenidos a la sección dos! Si bien la sección uno se centró por completo en los fundamentos iniciales de PHP, ahora continuaremos y aprenderemos cómo se ve construir una aplicación PHP típica con una base de datos MySQL.&lt;/p&gt;
+&lt;h2 id=&#34;cosas-que-aprenderemos&#34;&gt;Cosas que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Page Linking (Ligas a paginas)&lt;/li&gt;
+&lt;li&gt;Templates (Plantillas)&lt;/li&gt;
+&lt;li&gt;TailwindCSS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;escoger-una-plantilla-de-tailwind&#34;&gt;Escoger una plantilla de Tailwind&lt;/h2&gt;
+&lt;p&gt;Por ejemplo &lt;a href=&#34;https://tailwindui.com/components/application-ui/application-shells/stacked&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;esta&lt;/a&gt;
+ y copiar el código dentro de &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; de nuestra vista &lt;code&gt;index.view.php&lt;/code&gt; Ver las instrucciones que trae la plantilla de tailwind.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Parciales de PHP (PHP partials)</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s02/t13-phppartials/</link>
+      <pubDate>Wed, 01 Mar 2023 09:18:56 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s02/t13-phppartials/</guid>
+      <description>&lt;p&gt;En la lección anterior, duplicamos a regañadientes el mismo HTML para cada vista de PHP. Arreglemos eso ahora buscando parciales de PHP.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Extract Partial&lt;/li&gt;
+&lt;li&gt;Folder Structure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crear-los-parciales&#34;&gt;Crear los parciales&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;nav.php&lt;/li&gt;
+&lt;li&gt;head.php&lt;/li&gt;
+&lt;li&gt;footer.php&lt;/li&gt;
+&lt;li&gt;banner.php&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Con respecto a los Encabezados (Banners) necesitamos hacer que una parte de estos parciales sea &lt;strong&gt;dinámico!&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;introducción-a-los-controladores&#34;&gt;Introducción a los controladores!&lt;/h2&gt;
+&lt;h3 id=&#34;controlador&#34;&gt;Controlador&lt;/h3&gt;
+&lt;p&gt;Responsable por aceptar un pedido (request) y darnos una respuesta.&lt;/p&gt;
+&lt;p&gt;Un &lt;strong&gt;Request&lt;/strong&gt; es simplemente cuando el usuario visita o &lt;strong&gt;pide&lt;/strong&gt; la url, por ejemplo &lt;code&gt;http://localhost:8888/about.php&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Super-globales y estilo de página actual</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s02/t14-superglobals/</link>
+      <pubDate>Wed, 01 Mar 2023 09:19:13 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s02/t14-superglobals/</guid>
+      <description>&lt;p&gt;A menudo, deberá aplicar estilos o activar cierta lógica en función de la página actual. Afortunadamente, podemos usar la matriz super-global $_SERVER de PHP para determinar en forma dinámica la página actual.&lt;/p&gt;
+&lt;p&gt;Vamos a resolver el problema que nos quedo de que no se veía la selección del tema en el bar nav.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Superglobals&lt;/li&gt;
+&lt;li&gt;Ternary Operator&lt;/li&gt;
+&lt;li&gt;var_dump&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;var_dump&#34;&gt;var_dump()&lt;/h2&gt;
+&lt;p&gt;Si colocamos un var_dump() en index.php:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;php&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$heading &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Home&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// variable dump
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;var_dump&lt;/span&gt;([&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Hola&amp;#39;&lt;/span&gt;]);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;require&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;views/index.view.php&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Vemos que en la pagina home nos da &lt;code&gt;array(1) { [0]=&amp;gt; string(4) &amp;quot;Hola&amp;quot; } &lt;/code&gt; con esto vemos que podemos pasar objetos a la vista. PHP incluye un termina que se llama &lt;strong&gt;Super Global&lt;/strong&gt; que son variables que son accesibles de cualquier lado (archivo). Y las podemos usar para tomar información de un &lt;strong&gt;GET_request&lt;/strong&gt;, o un &lt;strong&gt;POST_request&lt;/strong&gt;, y también podemos pedir información del &lt;strong&gt;_SERVER&lt;/strong&gt;.
+Si lo mandamos asi:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Crear Router PHP</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s02/t15-router/</link>
+      <pubDate>Wed, 01 Mar 2023 09:19:26 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s02/t15-router/</guid>
+      <description>&lt;p&gt;Creo que tus habilidades PHP ahora han madurado hasta el punto de que está listo para construir un enrutador PHP personalizado desde cero. Esto nos dará la oportunidad de discutir la organización del código, los códigos de respuesta y más.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Routers&lt;/li&gt;
+&lt;li&gt;Status Code&lt;/li&gt;
+&lt;li&gt;Code Organization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;carpeta-especifica&#34;&gt;Carpeta especifica&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Crear una carpeta especifica para los controladores&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;controllers&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Luego crear un archivo único index.php que se encargara de administrar las rutas, en &lt;code&gt;index.php&lt;/code&gt;:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Crear Base de Datos MySQL</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s02/t16-createdb/</link>
+      <pubDate>Fri, 03 Mar 2023 18:55:53 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s02/t16-createdb/</guid>
+      <description>&lt;p&gt;Ahora estamos listos para comenzar a interactuar con una base de datos MySQL. Antes de escribir PHP, primero revisemos cómo conectarnos a MySQL y luego crear una base de datos y una tabla.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Databases&lt;/li&gt;
+&lt;li&gt;Tables&lt;/li&gt;
+&lt;li&gt;Columns&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mysql-server&#34;&gt;MySQL Server&lt;/h2&gt;
+&lt;p&gt;Asegurarnos de tener instalado MySQL server en tu maquina.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Install and configure a &lt;a href=&#34;https://ubuntu.com/server/docs/databases-mysql&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MySQL server&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Connect to mysql server &lt;a href=&#34;https://stackoverflow.com/questions/37239970/connect-to-mysql-server-without-sudo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;without sudo&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;connect-to-mysql-server-without-sudo&#34;&gt;Connect to mysql server &lt;code&gt;without sudo&lt;/code&gt;&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo mysql -u root
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;CREATE USER &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;enrique&amp;#39;&lt;/span&gt;@&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;localhost&amp;#39;&lt;/span&gt; IDENTIFIED BY &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;GRANT ALL PRIVILEGES ON *.* TO &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;enrique&amp;#39;&lt;/span&gt;@&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;localhost&amp;#39;&lt;/span&gt; WITH GRANT OPTION;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;FLUSH PRIVILEGES;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;data-base-manager&#34;&gt;Data Base manager&lt;/h2&gt;
+&lt;p&gt;Para conectarnos al servidor MySQL y crear nuestra primera base de datos, necesitamos un gestor de base de datos (&lt;em&gt;Data Base manager&lt;/em&gt;), en mi caso voy a usar &lt;a href=&#34;https://dbeaver.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dbeaver&lt;/a&gt;
+, pero también podemos usar &lt;a href=&#34;https://www.mysql.com/products/workbench/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MySQL Workbench&lt;/a&gt;
+ o &lt;a href=&#34;https://tableplus.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Table Plus&lt;/a&gt;
+.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PDO Primeros pasos</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s02/t17-pdo/</link>
+      <pubDate>Fri, 03 Mar 2023 18:56:12 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s02/t17-pdo/</guid>
+      <description>&lt;p&gt;El siguiente paso en nuestro viaje es descubrir cómo conectarnos a MySQL desde PHP y ejecutar una consulta SELECT simple. Por supuesto, utilizaremos PHP Data Objects, o PDO, para orquestar esta tarea de forma segura.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Select Queries&lt;/li&gt;
+&lt;li&gt;DSNs&lt;/li&gt;
+&lt;li&gt;PDO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pdo-php-data-objects&#34;&gt;PDO (PHP Data Objects)&lt;/h2&gt;
+&lt;p&gt;El siguiente paso en nuestro viaje es descubrir cómo conectarnos a MySQL desde PHP y ejecutar una consulta SELECT simple. Por supuesto, utilizaremos PHP Data Objects, o PDO, para orquestar esta tarea de forma segura.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Extraer la clase</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s02/t18-extraerclase/</link>
+      <pubDate>Sat, 04 Mar 2023 17:22:55 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s02/t18-extraerclase/</guid>
+      <description>&lt;p&gt;Ahora que comprendemos la lógica básica para inicial-izar una instancia de PDO y ejecutar una consulta preparada, aclaremos un poco las cosas extrayendo una clase de base de datos dedicada, vamos a extraer la funcionalidad del código a una clase de guardarla en su propio archivo &lt;strong&gt;Database.php&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Classes&lt;/li&gt;
+&lt;li&gt;Constructor Functions&lt;/li&gt;
+&lt;li&gt;Database Connections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;refactor-1&#34;&gt;Refactor 1&lt;/h2&gt;
+&lt;p&gt;Podemos empezar a refactor el código que llevamos, empezando por crear una clase que se llame &lt;code&gt;Database&lt;/code&gt;, simplemente movemos por ahorita todo el código dentro de un método que llamemos &lt;code&gt;query()&lt;/code&gt;, nos quedaría algo así:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Entornos y flexibilidad de configuración</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s02/t19-entornos/</link>
+      <pubDate>Sat, 04 Mar 2023 19:14:26 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s02/t19-entornos/</guid>
+      <description>&lt;p&gt;Tenemos un problema evidente con nuestra clase de base de datos en este momento. Los valores de conexión han sido codificados de forma rígida. Entonces, ¿qué sucede cuando llevamos el proyecto a producción, donde el host y el puerto son completamente diferentes?&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Environments&lt;/li&gt;
+&lt;li&gt;Push Configurable Data Upward&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vamos a pasar la constante de PDO &lt;code&gt;[PDO::ATTR_DEFAULT_FETCH_MODE =&amp;gt; PDO::FETCH_ASSOC]&lt;/code&gt; dentro de la clase, y vamos a utilizar una nueva función de php &lt;code&gt;http_build_query($data)&lt;/code&gt;, que es lo que hace esta función?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Explicación de las vulnerabilidades de inyección SQL</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s02/t20-inyeccionsql/</link>
+      <pubDate>Mon, 06 Mar 2023 11:36:26 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s02/t20-inyeccionsql/</guid>
+      <description>&lt;p&gt;En este episodio, revisaremos algunos ejemplos de inyección SQL y discutiremos por qué es tan importante que siempre asumas que, en la web, una persona es culpable hasta que se demuestre su inocencia.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;SQL Injection&lt;/li&gt;
+&lt;li&gt;Prepared Statements&lt;/li&gt;
+&lt;li&gt;Parameter Binding&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pasar parámetros por el query string, por ejemplo
+&lt;code&gt;http://localhost:8888/?id=1&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Para acceder a los parámetros del query string usamos
+&lt;code&gt;$_GET&lt;/code&gt;
+Podemos usarlo así:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$config &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;require&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;config.php&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$db &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Database&lt;/span&gt;($config[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;database&amp;#39;&lt;/span&gt;]);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;dd&lt;/span&gt;($_GET);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Entonces una de las formas que podemos desplegar el post id que nos pasen por el query string podría verse así:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

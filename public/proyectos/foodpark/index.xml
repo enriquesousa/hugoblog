@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gestor de Restaurantes on TJWeb</title>
+    <link>//localhost:1313/proyectos/foodpark/</link>
+    <description>Recent content in Gestor de Restaurantes on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Apr 2025 10:36:04 -0700</lastBuildDate><atom:link href="//localhost:1313/proyectos/foodpark/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducción</title>
+      <link>//localhost:1313/proyectos/foodpark/t01-intro/</link>
+      <pubDate>Sun, 20 Apr 2025 10:36:38 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/foodpark/t01-intro/</guid>
+      <description>&lt;h2 id=&#34;descripción-general&#34;&gt;Descripción General&lt;/h2&gt;
+&lt;p&gt;Sistema para gestionar restaurantes de comida preparada, con este sistema podemos administrar todos los aspectos para la venta a domicilio de comida. Podemos agregar diferentes platillos de comida ya preparada y promocionarla en el sitio, así como agregar los productos al carrito de venta, podemos ademas agregar cupones de descuento que el cliente puede aprovechar y aplicar a la hora de hacer su compra en linea. También contamos con un sistema de Blog para promocionar productos y/o recetas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sección Top Bar</title>
+      <link>//localhost:1313/proyectos/foodpark/t03-topbar/</link>
+      <pubDate>Sun, 20 Apr 2025 10:37:06 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/foodpark/t03-topbar/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Sección Top Bar - Configurar&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;El &lt;strong&gt;topbar&lt;/strong&gt; lo podemos configurar desde nuestro backend.&lt;/p&gt;
+&lt;h2 id=&#34;sección-configurable-top-bar&#34;&gt;Sección Configurable Top Bar&lt;/h2&gt;
+&lt;p&gt;En el frontend el &lt;strong&gt;topbar&lt;/strong&gt; lo vemos así:
+&lt;img src=&#34;//localhost:1313/proyectos/foodpark/topbar-optimize.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;esta-sección-la-podemos-configurar-desde-el-backend&#34;&gt;Esta sección la podemos configurar desde el &lt;strong&gt;backend&lt;/strong&gt;:&lt;/h2&gt;
+&lt;p&gt;La forma en que podemos configurar esta sección desde nuestro &lt;strong&gt;backend&lt;/strong&gt; es:&lt;/p&gt;
+&lt;h3 id=&#34;enlaces-sociales&#34;&gt;Enlaces Sociales&lt;/h3&gt;
+&lt;p&gt;![[enlacesSociales-opt.png]]
+&lt;img src=&#34;//localhost:1313/proyectos/foodpark/enlacesSociales-opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;correo-y-teléfono&#34;&gt;Correo y Teléfono&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/correoYtelefono-opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Gestor de Restaurantes - TJWeb&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Menu</title>
+      <link>//localhost:1313/proyectos/foodpark/t04-menu/</link>
+      <pubDate>Sun, 20 Apr 2025 10:37:13 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/foodpark/t04-menu/</guid>
+      <description>&lt;p&gt;El &lt;strong&gt;menu&lt;/strong&gt; lo podemos configurar desde nuestro backend.&lt;/p&gt;
+&lt;h2 id=&#34;sección-configurable-menu-front-end&#34;&gt;Sección Configurable Menu Front end&lt;/h2&gt;
+&lt;p&gt;En el frontend el &lt;strong&gt;menu&lt;/strong&gt; lo vemos así:
+&lt;img src=&#34;//localhost:1313/proyectos/foodpark/menu_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;esta-sección-la-podemos-configurar-desde-el-backend&#34;&gt;Esta sección la podemos configurar desde el &lt;strong&gt;backend&lt;/strong&gt;:&lt;/h2&gt;
+&lt;p&gt;La forma en que podemos configurar esta sección desde nuestro &lt;strong&gt;backend&lt;/strong&gt; es:
+Tenemos un constructor de menu que puedes configurar a tu gusto!
+&lt;img src=&#34;//localhost:1313/proyectos/foodpark/menuContructor_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;constructor-de-menu&#34;&gt;Constructor de Menu&lt;/h3&gt;
+&lt;p&gt;El constructor de menu puedes configurar con las dando las direcciones URL de las paginas que tu mismo creas dentro del sistema en el back end.
+&lt;img src=&#34;//localhost:1313/proyectos/foodpark/paginas_original.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sección Hero</title>
+      <link>//localhost:1313/proyectos/foodpark/t05-hero/</link>
+      <pubDate>Sun, 20 Apr 2025 10:37:18 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/foodpark/t05-hero/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Descripción de la sección (Héroe) del frontend&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sección-héroe&#34;&gt;Sección Héroe&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/hero2_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;en-esta-sección-podemos-agregar-desde-el-backend-admin&#34;&gt;En esta sección podemos agregar desde el &lt;strong&gt;backend&lt;/strong&gt; (admin):&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Una foto&lt;/li&gt;
+&lt;li&gt;Un Titulo&lt;/li&gt;
+&lt;li&gt;Un Subtitulo&lt;/li&gt;
+&lt;li&gt;Una oferta (&lt;strong&gt;opcional&lt;/strong&gt;)&lt;/li&gt;
+&lt;li&gt;Texto del botón&lt;/li&gt;
+&lt;li&gt;Una URL para el botón&lt;/li&gt;
+&lt;li&gt;Activar o Desactivar para ser vista en &lt;strong&gt;frontend&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ver-a-continuación-capturas-de-imagen-del-backend&#34;&gt;Ver a continuación capturas de imagen del &lt;strong&gt;backend&lt;/strong&gt;.&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/hero_bannerSuperior_be_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;controlamos-desde-backend&#34;&gt;Controlamos desde backend&lt;/h2&gt;
+&lt;p&gt;Controlamos control deslizante del banner para la sección de héroe desde el &lt;strong&gt;backend&lt;/strong&gt;.
+&lt;img src=&#34;//localhost:1313/proyectos/foodpark/hero_bannerEdit_be_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Gestor de Restaurantes - Sección Hero - TJWeb&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sección Porque Elegirnos</title>
+      <link>//localhost:1313/proyectos/foodpark/t06-porqueelegirnos/</link>
+      <pubDate>Sun, 20 Apr 2025 10:37:23 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/foodpark/t06-porqueelegirnos/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Descripción de la sección (Por que elegiros) del frontend&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sección-por-que-elegirnos&#34;&gt;Sección Por que Elegirnos&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/porqueElegirnos_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;en-esta-sección-podemos-agregar-desde-el-backend-admin&#34;&gt;En esta sección podemos agregar desde el &lt;strong&gt;backend&lt;/strong&gt; (admin):&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Un titulo superior&lt;/li&gt;
+&lt;li&gt;Un titulo principal&lt;/li&gt;
+&lt;li&gt;Un subtitulo&lt;/li&gt;
+&lt;li&gt;Un icono para la carta informativa&lt;/li&gt;
+&lt;li&gt;Un Titulo para la carta informativa&lt;/li&gt;
+&lt;li&gt;Una Descripción para la carta informativa&lt;/li&gt;
+&lt;li&gt;Activar o Desactivar la carta en el frontend&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ver-a-continuación-capturas-de-imagen-del-backend&#34;&gt;Ver a continuación capturas de imagen del &lt;strong&gt;backend&lt;/strong&gt;.&lt;/h3&gt;
+&lt;p&gt;Edita los datos del titulo de la sección:
+&lt;img src=&#34;//localhost:1313/proyectos/foodpark/porqueElegirnos_titulo_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sección Oferta Diaria</title>
+      <link>//localhost:1313/proyectos/foodpark/t07-ofertadiaria/</link>
+      <pubDate>Wed, 23 Apr 2025 05:37:23 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/foodpark/t07-ofertadiaria/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Descripción de la sección (Oferta Diaria) del frontend&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sección-oferta-diaria&#34;&gt;Sección Oferta Diaria&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/ofertaDiaria_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;en-esta-sección-podemos-agregar-desde-el-backend-admin&#34;&gt;En esta sección podemos agregar desde el &lt;strong&gt;backend&lt;/strong&gt; (admin):&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Un titulo superior&lt;/li&gt;
+&lt;li&gt;Un titulo&lt;/li&gt;
+&lt;li&gt;Un subtitulo&lt;/li&gt;
+&lt;li&gt;Seleccionar Productos a mostrar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ver-a-continuación-capturas-de-imagen-del-backend&#34;&gt;Ver a continuación capturas de imagen del &lt;strong&gt;backend&lt;/strong&gt;.&lt;/h3&gt;
+&lt;p&gt;Edita los datos del titulo de la sección:
+&lt;img src=&#34;//localhost:1313/proyectos/foodpark/ofertaDiaria_editar_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Listado de artículos de esta sección:
+&lt;img src=&#34;//localhost:1313/proyectos/foodpark/ofertaDiaria_lista_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Editar un articulo:
+&lt;img src=&#34;//localhost:1313/proyectos/foodpark/ofertaDiaria_editarLista_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Gestor de Restaurantes - Sección Oferta Diaria - TJWeb&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sección Productos</title>
+      <link>//localhost:1313/proyectos/foodpark/t08-productos/</link>
+      <pubDate>Wed, 23 Apr 2025 05:37:23 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/foodpark/t08-productos/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Descripción de la sección (Productos) del frontend&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sección-oferta-diaria&#34;&gt;Sección Oferta Diaria&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/productos_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;en-esta-sección-podemos-agregar-desde-el-backend-admin&#34;&gt;En esta sección podemos agregar desde el &lt;strong&gt;backend&lt;/strong&gt; (admin):&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Un titulo superior&lt;/li&gt;
+&lt;li&gt;Un titulo principal&lt;/li&gt;
+&lt;li&gt;Un subtitulo&lt;/li&gt;
+&lt;li&gt;Filtrar productos por categoría&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ver-a-continuación-capturas-de-imagen-del-backend&#34;&gt;Ver a continuación capturas de imagen del &lt;strong&gt;backend&lt;/strong&gt;.&lt;/h3&gt;
+&lt;p&gt;Edita los datos del titulo de la sección:
+&lt;img src=&#34;//localhost:1313/proyectos/foodpark/productos_titulo_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;productos-y-categorías&#34;&gt;Productos y Categorías&lt;/h2&gt;
+&lt;p&gt;La lista de productos y sus categorías se dan de alta desde el &lt;strong&gt;backend&lt;/strong&gt; aquí:&lt;/p&gt;
+&lt;h3 id=&#34;categorías&#34;&gt;Categorías&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/productos_categorias_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;productos&#34;&gt;Productos&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/productos_lista_productos_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sección Banner Slider</title>
+      <link>//localhost:1313/proyectos/foodpark/t09-bannerslider/</link>
+      <pubDate>Wed, 23 Apr 2025 05:37:23 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/foodpark/t09-bannerslider/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Descripción de la sección (Banner Slider) del frontend&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sección-banner-slider&#34;&gt;Sección Banner Slider&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/bannerSlider_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;en-esta-sección-podemos-agregar-desde-el-backend-admin&#34;&gt;En esta sección podemos agregar desde el &lt;strong&gt;backend&lt;/strong&gt; (admin):&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Un titulo&lt;/li&gt;
+&lt;li&gt;Una descripción&lt;/li&gt;
+&lt;li&gt;Un URL&lt;/li&gt;
+&lt;li&gt;Una imagen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ver-a-continuación-capturas-de-imagen-del-backend&#34;&gt;Ver a continuación capturas de imagen del &lt;strong&gt;backend&lt;/strong&gt;.&lt;/h3&gt;
+&lt;h4 id=&#34;edita-los-datos-de-un-card-del-banner&#34;&gt;Edita los datos de un card del banner:&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/bannerSlider_editar_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;lista-de-cards-banner-slider&#34;&gt;Lista de cards banner slider&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/bannerSlider_lista_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Gestor de Restaurantes - Sección Banner Slider - TJWeb&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sección Nuestro Equipo</title>
+      <link>//localhost:1313/proyectos/foodpark/t10-nuestroequipo/</link>
+      <pubDate>Fri, 25 Apr 2025 05:37:23 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/foodpark/t10-nuestroequipo/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Descripción de la sección (Nuestro Equipo) del frontend&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sección-nuestro-equipo&#34;&gt;Sección Nuestro Equipo&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/nuestroEquipo_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;en-esta-sección-podemos-agregar-desde-el-backend-admin&#34;&gt;En esta sección podemos agregar desde el &lt;strong&gt;backend&lt;/strong&gt; (admin):&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Un titulo superior&lt;/li&gt;
+&lt;li&gt;Un titulo principal&lt;/li&gt;
+&lt;li&gt;Un subtitulo&lt;/li&gt;
+&lt;li&gt;Imagen de Cocinero&lt;/li&gt;
+&lt;li&gt;Nombre de Cocinero&lt;/li&gt;
+&lt;li&gt;Cargo o puesto de Cocinero&lt;/li&gt;
+&lt;li&gt;Enlaces sociales (opcional) de cada Cocinero&lt;/li&gt;
+&lt;li&gt;Url (opcional) del Cocinero&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ver-a-continuación-capturas-de-imagen-del-backend&#34;&gt;Ver a continuación capturas de imagen del &lt;strong&gt;backend&lt;/strong&gt;.&lt;/h2&gt;
+&lt;h3 id=&#34;actualizar-títulos&#34;&gt;Actualizar Títulos:&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/nuestroEquipo_titulos_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;lista-de-cocineros&#34;&gt;Lista de Cocineros&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/nuestroEquipo_lista_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Gestor de Restaurantes - Sección Nuestro Equipo - TJWeb&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sección App Movil</title>
+      <link>//localhost:1313/proyectos/foodpark/t11-appmovil/</link>
+      <pubDate>Sat, 26 Apr 2025 05:37:23 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/foodpark/t11-appmovil/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Descripción de la sección (App Móvil) del frontend&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sección-nuestro-equipo&#34;&gt;Sección Nuestro Equipo&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/appMovil_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;en-esta-sección-podemos-agregar-desde-el-backend-admin&#34;&gt;En esta sección podemos agregar desde el &lt;strong&gt;backend&lt;/strong&gt; (admin):&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Imagen&lt;/li&gt;
+&lt;li&gt;Imagen de fondo&lt;/li&gt;
+&lt;li&gt;Titulo&lt;/li&gt;
+&lt;li&gt;Descripción&lt;/li&gt;
+&lt;li&gt;Enlace Play Store&lt;/li&gt;
+&lt;li&gt;Enlace Apple Store&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ver-a-continuación-capturas-de-imagen-del-backend&#34;&gt;Ver a continuación capturas de imagen del &lt;strong&gt;backend&lt;/strong&gt;.&lt;/h2&gt;
+&lt;h3 id=&#34;actualizar-sección&#34;&gt;Actualizar Sección:&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/appMovil_actualizar_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Gestor de Restaurantes - Sección App Móvil - TJWeb&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sección Testimonios</title>
+      <link>//localhost:1313/proyectos/foodpark/t12-testimonios/</link>
+      <pubDate>Sun, 27 Apr 2025 05:37:23 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/foodpark/t12-testimonios/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Descripción de la sección (Testimonios) del frontend&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sección-testimonios&#34;&gt;Sección Testimonios&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/testimonios_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;en-esta-sección-podemos-agregar-desde-el-backend-admin&#34;&gt;En esta sección podemos agregar desde el &lt;strong&gt;backend&lt;/strong&gt; (admin):&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Titulo superior&lt;/li&gt;
+&lt;li&gt;Titulo principal&lt;/li&gt;
+&lt;li&gt;Subtitulo&lt;/li&gt;
+&lt;li&gt;Imagen usuario&lt;/li&gt;
+&lt;li&gt;Nombre usuario&lt;/li&gt;
+&lt;li&gt;Titulo usuario (cargo u ocupación)&lt;/li&gt;
+&lt;li&gt;Reseña&lt;/li&gt;
+&lt;li&gt;Calificación&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ver-a-continuación-capturas-de-imagen-del-backend&#34;&gt;Ver a continuación capturas de imagen del &lt;strong&gt;backend&lt;/strong&gt;.&lt;/h2&gt;
+&lt;h3 id=&#34;actualizar-titulo&#34;&gt;Actualizar Titulo:&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/testimonios_titulos_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;actualizar-testimonios&#34;&gt;Actualizar Testimonios:&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/testimonios_actualizarTestimonio_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;lista-testimonios&#34;&gt;Lista Testimonios:&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/testimonios_listaTestimonio_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Gestor de Restaurantes - Sección Testimonios - TJWeb&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sección Contadores</title>
+      <link>//localhost:1313/proyectos/foodpark/t13-contadores/</link>
+      <pubDate>Mon, 28 Apr 2025 05:37:23 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/foodpark/t13-contadores/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Descripción de la sección (Contadores) del frontend&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sección-contadores&#34;&gt;Sección Contadores&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/contadores_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;en-esta-sección-podemos-agregar-desde-el-backend-admin&#34;&gt;En esta sección podemos agregar desde el &lt;strong&gt;backend&lt;/strong&gt; (admin):&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Imagen de fondo&lt;/li&gt;
+&lt;li&gt;Icono&lt;/li&gt;
+&lt;li&gt;Contador&lt;/li&gt;
+&lt;li&gt;Nombre&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ver-a-continuación-capturas-de-imagen-del-backend&#34;&gt;Ver a continuación capturas de imagen del &lt;strong&gt;backend&lt;/strong&gt;.&lt;/h2&gt;
+&lt;h3 id=&#34;actualizar-contadores&#34;&gt;Actualizar Contadores:&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/contadores_actualizar_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Gestor de Restaurantes - Sección Contadores - TJWeb&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sección Blog</title>
+      <link>//localhost:1313/proyectos/foodpark/t14-blog/</link>
+      <pubDate>Tue, 29 Apr 2025 05:37:23 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/foodpark/t14-blog/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Descripción de la sección (Blog) del frontend&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sección-blog&#34;&gt;Sección Blog&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/blogNoticias_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;en-esta-sección-podemos-agregar-desde-el-backend-admin&#34;&gt;En esta sección podemos agregar desde el &lt;strong&gt;backend&lt;/strong&gt; (admin):&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Imagen del Blog&lt;/li&gt;
+&lt;li&gt;Titulo del Blog&lt;/li&gt;
+&lt;li&gt;Categoría&lt;/li&gt;
+&lt;li&gt;Descripción&lt;/li&gt;
+&lt;li&gt;Título SEO&lt;/li&gt;
+&lt;li&gt;Descripción SEO&lt;/li&gt;
+&lt;li&gt;Estado (Activo o Inactivo)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ver-a-continuación-capturas-de-imagen-del-backend&#34;&gt;Ver a continuación capturas de imagen del &lt;strong&gt;backend&lt;/strong&gt;.&lt;/h2&gt;
+&lt;h3 id=&#34;actualizar-blog&#34;&gt;Actualizar Blog:&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/blogNoticias_actualizar_blog_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;detalles-del-blog&#34;&gt;Detalles del Blog&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/blogNoticias_detalles_blog_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Gestor de Restaurantes - Sección Blog - TJWeb&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sección Pie de Página</title>
+      <link>//localhost:1313/proyectos/foodpark/t15-piedepagina/</link>
+      <pubDate>Tue, 29 Apr 2025 05:37:23 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/foodpark/t15-piedepagina/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Descripción de la sección (Pie de Pagina) del frontend&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sección-pie-de-página&#34;&gt;Sección Pie de Página&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/piedepagina_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;en-esta-sección-podemos-agregar-desde-el-backend-admin&#34;&gt;En esta sección podemos agregar desde el &lt;strong&gt;backend&lt;/strong&gt; (admin):&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Información Corta&lt;/li&gt;
+&lt;li&gt;Dirección&lt;/li&gt;
+&lt;li&gt;Teléfono&lt;/li&gt;
+&lt;li&gt;Correo electrónico&lt;/li&gt;
+&lt;li&gt;Copyright&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ver-a-continuación-capturas-de-imagen-del-backend&#34;&gt;Ver a continuación capturas de imagen del &lt;strong&gt;backend&lt;/strong&gt;.&lt;/h2&gt;
+&lt;h3 id=&#34;actualizar-pie-de-página&#34;&gt;Actualizar Pie de Página:&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/foodpark/piedepagina_actualizar_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Gestor de Restaurantes - Sección Pie de Página - TJWeb&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gestor de Veterinarias on TJWeb</title>
+    <link>//localhost:1313/proyectos/veterinarias/</link>
+    <description>Recent content in Gestor de Veterinarias on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 May 2025 18:16:09 -0700</lastBuildDate><atom:link href="//localhost:1313/proyectos/veterinarias/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducción</title>
+      <link>//localhost:1313/proyectos/veterinarias/t00-intro/</link>
+      <pubDate>Fri, 02 May 2025 18:16:21 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/veterinarias/t00-intro/</guid>
+      <description>&lt;h2 id=&#34;descripción-general&#34;&gt;Descripción General&lt;/h2&gt;
+&lt;p&gt;Sistema para gestionar clínicas veterinarias, con este sistema podemos administrar todos los aspectos para la atención, inventario, ingresos y gastos de una clínica veterinaria. Podemos agregar usuarios 3 tipos de usuarios del sistema, como son: administrador, secretaria, y veterinarios. También podemos registrar clientes (dueños de mascotas) con sus datos generales, así como también registrar sus mascotas que puede ser una o varias con los siguientes datos como lo son nombre de mascota, foto, edad, peso, sexo, especie, raza, detalles y quien es su dueño. En el módulo de clínica podemos registra a veterinarios, donde podemos manipular su disponibilidad donde podemos ver y agendar sus citas. También podemos agendar internación de mascotas para llevar un control de que mascotas se encuentran en la clínica. En el módulo de Cajas podemos Abrir y Cerrar caja diariamente, para saber en todo momento que cantidad de dinero tenemos en caja. En el módulo de gestor de productos podemos agregar productos con imagen con precio de compra y precio de venta. En el módulo de inventario podemos editar el stock del producto, y muchas más funcionalidades.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ventana de Inicio</title>
+      <link>//localhost:1313/proyectos/veterinarias/t01-inicio/</link>
+      <pubDate>Sat, 03 May 2025 07:54:34 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/veterinarias/t01-inicio/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Sección Menu - Inicio&lt;/strong&gt;
+Esta es la ventana de inicio del sistema, aquí podemos ver el nombre de usuario y el cargo del usuario que inicio la sesión.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/inicio_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Documentación | Gestor de Veterinarias | Ventana de Inicio | TJWeb&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gestor de Usuarios</title>
+      <link>//localhost:1313/proyectos/veterinarias/t02-usuarios/</link>
+      <pubDate>Sat, 03 May 2025 09:54:15 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/veterinarias/t02-usuarios/</guid>
+      <description>&lt;h2 id=&#34;sección-menu---gestor-de-usuarios&#34;&gt;Sección Menu - Gestor de Usuarios&lt;/h2&gt;
+&lt;p&gt;En este modulo podemos gestionar a los usuarios del sistema, a los cuales les podemos asignar el rol de:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Administrador&lt;/li&gt;
+&lt;li&gt;Secretaria&lt;/li&gt;
+&lt;li&gt;Veterinario.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/usuarios_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;crear-usuario&#34;&gt;Crear Usuario&lt;/h2&gt;
+&lt;p&gt;En esta ventana podemos crear a un nuevo usuario.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/crear_usuarios_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;editar-usuario&#34;&gt;Editar Usuario&lt;/h2&gt;
+&lt;p&gt;En esta ventana podemos editar los datos del usuario.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/editar_usuarios_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Documentación | Gestor de Veterinarias | Gestor de Usuarios | TJWeb&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gestor de Clientes</title>
+      <link>//localhost:1313/proyectos/veterinarias/t03-clientes/</link>
+      <pubDate>Sat, 03 May 2025 10:17:38 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/veterinarias/t03-clientes/</guid>
+      <description>&lt;h2 id=&#34;sección-menu---gestor-de-clientes&#34;&gt;Sección Menu - Gestor de Clientes&lt;/h2&gt;
+&lt;p&gt;En este modulo podemos gestionar a los clientes del sistema.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/clientes_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;agregar-nuevo-cliente&#34;&gt;Agregar nuevo cliente&lt;/h2&gt;
+&lt;p&gt;En esta ventana podemos agregar un nuevo cliente.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/agregar_nuevo_cliente_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;editar-cliente&#34;&gt;Editar Cliente&lt;/h2&gt;
+&lt;p&gt;En esta ventana podemos editar los datos del cliente.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/editar_cliente_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ver-mascotas-del-cliente&#34;&gt;Ver mascotas del Cliente&lt;/h2&gt;
+&lt;p&gt;Dar click en el botón de ver mascotas del cliente.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/boton_mascotas_cliente_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;mascotas-del-cliente&#34;&gt;Mascotas del Cliente&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/lista_mascotas_cliente_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Documentación | Gestor de Veterinarias | Gestor de Clientes | TJWeb&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gestor de Mascotas</title>
+      <link>//localhost:1313/proyectos/veterinarias/t04-mascotas/</link>
+      <pubDate>Sat, 03 May 2025 10:49:25 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/veterinarias/t04-mascotas/</guid>
+      <description>&lt;h2 id=&#34;sección-menu---gestor-de-mascotas&#34;&gt;Sección Menu - Gestor de Mascotas&lt;/h2&gt;
+&lt;p&gt;En este modulo podemos gestionar a las mascotas.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/mascotas_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;agregar-nueva-mascota&#34;&gt;Agregar nueva mascota&lt;/h2&gt;
+&lt;p&gt;En esta ventana podemos agregar una nueva mascota.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/veterinaria_mascotas_agregar_nueva_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;editar-mascota&#34;&gt;Editar Mascota&lt;/h2&gt;
+&lt;p&gt;En esta ventana podemos editar los datos de la mascota.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/veterinaria_mascotas_editar_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ver-carnet-de-vacunas-de-la-mascota&#34;&gt;Ver carnet de vacunas de la mascota&lt;/h2&gt;
+&lt;p&gt;Dar click en el botón de ver carnet de mascota.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/veterinaria_mascotas_boton_carnet_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;carnet-de-vacunas&#34;&gt;Carnet de vacunas&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/veterinaria_mascotas_lista_carnet_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;agregar-vacuna&#34;&gt;Agregar vacuna&lt;/h2&gt;
+&lt;p&gt;Ventana agregar vacuna.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/veterinaria_mascotas_agregar_vacuna_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;generar-pdf&#34;&gt;Generar PDF&lt;/h2&gt;
+&lt;p&gt;Generar PDF del carnet de vacunas.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/veterinaria_mascotas_carnet_pdf_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lista Vacunas</title>
+      <link>//localhost:1313/proyectos/veterinarias/t05-listavacunas/</link>
+      <pubDate>Sat, 03 May 2025 11:10:38 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/veterinarias/t05-listavacunas/</guid>
+      <description>&lt;h2 id=&#34;sección-menu---lista-vacunas&#34;&gt;Sección Menu - Lista Vacunas&lt;/h2&gt;
+&lt;p&gt;En este modulo podemos gestionar las vacunas disponibles para el sistema.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/lista_vacunas_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;agregar-vacuna&#34;&gt;Agregar Vacuna&lt;/h2&gt;
+&lt;p&gt;Agregar vacuna que tendremos disponible en el sistema!
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/lista_vacunas_agregar_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;editar-vacuna&#34;&gt;Editar Vacuna&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/lista_vacunas_editar_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Documentación | Gestor de Veterinarias | Lista de Vacunas | TJWeb&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clínica Veterinarios</title>
+      <link>//localhost:1313/proyectos/veterinarias/t06-clinicaveterinarios/</link>
+      <pubDate>Sat, 03 May 2025 12:19:58 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/veterinarias/t06-clinicaveterinarios/</guid>
+      <description>&lt;h2 id=&#34;sección-menu---clínica---veterinarios&#34;&gt;Sección Menu - Clínica - Veterinarios&lt;/h2&gt;
+&lt;p&gt;En este modulo podemos gestionar los veterinarios, le podemos colocar un estado de ocupado o disponible.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/clinica_veterinarios_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;agregar-veterinario&#34;&gt;Agregar Veterinario&lt;/h2&gt;
+&lt;p&gt;Agregar un nuevo veterinario.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/clinica_agregar_vaterinario_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ver-citas-veterinario&#34;&gt;Ver Citas Veterinario&lt;/h2&gt;
+&lt;p&gt;Ver citas de un veterinario.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/clinica_veterinarios_ver_citas_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ver-agenda&#34;&gt;Ver Agenda&lt;/h2&gt;
+&lt;p&gt;Ver agenda del veterinario.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/clinica_veterinarios_agenda_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Documentación | Gestor de Veterinarias | Clínica - Veterinarios | TJWeb&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clínica Citas</title>
+      <link>//localhost:1313/proyectos/veterinarias/t07-clinicacitas/</link>
+      <pubDate>Sun, 04 May 2025 06:58:45 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/veterinarias/t07-clinicacitas/</guid>
+      <description>&lt;h2 id=&#34;sección-menu---clínica---citas&#34;&gt;Sección Menu - Clínica - Citas&lt;/h2&gt;
+&lt;p&gt;En este modulo podemos agendar las citas de los veterinarios.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/clinica_citas_veterinario_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;agendar-cita&#34;&gt;Agendar Cita&lt;/h2&gt;
+&lt;p&gt;Al dar click al botón de agendar cita entramos al modulo de agendar cita para el veterinario.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/clinica_agendar_citas_veterinario_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;dar-de-alta-una-cita&#34;&gt;Dar de alta una cita&lt;/h2&gt;
+&lt;p&gt;Dar click en uno de los horarios disponibles.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/clinica_citas_agregar_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;cancelar-cita&#34;&gt;Cancelar cita&lt;/h2&gt;
+&lt;p&gt;Para cancelar una cita, solo dar click en la cita que deseamos cancelar y nos aparece la siguiente ventana donde podemos confirmar si queremos realmente cancelar esta cita.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/clinica_citas_cancelar_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clínica Internaciones</title>
+      <link>//localhost:1313/proyectos/veterinarias/t08-clinicainternaciones/</link>
+      <pubDate>Mon, 05 May 2025 06:53:13 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/veterinarias/t08-clinicainternaciones/</guid>
+      <description>&lt;h2 id=&#34;sección-menu---clínica---internaciones&#34;&gt;Sección Menu - Clínica - Internaciones&lt;/h2&gt;
+&lt;p&gt;En este modulo ver un listado de todas las mascotas que están internadas.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/clinica_internaciones_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Documentación | Gestor de Veterinarias | Clínica - Internaciones | TJWeb&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Caja</title>
+      <link>//localhost:1313/proyectos/veterinarias/t09-caja/</link>
+      <pubDate>Tue, 06 May 2025 09:07:07 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/veterinarias/t09-caja/</guid>
+      <description>&lt;h2 id=&#34;sección-menu---caja&#34;&gt;Sección Menu - Caja&lt;/h2&gt;
+&lt;p&gt;En este modulo podemos Abrir y Cerrar Caja.
+Podemos ver los ingresos y egresos al corte de caja.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/caja_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Documentación | Gestor de Veterinarias | Caja | TJWeb&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Productos</title>
+      <link>//localhost:1313/proyectos/veterinarias/t10-productos/</link>
+      <pubDate>Tue, 06 May 2025 09:45:28 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/veterinarias/t10-productos/</guid>
+      <description>&lt;h2 id=&#34;sección-menu---productos&#34;&gt;Sección Menu - Productos&lt;/h2&gt;
+&lt;p&gt;Este modulo es para gestionar los productos que tenemos en nuestro inventario.&lt;/p&gt;
+&lt;h2 id=&#34;productos---categorías&#34;&gt;Productos - Categorías&lt;/h2&gt;
+&lt;p&gt;En este modulo podemos agregar las categorías de nuestros productos.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/productos_categorias_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;productos---gestor-de-productos&#34;&gt;Productos - Gestor de Productos&lt;/h2&gt;
+&lt;p&gt;En este modulo podemos agregar productos a nuestro sistema.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/productos_gestor_productos_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;productos---agregar-un-producto&#34;&gt;Productos - Agregar un Producto&lt;/h2&gt;
+&lt;p&gt;En este modulo podemos agregar un producto.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/productos_gestor_agregar_producto_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;productos---editar-producto&#34;&gt;Productos - Editar Producto&lt;/h2&gt;
+&lt;p&gt;Ventana para editar un producto.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/productos_gestor_editar_producto_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;productos---inventario&#34;&gt;Productos - Inventario&lt;/h2&gt;
+&lt;p&gt;En este modulo podemos controlar el stock de nuestros productos.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/productos_inventario_control_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Compras - Pedidos</title>
+      <link>//localhost:1313/proyectos/veterinarias/t13-compraspedidos/</link>
+      <pubDate>Tue, 06 May 2025 10:33:26 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/veterinarias/t13-compraspedidos/</guid>
+      <description>&lt;h2 id=&#34;sección-menu---compras---pedidos&#34;&gt;Sección Menu - Compras - Pedidos&lt;/h2&gt;
+&lt;p&gt;En este modulo podemos gestionar las compras que hacemos a nuestros proveedores.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/compras_pedidos_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Al dar una fecha de salida y una fecha estimada de llegada del pedido y al dar click al botón de &lt;strong&gt;Crear Pedido&lt;/strong&gt; agregamos al sistema un nuevo pedido.&lt;/p&gt;
+&lt;p&gt;Ahora, al dar click al botón de &lt;strong&gt;Gestionar&lt;/strong&gt; el pedido, el sistema nos lleva a la ventana de pedido que se ve así:
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/compras_pedidos_agregar_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ventas</title>
+      <link>//localhost:1313/proyectos/veterinarias/t14-ventas/</link>
+      <pubDate>Wed, 07 May 2025 07:46:37 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/veterinarias/t14-ventas/</guid>
+      <description>&lt;h2 id=&#34;sección-menu---ventas&#34;&gt;Sección Menu - Ventas&lt;/h2&gt;
+&lt;p&gt;En este modulo podemos gestionar las ventas, para poder usar este modulo la caja tiene que estar abierta!
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/ventas_abrirCaja_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;crear-venta&#34;&gt;Crear venta&lt;/h2&gt;
+&lt;p&gt;Dar click en botón &lt;strong&gt;Crear Venta&lt;/strong&gt;.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/ventas_crearVenta_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;seleccionar-un-cliente-y-crear-una-venta&#34;&gt;Seleccionar un cliente y crear una venta.&lt;/h2&gt;
+&lt;p&gt;En la ventana para generar una venta podemos seleccionar un cliente, asi como agregar productos y cargos por clínica.
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/ventas_crearVentaCliente_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Si no damos click al botón de &lt;strong&gt;Finalizar Venta&lt;/strong&gt;, la venta queda marcada como creada pero no finalizada y la podemos ver en la lista así:
+&lt;img src=&#34;//localhost:1313/proyectos/veterinarias/ventas_lista_opt.png&#34; alt=&#34;imagen&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Informes</title>
+      <link>//localhost:1313/proyectos/veterinarias/t15-informes/</link>
+      <pubDate>Wed, 07 May 2025 08:25:23 -0700</pubDate>
+      <guid>//localhost:1313/proyectos/veterinarias/t15-informes/</guid>
+      <description>&lt;h2 id=&#34;sección-menu---informes&#34;&gt;Sección Menu - Informes&lt;/h2&gt;
+&lt;p&gt;Informes o &lt;strong&gt;panel informativo&lt;/strong&gt; es una ventana que nos proporciona información relevante de nuestro sistema.&lt;/p&gt;
+&lt;p&gt;En este modulo podemos ver en &lt;strong&gt;resumen&lt;/strong&gt;, un informe vista de águila de todos los totales de nuestra &lt;strong&gt;veterinaria&lt;/strong&gt;, que  incluye los siguientes datos.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Total de &lt;strong&gt;Ingresos&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Total de &lt;strong&gt;Egresos&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Total de &lt;strong&gt;Ventas&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Total de &lt;strong&gt;Pedidos&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Total de &lt;strong&gt;Usuarios&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Total de &lt;strong&gt;Productos&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Total de &lt;strong&gt;Clientes&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Total de &lt;strong&gt;Mascotas&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ademas podemos ver una gráfica informativa en donde podemos ver  un resumen de nuestros Ingresos y Egresos mes por mes.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

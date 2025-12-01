@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ajustes de Estilos on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s04-ajuste-de-estilos/</link>
+    <description>Recent content in Ajustes de Estilos on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s04-ajuste-de-estilos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agregar colores</title>
+      <link>//localhost:1313/laravel/ecommerce/s04-ajuste-de-estilos/t15-agregar-colores/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s04-ajuste-de-estilos/t15-agregar-colores/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diseñar plantilla</title>
+      <link>//localhost:1313/laravel/ecommerce/s04-ajuste-de-estilos/t16-dise%C3%B1ar-plantilla/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s04-ajuste-de-estilos/t16-dise%C3%B1ar-plantilla/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

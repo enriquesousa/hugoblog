@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sección 4: Organización del Proyecto on TJWeb</title>
+    <link>//localhost:1313/laravel/pphpforbeginners/s04/</link>
+    <description>Recent content in Sección 4: Organización del Proyecto on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Mar 2023 20:36:04 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/pphpforbeginners/s04/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convenciones de nomenclatura ingeniosas</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s04/t29-nomenclatura/</link>
+      <pubDate>Mon, 13 Mar 2023 20:38:57 -0700</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s04/t29-nomenclatura/</guid>
+      <description>&lt;p&gt;Hagamos una breve pausa en el ejercicio de notas y, en su lugar, dirijamos nuestra atención a la organización general del código. Comenzaremos cambiando a una convención de nomenclatura común para los recursos.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Resources&lt;/li&gt;
+&lt;li&gt;Common Action Names&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;controladores-y-vistas&#34;&gt;Controladores y Vistas&lt;/h2&gt;
+&lt;h3 id=&#34;ahorita-tenemos-tres-archivos-dedicados-a-notes&#34;&gt;Ahorita tenemos tres archivos dedicados a notes:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;notes.php&lt;/li&gt;
+&lt;li&gt;note.php&lt;/li&gt;
+&lt;li&gt;note-create.php&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;y-en-las-vistas&#34;&gt;Y en las vistas:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;notes.view.php&lt;/li&gt;
+&lt;li&gt;note.view.php&lt;/li&gt;
+&lt;li&gt;note-create.view.php&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;convención-en-los-controladores&#34;&gt;Convención en los controladores&lt;/h2&gt;
+&lt;p&gt;index.php: Para mostrar todas las notas
+show.php: Para mostrar solo una nota
+create.php: Para crear una nueva nota&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PHP Autocarga y Extracción</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s04/t30-autocarga/</link>
+      <pubDate>Tue, 14 Mar 2023 10:48:43 -0700</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s04/t30-autocarga/</guid>
+      <description>&lt;p&gt;Está bien, abróchate el cinturón. Este será el episodio más denso hasta ahora, ya que discutimos una variedad de temas relacionados con la organización del proyecto. Abordaremos las raíces de los documentos, las funciones auxiliares, las constantes, la carga automática de PHP y más.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Autoloading Classes&lt;/li&gt;
+&lt;li&gt;Document Root&lt;/li&gt;
+&lt;li&gt;extract()&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cambiar-la-raíz-del-proyecto&#34;&gt;Cambiar la raíz del proyecto&lt;/h2&gt;
+&lt;p&gt;Crear una carpeta publica donde almacenaremos &lt;code&gt;index.html&lt;/code&gt;, &lt;code&gt;css&lt;/code&gt;, &lt;code&gt;js&lt;/code&gt;, etc..
+Usar la opción:
+&lt;code&gt;-t &amp;lt;docroot&amp;gt;     Specify document root &amp;lt;docroot&amp;gt; for built-in web server&lt;/code&gt;
+del servidor de php, en la CLI podemos correr:
+&lt;code&gt;php -S localhost:8888 -t public&lt;/code&gt;
+En &lt;code&gt;index.php&lt;/code&gt; definimos nuestro BASE_PATH&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Espacio de nombres: ¿Qué, por qué, cómo?</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s04/t31-namespace/</link>
+      <pubDate>Tue, 14 Mar 2023 15:00:19 -0700</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s04/t31-namespace/</guid>
+      <description>&lt;p&gt;Es hora de discutir el espacio de nombres de PHP, pero no se preocupe: voy a hacer que esto sea increíblemente fácil de entender. Si puede recordar los días en que almacenaba toda su colección de música local-mente, comprenderá el espacio de nombres en segundos.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PHP Namespaces&lt;/li&gt;
+&lt;li&gt;The use Keyword&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crear-namespaces-carpeta-core&#34;&gt;Crear &lt;code&gt;Namespaces&lt;/code&gt; Carpeta Core&lt;/h2&gt;
+&lt;p&gt;Para los archivos de la carpeta &lt;code&gt;Core&lt;/code&gt; (Core Files):
+&lt;img src=&#34;//localhost:1313/phpforbegginers/Core-Files.png&#34; alt=&#34;Widgets&#34;&gt;&lt;/p&gt;
+&lt;p&gt;El &lt;code&gt;Namespace&lt;/code&gt; solo declaramos para los archivos que contengan una &lt;code&gt;Clase&lt;/code&gt;, en nuestro caso, todos los archivos que inician con una letra mayúscula.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¿Manejar múltiples métodos de solicitud desde una acción de controlador?</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s04/t32-deletenote/</link>
+      <pubDate>Tue, 14 Mar 2023 18:57:52 -0700</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s04/t32-deletenote/</guid>
+      <description>&lt;p&gt;En los próximos tres episodios, revisaremos una serie de refactorizaciones que son un poco más avanzadas. Pero primero, necesitamos encontrar una situación que requiera los refactores. Usaremos el ejemplo de una acción de controlador desordenada que puede responder a múltiples tipos de solicitudes.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Request Methods&lt;/li&gt;
+&lt;li&gt;Delete Forms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;agregar-botón-eliminar-nota&#34;&gt;Agregar botón Eliminar Nota&lt;/h2&gt;
+&lt;p&gt;En &lt;code&gt;views/notes/show.view.php&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;!--&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Contenido&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;--&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;mx-auto max-w-7xl py-6 sm:px-6 lg:px-8&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;p&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;mb-6&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/notes&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;text-blue-500 underline&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Regresar&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;...&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;a&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;p&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;p&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;?=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;htmlspecialchars&lt;/span&gt;($note[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;body&amp;#39;&lt;/span&gt;]) &lt;span style=&#34;color:#75715e&#34;&gt;?&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;        &amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;        &amp;lt;form class=&amp;#34;mt-6&amp;#34; method=&amp;#34;POST&amp;#34;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;            &amp;lt;input type=&amp;#34;hidden&amp;#34; name=&amp;#34;id&amp;#34; value=&amp;#34;&amp;lt;?= $note[&amp;#39;id&amp;#39;] ?&amp;gt;&amp;#34;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;            &amp;lt;button class=&amp;#34;text-sm text-red-500&amp;#34;&amp;gt;Eliminar&amp;lt;/button&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;        &amp;lt;/form&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;    &amp;lt;/div&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&amp;lt;/main&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Usamos una forma para &lt;code&gt;submit data&lt;/code&gt; a nuestro controlador &lt;code&gt;controllers/notes/show.php&lt;/code&gt; y en el controlador verificamos usuario y corremos query para eliminar la nota con &lt;code&gt;id = $note[&#39;id&#39;]&lt;/code&gt;:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Construya un mejor enrutador</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s04/t33-enrutadormejor/</link>
+      <pubDate>Wed, 15 Mar 2023 15:26:37 -0700</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s04/t33-enrutadormejor/</guid>
+      <description>&lt;p&gt;En este episodio, construiremos un enrutador mejor que pueda manejar y responder a cualquier tipo de solicitud de formulario. Sin embargo, debido a que los formularios solo admiten &lt;code&gt;GET&lt;/code&gt; y &lt;code&gt;POST&lt;/code&gt; de forma nativa, necesitaremos usar un campo de entrada oculto para falsificar el tipo de solicitud.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Request Methods&lt;/li&gt;
+&lt;li&gt;Request Type Spoofing&lt;/li&gt;
+&lt;li&gt;Routing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cambiar-nombre-a-corerouterphp-a-corerouterphp&#34;&gt;Cambiar nombre a Core/router.php a &lt;code&gt;Core/Router.php&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Ya que vamos a crear una clase en este archivo!
+Tenemos que preparar los métodos que vamos a poder manejar así:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Un Request un Controlador</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s04/t34-onereqonecontroller/</link>
+      <pubDate>Thu, 16 Mar 2023 22:50:25 -0700</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s04/t34-onereqonecontroller/</guid>
+      <description>&lt;p&gt;Con un enrutador mejorado que puede responder a múltiples tipos de solicitudes de formularios, ahora podemos refactorizar las acciones de nuestro controlador para que estén más enfocados. También discutiremos la importancia de mantener las acciones de su controlador lo más simples posible.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Controller Actions&lt;/li&gt;
+&lt;li&gt;Request Methods&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;implementar-código&#34;&gt;Implementar código&lt;/h2&gt;
+&lt;p&gt;Vamos a implementar el código en los siguientes controles.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$router&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;delete&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/note&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;controllers/notes/destroy.php&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$router&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;get&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/notes/create&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;controllers/notes/create.php&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$router&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;post&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/notes&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;controllers/notes/store.php&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;En &lt;code&gt;controllers/notes/create.php&lt;/code&gt; ya solo desplegaremos la forma:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;php&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Solo desplegar la forma para crear una nota
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;view&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;notes/create.view.php&amp;#34;&lt;/span&gt;, [
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;heading&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Crear Nota&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;errors&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; [],
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;]);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;En &lt;code&gt;views/notes/create.view.php&lt;/code&gt;:
+Redirecionamos ahora con &lt;code&gt;action=&amp;quot;/notes&amp;quot;&lt;/code&gt; a &lt;code&gt;$router-&amp;gt;post(&#39;/notes&#39;, &#39;controllers/notes/store.php&#39;);&lt;/code&gt; para que nos lleve al código de &lt;code&gt;Salvar Nota&lt;/code&gt;:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

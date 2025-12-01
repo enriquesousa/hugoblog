@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laravel Permission on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s28-laravel-permission/</link>
+    <description>Recent content in Laravel Permission on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s28-laravel-permission/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalar Laravel Permission</title>
+      <link>//localhost:1313/laravel/ecommerce/s28-laravel-permission/t181-instalar/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s28-laravel-permission/t181-instalar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crear Crud para usuarios</title>
+      <link>//localhost:1313/laravel/ecommerce/s28-laravel-permission/t182-crud-usuarios/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s28-laravel-permission/t182-crud-usuarios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mostrar listado de usuarios</title>
+      <link>//localhost:1313/laravel/ecommerce/s28-laravel-permission/t183-lista-usuarios/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s28-laravel-permission/t183-lista-usuarios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agregar buscador</title>
+      <link>//localhost:1313/laravel/ecommerce/s28-laravel-permission/t184-agregar-buscador/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s28-laravel-permission/t184-agregar-buscador/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Asignar rol</title>
+      <link>//localhost:1313/laravel/ecommerce/s28-laravel-permission/t185-asignar-rol/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s28-laravel-permission/t185-asignar-rol/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

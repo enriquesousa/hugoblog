@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pasarela de pago PayPal on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s15-pasarela-paypal/</link>
+    <description>Recent content in Pasarela de pago PayPal on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s15-pasarela-paypal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modificar la vista de Payment</title>
+      <link>//localhost:1313/laravel/ecommerce/s15-pasarela-paypal/t106-vista-payment/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s15-pasarela-paypal/t106-vista-payment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Credenciales de PayPal</title>
+      <link>//localhost:1313/laravel/ecommerce/s15-pasarela-paypal/t107-credenciales-paypal/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s15-pasarela-paypal/t107-credenciales-paypal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Checkout PayPal</title>
+      <link>//localhost:1313/laravel/ecommerce/s15-pasarela-paypal/t108-checkout-paypal/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s15-pasarela-paypal/t108-checkout-paypal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cambiar status de orden</title>
+      <link>//localhost:1313/laravel/ecommerce/s15-pasarela-paypal/t109-status-orden/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s15-pasarela-paypal/t109-status-orden/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

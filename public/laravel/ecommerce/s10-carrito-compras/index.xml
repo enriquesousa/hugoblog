@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Carrito de compras on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s10-carrito-compras/</link>
+    <description>Recent content in Carrito de compras on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s10-carrito-compras/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalar shopping cart</title>
+      <link>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t55-instalarshoppingcart/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t55-instalarshoppingcart/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agregar items al carrito de compra</title>
+      <link>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t56-agregar-items/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t56-agregar-items/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mostrar item en el carrito de compra I</title>
+      <link>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t57-carrito1/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t57-carrito1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mostrar item en el carrito de compra II</title>
+      <link>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t58-carrito2/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t58-carrito2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mostrar cantidad en el carrito de compras</title>
+      <link>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t59-mostrarcarrito/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t59-mostrarcarrito/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agregar item con color al carrito</title>
+      <link>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t60-addcolorcarrito/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t60-addcolorcarrito/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agregar item con talla al carrito</title>
+      <link>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t61-addtallacarrito/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t61-addtallacarrito/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Helpers</title>
+      <link>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t62-helpers/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t62-helpers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dumpautoload</title>
+      <link>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t63-dumpautoload/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t63-dumpautoload/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Utilizar los helpers</title>
+      <link>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t64-utilizarhelpers/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t64-utilizarhelpers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nuevos Modelos</title>
+      <link>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t65-nuevosmodelos/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t65-nuevosmodelos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mostrando stock de productos</title>
+      <link>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t66-stockproductos/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s10-carrito-compras/t66-stockproductos/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

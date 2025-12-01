@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Display Property Type In Frontend on TJWeb</title>
+    <link>//localhost:1313/laravel/realestate/s18-displaypropertytype/</link>
+    <description>Recent content in Display Property Type In Frontend on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 May 2023 10:15:36 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/realestate/s18-displaypropertytype/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Show Property Type In Frontend Part 1</title>
+      <link>//localhost:1313/laravel/realestate/s18-displaypropertytype/t112-frontend_p1/</link>
+      <pubDate>Fri, 26 May 2023 10:15:44 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s18-displaypropertytype/t112-frontend_p1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Show Property Type In Frontend Part 2</title>
+      <link>//localhost:1313/laravel/realestate/s18-displaypropertytype/t113-frontend_p2/</link>
+      <pubDate>Fri, 26 May 2023 10:16:03 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s18-displaypropertytype/t113-frontend_p2/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

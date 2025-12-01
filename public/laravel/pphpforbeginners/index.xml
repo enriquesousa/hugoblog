@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PHP para principiantes on TJWeb</title>
+    <link>//localhost:1313/laravel/pphpforbeginners/</link>
+    <description>Recent content in PHP para principiantes on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Mar 2023 09:05:11 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/pphpforbeginners/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sección 1: Lo Fundamental</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s01/</link>
+      <pubDate>Wed, 01 Mar 2023 09:08:02 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s01/</guid>
+      <description>&lt;h1 id=&#34;notas-del-curso-original&#34;&gt;Notas del Curso Original&lt;/h1&gt;
+&lt;p&gt;PHP For &lt;a href=&#34;https://laracasts.com/series/php-for-beginners-2023-edition&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Beginners&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Todos empezamos en alguna parte. Para la programación, esta serie es ese primer paso. Lo he diseñado específicamente para los recién llegados, no solo a PHP, sino a la programación en general. Aquí, aprenderá los fundamentos de PHP, hasta la definición de variables y matrices básicas.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Todos empezamos en alguna parte. Para la programación, esta serie es ese primer paso. Lo he diseñado específicamente para los recién llegados, no solo a PHP, sino a la programación en general. Aquí, aprenderá los fundamentos de PHP, hasta la definición de variables y matrices básicas. Piense en esta serie como un trampolín clave para su viaje de programación. &lt;strong&gt;Jeffrey Way&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sección 2: Aplicaciones Web Dinámicas</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s02/</link>
+      <pubDate>Wed, 01 Mar 2023 09:18:04 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s02/</guid>
+      <description>&lt;p&gt;En esta sección aprenderemos a construir una aplicación PHP típica con una base de datos MySQL.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sección 3: Mini Proyecto</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s03/</link>
+      <pubDate>Tue, 07 Mar 2023 12:12:16 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s03/</guid>
+      <description>&lt;p&gt;Aplicación simple para tomar notas&lt;/p&gt;
+&lt;p&gt;Has aprendido lo suficiente de los fundamentos en este momento para comenzar a trabajar en tu primer mini proyecto. ¡Hagamos una aplicación de notas! Comenzaremos con la estructura inicial de la base de datos, que nos dará la oportunidad de revisar los índices de MySQL.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sección 4: Organización del Proyecto</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s04/</link>
+      <pubDate>Mon, 13 Mar 2023 20:36:04 -0700</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s04/</guid>
+      <description>&lt;p&gt;Hagamos una breve pausa en el ejercicio de notas y, en su lugar, dirijamos nuestra atención a la organización general del código. Comenzaremos cambiando a una convención de nomenclatura común para los recursos.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

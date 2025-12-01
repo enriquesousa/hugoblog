@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on TJWeb</title>
+    <link>//localhost:1313/herramientas/hugo/</link>
+    <description>Recent content in Hugo on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Oct 2022 16:29:24 -0700</lastBuildDate><atom:link href="//localhost:1313/herramientas/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install</title>
+      <link>//localhost:1313/herramientas/hugo/t01-install/</link>
+      <pubDate>Thu, 13 Oct 2022 08:05:17 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/hugo/t01-install/</guid>
+      <description>&lt;p&gt;Hugo can be installed in multiple ways, but a package manager is recommended - either Homebrew for Mac/Linux or Chocolatey for Windows. Check Hugo’s installation page for more options, such as cloning directly from GitHub.&lt;/p&gt;
+&lt;h3 id=&#34;como-instalar-hugo&#34;&gt;Como instalar Hugo&lt;/h3&gt;
+&lt;p&gt;Mac/Linux (Homebrew):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Windows (Chocolatey):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;choco install hugo-extended -confirm
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;En Debian Mx Linux 23 Instalar con:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Mx Package Installer
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;version&#34;&gt;Version&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Inicio</title>
+      <link>//localhost:1313/herramientas/hugo/t02-inicio/</link>
+      <pubDate>Thu, 13 Oct 2022 08:05:44 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/hugo/t02-inicio/</guid>
+      <description>&lt;h3 id=&#34;1-crear-un-proyecto-nuevo&#34;&gt;1. Crear un proyecto nuevo&lt;/h3&gt;
+&lt;p&gt;Colocarse en le carpeta que deseamos empezar a crear proyectos web de Hugo, en terminal:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site blog
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;2-agregar-contenido-básico&#34;&gt;2. Agregar contenido básico&lt;/h3&gt;
+&lt;p&gt;En layouts, agregar index.html con algo como esto:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;lang&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;Hugo | Home&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;h1&lt;/span&gt;&amp;gt;Bienvenido a Hugo!&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;h1&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;Hugo es el framework mas rápido del mundo para construir sitios web!&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;3-servir-con&#34;&gt;3. Servir con:&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;o para poder ver las paginas que estan en modo borrador (&lt;em&gt;draft&lt;/em&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Layouts</title>
+      <link>//localhost:1313/herramientas/hugo/t03-layouts/</link>
+      <pubDate>Thu, 13 Oct 2022 08:05:49 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/hugo/t03-layouts/</guid>
+      <description>&lt;h3 id=&#34;que-es-un-layout&#34;&gt;Que es un &lt;strong&gt;layout&lt;/strong&gt;?&lt;/h3&gt;
+&lt;p&gt;Un &lt;strong&gt;layout&lt;/strong&gt; es cualquier tipo de página que se utiliza como &lt;strong&gt;plantilla&lt;/strong&gt; para mostrar un contenido. Piense en ello como las partes del sitio web que permanecen consistentes en todas las páginas.&lt;/p&gt;
+&lt;p&gt;Hugo tiene convenciones estrictas para las páginas de &lt;strong&gt;layout&lt;/strong&gt;. Echemos un vistazo a algunas de las convenciones más utilizadas.&lt;/p&gt;
+&lt;h3 id=&#34;algunos-nombres-reconocidos-de-layouts&#34;&gt;Algunos nombres reconocidos de layouts&lt;/h3&gt;
+&lt;p&gt;Estos son algunos de los nombres de &lt;strong&gt;layouts&lt;/strong&gt; más comunes que reconoce Hugo:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Templating</title>
+      <link>//localhost:1313/herramientas/hugo/t04-templating/</link>
+      <pubDate>Thu, 13 Oct 2022 08:05:59 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/hugo/t04-templating/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Partials</title>
+      <link>//localhost:1313/herramientas/hugo/t05-partials/</link>
+      <pubDate>Thu, 13 Oct 2022 08:06:03 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/hugo/t05-partials/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Content</title>
+      <link>//localhost:1313/herramientas/hugo/t06-content/</link>
+      <pubDate>Thu, 13 Oct 2022 08:06:07 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/hugo/t06-content/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Taxonomies</title>
+      <link>//localhost:1313/herramientas/hugo/t07-taxonomies/</link>
+      <pubDate>Thu, 13 Oct 2022 08:06:11 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/hugo/t07-taxonomies/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shortcodes</title>
+      <link>//localhost:1313/herramientas/hugo/t08-shortcodes/</link>
+      <pubDate>Thu, 13 Oct 2022 08:06:14 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/hugo/t08-shortcodes/</guid>
+      <description>&lt;h2 id=&#34;como-crear-collapsible-code-blocks&#34;&gt;Como crear collapsible code blocks&lt;/h2&gt;
+&lt;p&gt;Colocar esto en pagina de contenido md.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Nota&lt;/strong&gt;: Quitar los &amp;quot; &amp;quot;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{{&amp;#34;&lt;/span&gt;&amp;lt; details &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Código&amp;#34;&lt;/span&gt; &amp;gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;}}&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Collapsed text
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{{&amp;#34;&lt;/span&gt;&amp;lt; /details &amp;gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;}}&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; &lt;details&gt;
+    &lt;div class=&#34;highlight-wrapper&#34;&gt;
+        
+        
+        &lt;summary&gt;Código&lt;/summary&gt;
+        &lt;pre&gt;&lt;code&gt;Collapsed text
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;/div&gt;
+&lt;/details&gt;
+
+
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Y copiar esto en layouts/shortcodes/details.html&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;details&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;highlight-wrapper&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;summary&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;{{ (&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Get&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;markdownify&lt;/span&gt; }}&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;summary&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        {{ &lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Inner&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;markdownify&lt;/span&gt; }}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;details&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;ejemplo-1&#34;&gt;Ejemplo 1&lt;/h2&gt;
+&lt;details&gt;
+    &lt;div class=&#34;highlight-wrapper&#34;&gt;
+        
+        
+        &lt;summary&gt;Texto&lt;/summary&gt;
+        &lt;pre&gt;&lt;code&gt;Collapsed text
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;/div&gt;
+&lt;/details&gt;
+
+
+&lt;h2 id=&#34;ejemplo-2&#34;&gt;Ejemplo 2&lt;/h2&gt;
+&lt;details&gt;
+    &lt;div class=&#34;highlight-wrapper&#34;&gt;
+        
+        
+        &lt;summary&gt;Código PHP&lt;/summary&gt;
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;php&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;require&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;functions.php&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;require&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;router.php&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/details&gt;</description>
+    </item>
+    <item>
+      <title>Data</title>
+      <link>//localhost:1313/herramientas/hugo/t09-data/</link>
+      <pubDate>Thu, 13 Oct 2022 08:06:18 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/hugo/t09-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Otros</title>
+      <link>//localhost:1313/herramientas/hugo/t10-otros/</link>
+      <pubDate>Thu, 13 Oct 2022 08:06:18 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/hugo/t10-otros/</guid>
+      <description>&lt;h2 id=&#34;archivos&#34;&gt;Archivos&lt;/h2&gt;
+&lt;p&gt;hugo new hugo/install.md
+hugo new hugo/inicio.md
+hugo new hugo/layouts.md
+hugo new hugo/templating.md
+hugo new hugo/partials.md
+hugo new hugo/content.md
+hugo new hugo/taxonomies.md
+hugo new hugo/shortcodes.md
+hugo new hugo/data.md&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;How to Create a Simple, &lt;a href=&#34;https://chrisjhart.com/Creating-A-Simple-Free-Blog-Hugo/#create-github-repository&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Free Blog&lt;/a&gt;
+ with Hugo and GitHub Pages&lt;/li&gt;
+&lt;li&gt;Hugo 101 By &lt;a href=&#34;https://cloudcannon.com/community/learn/hugo-tutorial/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cloudcannon&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;infobox&#34;&gt;InfoBox&lt;/h2&gt;
+
+&lt;div class=&#34;box notices cstyle info&#34;&gt;
+    &lt;div class=&#34;box-label&#34;&gt;&lt;i class=&#34;fa-fw fas fa-info-circle&#34;&gt;&lt;/i&gt; Info&lt;/div&gt;
+    &lt;div class=&#34;box-content&#34;&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;
+Bookmark this page and the &lt;a href=&#34;https://commonmark.org/help/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official Commonmark reference&lt;/a&gt;
+ for easy future reference!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Insertar Imágenes</title>
+      <link>//localhost:1313/herramientas/hugo/t11-imagenes/</link>
+      <pubDate>Thu, 13 Oct 2022 08:06:18 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/hugo/t11-imagenes/</guid>
+      <description>&lt;h2 id=&#34;para-insertar-una-imagen&#34;&gt;Para insertar una imagen&lt;/h2&gt;
+&lt;h3 id=&#34;paso1&#34;&gt;Paso1:&lt;/h3&gt;
+&lt;p&gt;Guardar las imágenes en carpetas dentro de la carpeta static/
+~/insync/insync2022/HugoWebSites/blog/static&lt;/p&gt;
+&lt;h3 id=&#34;paso2&#34;&gt;Paso2:&lt;/h3&gt;
+&lt;p&gt;Ejemplo, guardar una imagen que usaremos en Laravel Ecommerce
+/home/enrique/insync/insync2022/HugoWebSites/blog/static/Ecommerce/Ecommerce-SceenShot.png&lt;/p&gt;
+&lt;h3 id=&#34;paso3&#34;&gt;Paso3:&lt;/h3&gt;
+&lt;p&gt;Para desplegar la imagen, solo incluirla en nuestro md file asi:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;![&lt;span style=&#34;color:#f92672&#34;&gt;EcommerceScreenShot&lt;/span&gt;](&lt;span style=&#34;color:#a6e22e&#34;&gt;/Ecommerce/Ecommerce-SceenShot.png&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Capítulos y Menus</title>
+      <link>//localhost:1313/herramientas/hugo/t12-capitulosymenus/</link>
+      <pubDate>Thu, 13 Oct 2022 08:06:18 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/hugo/t12-capitulosymenus/</guid>
+      <description>&lt;h1 id=&#34;estructura-para-laravel-ecommerce&#34;&gt;Estructura para Laravel Ecommerce&lt;/h1&gt;
+&lt;h2 id=&#34;estructura-para-laravel-ecommerce-1&#34;&gt;Estructura para Laravel Ecommerce&lt;/h2&gt;
+&lt;p&gt;Crear Index&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new laravel/Ecommerce/_index.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Crear Capítulos&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new laravel/Ecommerce/c01-introduccion/_index.md
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new laravel/Ecommerce/c01-introduccion/t01-programasnecesarios.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Deploy a Netlify</title>
+      <link>//localhost:1313/herramientas/hugo/t13-deploynetlify/</link>
+      <pubDate>Thu, 13 Oct 2022 08:06:18 -0700</pubDate>
+      <guid>//localhost:1313/herramientas/hugo/t13-deploynetlify/</guid>
+      <description>&lt;h3 id=&#34;paso1&#34;&gt;Paso1:&lt;/h3&gt;
+&lt;p&gt;Agregar contenido en el template que ya crie en:
+/home/enrique/insync/insync2022/HugoWebSites/blog&lt;/p&gt;
+&lt;h3 id=&#34;paso2&#34;&gt;Paso2:&lt;/h3&gt;
+&lt;p&gt;Subir contenido a GitHub al repositorio hugoblog.
+Hugo themes/hugo-theme-relearn documentación local working dir /home/enrique/insync/insync2022/HugoWebSites/blog
+Generalmente es mas fácil subir a github con GitKraken&lt;/p&gt;
+&lt;h3 id=&#34;paso3&#34;&gt;Paso3:&lt;/h3&gt;
+&lt;p&gt;Esperar unos minutos y ver ya los cambios en &lt;a href=&#34;https://www.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.netlify.com/&lt;/a&gt;
+
+Visitar nuestra pagina en: &lt;a href=&#34;https://gorgeous-puppy-eb536f.netlify.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://gorgeous-puppy-eb536f.netlify.app/&lt;/a&gt;
+&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Line Break ShortCode</title>
+      <link>//localhost:1313/herramientas/hugo/t14-linebreakshortcode/</link>
+      <pubDate>Wed, 01 Mar 2023 11:22:10 -0800</pubDate>
+      <guid>//localhost:1313/herramientas/hugo/t14-linebreakshortcode/</guid>
+      <description>&lt;p&gt;We can use Shortcodes to break lines.&lt;/p&gt;
+&lt;p&gt;Make line_break.html file inside layouts/shortcodes and add &lt;!-- raw HTML omitted --&gt; tag to it. So line_break.html file will look like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;br&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now you can use this Shortcode to your markdown file by adding &lt;code&gt;&lt;br /&gt;&lt;/code&gt;. So in your case, it will look like this:
+&lt;img src=&#34;//localhost:1313/hugo/line_break.png&#34; alt=&#34;Widgets&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A beautiful &lt;br /&gt; other text or image&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Collapsible Code Block ShortCode</title>
+      <link>//localhost:1313/herramientas/hugo/t15-collapsibleshortcode/</link>
+      <pubDate>Wed, 01 Mar 2023 11:22:23 -0800</pubDate>
+      <guid>//localhost:1313/herramientas/hugo/t15-collapsibleshortcode/</guid>
+      <description>&lt;h2 id=&#34;en-detailshtml&#34;&gt;En details.html&lt;/h2&gt;
+&lt;p&gt;Copiar esto en layouts/shortcodes/details.html&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;details&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;highlight-wrapper&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;summary&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;{{ (&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Get&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;markdownify&lt;/span&gt; }}&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;summary&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        {{ &lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Inner&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;markdownify&lt;/span&gt; }}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;details&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;collapsible-code-blocks&#34;&gt;Collapsible code blocks&lt;/h2&gt;
+&lt;p&gt;Mandar llamar al collapsible code blocks asi:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/hugo/collapsibleCode.png&#34; alt=&#34;Widgets&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ejemplo-1&#34;&gt;Ejemplo 1&lt;/h2&gt;
+&lt;details&gt;
+    &lt;div class=&#34;highlight-wrapper&#34;&gt;
+        
+        
+        &lt;summary&gt;Texto&lt;/summary&gt;
+        &lt;pre&gt;&lt;code&gt;Collapsed text
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;/div&gt;
+&lt;/details&gt;
+
+
+&lt;h2 id=&#34;ejemplo-2&#34;&gt;Ejemplo 2&lt;/h2&gt;
+&lt;details&gt;
+    &lt;div class=&#34;highlight-wrapper&#34;&gt;
+        
+        
+        &lt;summary&gt;Código PHP&lt;/summary&gt;
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;php&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;require&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;functions.php&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;require&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;router.php&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/details&gt;</description>
+    </item>
+  </channel>
+</rss>

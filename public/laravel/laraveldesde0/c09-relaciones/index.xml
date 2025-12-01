@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Relaciones Laravel on TJWeb</title>
+    <link>//localhost:1313/laravel/laraveldesde0/c09-relaciones/</link>
+    <description>Recent content in Relaciones Laravel on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Oct 2022 13:19:33 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/laraveldesde0/c09-relaciones/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Relación uno a uno</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c09-relaciones/t38-unoauno/</link>
+      <pubDate>Sat, 22 Oct 2022 13:20:37 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c09-relaciones/t38-unoauno/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Relación uno a muchos</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c09-relaciones/t39-unoamuchos/</link>
+      <pubDate>Sat, 22 Oct 2022 13:20:41 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c09-relaciones/t39-unoamuchos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Relación muchos a muchos</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c09-relaciones/t40-muchosamuchos/</link>
+      <pubDate>Sat, 22 Oct 2022 13:20:45 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c09-relaciones/t40-muchosamuchos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Relación uno a uno polimórfica</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c09-relaciones/t41-unoaunopoli/</link>
+      <pubDate>Sat, 22 Oct 2022 13:20:54 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c09-relaciones/t41-unoaunopoli/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Relación uno a muchos polimórfica</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c09-relaciones/t42-unoamuchospoli/</link>
+      <pubDate>Sat, 22 Oct 2022 13:20:58 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c09-relaciones/t42-unoamuchospoli/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Relación muchos a muchos polimórfica</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c09-relaciones/t43-muchosamuchospoli/</link>
+      <pubDate>Sat, 22 Oct 2022 13:21:02 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c09-relaciones/t43-muchosamuchospoli/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

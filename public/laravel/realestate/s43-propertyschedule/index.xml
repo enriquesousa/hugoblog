@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Property Schedule in User Dashboard on TJWeb</title>
+    <link>//localhost:1313/laravel/realestate/s43-propertyschedule/</link>
+    <description>Recent content in Property Schedule in User Dashboard on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 May 2023 10:36:33 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/realestate/s43-propertyschedule/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Schedule in User Dashboard Part 1</title>
+      <link>//localhost:1313/laravel/realestate/s43-propertyschedule/t199-dashboard_p1/</link>
+      <pubDate>Fri, 26 May 2023 10:36:39 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s43-propertyschedule/t199-dashboard_p1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Schedule in User Dashboard Part 2</title>
+      <link>//localhost:1313/laravel/realestate/s43-propertyschedule/t200-dashboard_p2/</link>
+      <pubDate>Fri, 26 May 2023 10:36:46 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s43-propertyschedule/t200-dashboard_p2/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

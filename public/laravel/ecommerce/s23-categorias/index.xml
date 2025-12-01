@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categorías on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s23-categorias/</link>
+    <description>Recent content in Categorías on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s23-categorias/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Formulario crear categorías</title>
+      <link>//localhost:1313/laravel/ecommerce/s23-categorias/t158-crear-categorias/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s23-categorias/t158-crear-categorias/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reglas de validación</title>
+      <link>//localhost:1313/laravel/ecommerce/s23-categorias/t159-reglas-validacion/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s23-categorias/t159-reglas-validacion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crear categorías</title>
+      <link>//localhost:1313/laravel/ecommerce/s23-categorias/t160-crear-categorias/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s23-categorias/t160-crear-categorias/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mostrar categorías</title>
+      <link>//localhost:1313/laravel/ecommerce/s23-categorias/t161-mostrar-categorias/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s23-categorias/t161-mostrar-categorias/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eliminar categorías</title>
+      <link>//localhost:1313/laravel/ecommerce/s23-categorias/t162-eliminar-categorias/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s23-categorias/t162-eliminar-categorias/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Editar categorías I</title>
+      <link>//localhost:1313/laravel/ecommerce/s23-categorias/t163-editar-categorias1/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s23-categorias/t163-editar-categorias1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Editar categorías II</title>
+      <link>//localhost:1313/laravel/ecommerce/s23-categorias/t164-editar-categorias2/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s23-categorias/t164-editar-categorias2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Editar categorías III</title>
+      <link>//localhost:1313/laravel/ecommerce/s23-categorias/t165-editar-categorias3/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s23-categorias/t165-editar-categorias3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Editar categorías IV</title>
+      <link>//localhost:1313/laravel/ecommerce/s23-categorias/t166-editar-categorias4/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s23-categorias/t166-editar-categorias4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Detalle de Categoría</title>
+      <link>//localhost:1313/laravel/ecommerce/s23-categorias/t167-detalle-categoria/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s23-categorias/t167-detalle-categoria/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

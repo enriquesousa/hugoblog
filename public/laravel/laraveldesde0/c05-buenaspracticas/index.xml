@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Buenas Practicas on TJWeb</title>
+    <link>//localhost:1313/laravel/laraveldesde0/c05-buenaspracticas/</link>
+    <description>Recent content in Buenas Practicas on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Oct 2022 19:15:00 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/laraveldesde0/c05-buenaspracticas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como generar url&#39;s amigables</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c05-buenaspracticas/t24-urlsamigables/</link>
+      <pubDate>Fri, 21 Oct 2022 19:15:15 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c05-buenaspracticas/t24-urlsamigables/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agregar navegabilidad a nuestro sitio web</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c05-buenaspracticas/t25-navegacion/</link>
+      <pubDate>Fri, 21 Oct 2022 19:15:19 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c05-buenaspracticas/t25-navegacion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Como enviar emails con Laravel</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c05-buenaspracticas/t26-enviaremails/</link>
+      <pubDate>Fri, 21 Oct 2022 19:15:27 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c05-buenaspracticas/t26-enviaremails/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Como crear un formulario de contacto</title>
+      <link>//localhost:1313/laravel/laraveldesde0/c05-buenaspracticas/t27-formulariocontacto/</link>
+      <pubDate>Fri, 21 Oct 2022 19:15:33 -0700</pubDate>
+      <guid>//localhost:1313/laravel/laraveldesde0/c05-buenaspracticas/t27-formulariocontacto/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

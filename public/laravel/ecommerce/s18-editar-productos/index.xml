@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Editar Productos on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s18-editar-productos/</link>
+    <description>Recent content in Editar Productos on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s18-editar-productos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crear ruta de edición</title>
+      <link>//localhost:1313/laravel/ecommerce/s18-editar-productos/t131-ruta-edicion/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s18-editar-productos/t131-ruta-edicion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crear formulario de edición</title>
+      <link>//localhost:1313/laravel/ecommerce/s18-editar-productos/t132-formulario/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s18-editar-productos/t132-formulario/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solucionar algunos errores</title>
+      <link>//localhost:1313/laravel/ecommerce/s18-editar-productos/t133-errores/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s18-editar-productos/t133-errores/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Actualizar producto</title>
+      <link>//localhost:1313/laravel/ecommerce/s18-editar-productos/t134-actualizar-producto/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s18-editar-productos/t134-actualizar-producto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agregar componente de color y talla</title>
+      <link>//localhost:1313/laravel/ecommerce/s18-editar-productos/t135-color-talla/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s18-editar-productos/t135-color-talla/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

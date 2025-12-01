@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diseñar Menú on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/</link>
+    <description>Recent content in Diseñar Menú on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diseñar el menú</title>
+      <link>//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/t21-dise%C3%B1ar-menu/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/t21-dise%C3%B1ar-menu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diseñar el submenu I</title>
+      <link>//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/t22-dise%C3%B1ar-submenu1/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/t22-dise%C3%B1ar-submenu1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diseñar el submenu II</title>
+      <link>//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/t23-dise%C3%B1ar-submenu2/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/t23-dise%C3%B1ar-submenu2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agregar funcionalidades al menú I</title>
+      <link>//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/t24-funcionalidades-menu1/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/t24-funcionalidades-menu1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agregar funcionalidades al menú II</title>
+      <link>//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/t25-funcionalidades-menu2/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/t25-funcionalidades-menu2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Menú responsivo I</title>
+      <link>//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/t26-menu-responsivo1/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/t26-menu-responsivo1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Menú responsivo II</title>
+      <link>//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/t27-menu-responsivo2/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/t27-menu-responsivo2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Menú responsivo III</title>
+      <link>//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/t28-menu-responsivo3/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/t28-menu-responsivo3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Menú responsivo IV</title>
+      <link>//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/t29-menu-responsivo4/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s06-dise%C3%B1ar-menu/t29-menu-responsivo4/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sección 3: Mini Proyecto on TJWeb</title>
+    <link>//localhost:1313/laravel/pphpforbeginners/s03/</link>
+    <description>Recent content in Sección 3: Mini Proyecto on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Mar 2023 12:12:16 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/pphpforbeginners/s03/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Database Tables and Indexes</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s03/t21-creartablas/</link>
+      <pubDate>Tue, 07 Mar 2023 12:15:34 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s03/t21-creartablas/</guid>
+      <description>&lt;p&gt;Has aprendido lo suficiente de los fundamentos en este momento para comenzar a trabajar en tu primer mini proyecto. ¡Hagamos una aplicación de notas! Comenzaremos con la estructura inicial de la base de datos, que nos dará la oportunidad de revisar los índices de MySQL.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Table Relationships&lt;/li&gt;
+&lt;li&gt;Indexes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vamos a crear nueva base de datos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;mis_notas
+Con las Tablas:&lt;/li&gt;
+&lt;li&gt;notes
+&lt;ul&gt;
+&lt;li&gt;id INT, Primary Key, Auto Increment&lt;/li&gt;
+&lt;li&gt;body Text not null&lt;/li&gt;
+&lt;li&gt;user_id Foreign_Key users(id)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;users
+&lt;ul&gt;
+&lt;li&gt;id INT, Primary Key, Auto Increment&lt;/li&gt;
+&lt;li&gt;name Varchar(255), not null&lt;/li&gt;
+&lt;li&gt;email Varchar(255), not null, (unique)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Todo lo vamos hacer a nivel base de datos, con el Database Manager &lt;code&gt;DBeaver&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title> Desplegar las Notas</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s03/t22displaynotas/</link>
+      <pubDate>Wed, 08 Mar 2023 20:18:59 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s03/t22displaynotas/</guid>
+      <description>&lt;p&gt;Ahora que tenemos la estructura inicial de la base de datos en su lugar, creemos una página para mostrar todas las notas de John Doe y luego otra página para cada nota individual.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fetch Notes By User&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ciclo-de-creación&#34;&gt;Ciclo de creación&lt;/h2&gt;
+&lt;p&gt;Para crear una nueva entrada de menú, tenemos que pasar por un ciclo de crear una nueva entrada de menú, en este caso vamos a crear el de &lt;code&gt;notas&lt;/code&gt; para poder desplegar las notas que tenemos almacenadas en la base de datos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introducción a la autorización</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s03/t23-introauntorizacion/</link>
+      <pubDate>Thu, 09 Mar 2023 18:22:47 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s03/t23-introauntorizacion/</guid>
+      <description>&lt;p&gt;En el episodio anterior, agregamos soporte para leer todas las notas creadas por un usuario en particular. Pero, al hacerlo, introdujimos sin darnos cuenta un importante problema de seguridad. En esta lección, analizaremos la autorización, los códigos de estado y los números mágicos.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Autorización&lt;/li&gt;
+&lt;li&gt;Códigos de Status&lt;/li&gt;
+&lt;li&gt;Numero Mágicos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En el episodio anterior, agregamos soporte para leer todas las notas creadas por un usuario en particular. Pero, al hacerlo, introdujimos sin darnos cuenta un importante problema de seguridad. En esta lección, analizaremos la autorización, los códigos de estado y los números mágicos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PDO fetch() y fetchall() Override</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s03/t24-pdooverride/</link>
+      <pubDate>Fri, 10 Mar 2023 14:34:37 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s03/t24-pdooverride/</guid>
+      <description>&lt;p&gt;Antes de continuar con la creación de un formulario para conservar las notas nuevas en la base de datos, tomemos diez minutos para refactorizar nuestro código actual y discutir el cierre de las API que no son de su propiedad.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Refactoring&lt;/li&gt;
+&lt;li&gt;API Ownership&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vamos a &lt;code&gt;controllers/note.php&lt;/code&gt; personalizar nuestro propio fetch() en&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$note &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; $db&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;query&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;SELECT * FROM mis_notas.notes WHERE id = :id&amp;#39;&lt;/span&gt;, [
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;id&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; $_GET[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;id&amp;#39;&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                ])&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fetch&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Para poder ahorrarnos el código&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Intro Forms and Request</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s03/t25-formsrequest/</link>
+      <pubDate>Sat, 11 Mar 2023 19:25:33 -0800</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s03/t25-formsrequest/</guid>
+      <description>&lt;p&gt;Estamos atrasados, pero finalmente es hora de profundizar en los formularios. En esta lección, aprenderemos cómo enviar un formulario utilizando dos métodos de solicitud diferentes. A continuación, analizaremos cómo nuestro controlador podría detectar si se ha producido un envío POST.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Forms&lt;/li&gt;
+&lt;li&gt;GET Requests&lt;/li&gt;
+&lt;li&gt;POST Requests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Refactorizar el código de &lt;code&gt;router.php&lt;/code&gt; para que quede mas limpio y poder tenet en su propio archivo a solo las rutas en un archivo que llamaremos &lt;code&gt;routes.php&lt;/code&gt;.
+En &lt;code&gt;router.php&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Insertar Datos a DB y Protegernos de Datos con Malicia</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s03/t26-insertdata/</link>
+      <pubDate>Mon, 13 Mar 2023 08:54:15 -0700</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s03/t26-insertdata/</guid>
+      <description>&lt;p&gt;En esta lección, finalmente conservaremos una nueva nota en la base de datos. Pero, al hacerlo, se le presentará un nuevo problema de seguridad que requiere que siempre evitemos la entrada proporcionada por el usuario.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Insert Queries&lt;/li&gt;
+&lt;li&gt;htmlspecialchars()&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;insertar-datos-a-db&#34;&gt;Insertar datos a DB&lt;/h2&gt;
+&lt;p&gt;Recordemos los datos que llegan en la variable super global &lt;code&gt;$_POST&lt;/code&gt;
+Salida de &lt;code&gt;dd($_POST)&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;array&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;body&amp;#34;&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;string&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;6&lt;/span&gt;) &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;prueba&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Para insertar datos a la base de datos, en &lt;code&gt;controllers/note-create.php&lt;/code&gt;:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Validación de la Forma</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s03/t27-formvalidation/</link>
+      <pubDate>Mon, 13 Mar 2023 12:56:16 -0700</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s03/t27-formvalidation/</guid>
+      <description>&lt;p&gt;En esta lección, revisaremos dos capas de validación de formularios: navegador y servidor. Podemos utilizar la validación para garantizar y confirmar que el usuario envía sus datos en el formato exacto que requerimos.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Browser Validation&lt;/li&gt;
+&lt;li&gt;Server-side Validation&lt;/li&gt;
+&lt;li&gt;strlen()&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;validación-cliente&#34;&gt;Validación cliente&lt;/h2&gt;
+&lt;p&gt;Validación de parte del front-end (Client Side Validation).
+Agregar el atributo &lt;code&gt;required&lt;/code&gt; a &lt;code&gt;views/note-create.view.php&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;!--&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Body&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;--&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;label&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;body&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;block text-sm font-medium leading-6 text-gray-900&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Nota&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;label&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;mt-2&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;textarea&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			&lt;span style=&#34;color:#a6e22e&#34;&gt;id&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;body&amp;#34;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;body&amp;#34;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			&lt;span style=&#34;color:#a6e22e&#34;&gt;rows&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;3&amp;#34;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			&lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;mt-1 block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:py-1.5 sm:text-sm sm:leading-6&amp;#34;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			&lt;span style=&#34;color:#a6e22e&#34;&gt;placeholder&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Aquí escribe tu nota! ...&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			&lt;span style=&#34;color:#a6e22e&#34;&gt;required&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;textarea&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Aun así, seguimos teniendo una vulnerabilidad, si el usuario manda la información por le url, por ejemplo:
+&lt;code&gt;curl -X POST http://localhost:8888/notes/create -d &#39;body=&#39;&lt;/code&gt;
+Con esto el usuario sigue agregando una nueva nota vacía a nuestra base de datos.
+Este tipo de validación que acabamos de escribir en nuestra etiqueta &lt;code&gt;&amp;lt;textarea&amp;gt;&lt;/code&gt; se le conoce como validación del lado del cliente, y es buena, pero no suficiente, el siguiente paso es agregar una capa de seguridad a nuestro servidor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Extraer las clases de Validación</title>
+      <link>//localhost:1313/laravel/pphpforbeginners/s03/t28-validacion/</link>
+      <pubDate>Mon, 13 Mar 2023 17:42:19 -0700</pubDate>
+      <guid>//localhost:1313/laravel/pphpforbeginners/s03/t28-validacion/</guid>
+      <description>&lt;p&gt;Para lograr una experiencia más flexible y legible, extraigamos las reglas de validación básicas que escribimos en el episodio anterior en una clase Validación dedicada.&lt;/p&gt;
+&lt;h2 id=&#34;que-aprenderemos&#34;&gt;Que aprenderemos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Validation&lt;/li&gt;
+&lt;li&gt;Pure Functions&lt;/li&gt;
+&lt;li&gt;Static Methods&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crear-la-clase&#34;&gt;Crear la clase&lt;/h2&gt;
+&lt;p&gt;Para requerir una clase puede se de dos maneras, cualquiera de las dos es valida.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;require&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Validator.php&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;require&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Validator.php&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Crear la clase &lt;code&gt;Validator.php&lt;/code&gt; en la raíz del proyecto.
+Recuerda que por convención capitalizamos la &lt;code&gt;V&lt;/code&gt; en &lt;code&gt;Validator.php&lt;/code&gt; para indicar que este archivo solo va a tener una sola clase.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

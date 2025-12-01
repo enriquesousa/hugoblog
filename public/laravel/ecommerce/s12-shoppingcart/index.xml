@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shopping cart on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s12-shoppingcart/</link>
+    <description>Recent content in Shopping cart on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s12-shoppingcart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crear ruta de shopping cart</title>
+      <link>//localhost:1313/laravel/ecommerce/s12-shoppingcart/t72-rutashoppingcart/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s12-shoppingcart/t72-rutashoppingcart/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diseño vista shopping cart I</title>
+      <link>//localhost:1313/laravel/ecommerce/s12-shoppingcart/t73-vista-shoppingcart1/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s12-shoppingcart/t73-vista-shoppingcart1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diseño vista shopping cart II</title>
+      <link>//localhost:1313/laravel/ecommerce/s12-shoppingcart/t74-vista-shoppingcart2/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s12-shoppingcart/t74-vista-shoppingcart2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Habilitar botones I</title>
+      <link>//localhost:1313/laravel/ecommerce/s12-shoppingcart/t75-habilitar-botones1/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s12-shoppingcart/t75-habilitar-botones1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Habilitar botones II</title>
+      <link>//localhost:1313/laravel/ecommerce/s12-shoppingcart/t76-habilitar-botones2/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s12-shoppingcart/t76-habilitar-botones2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Habilitar botones III</title>
+      <link>//localhost:1313/laravel/ecommerce/s12-shoppingcart/t77-habilitar-botones3/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s12-shoppingcart/t77-habilitar-botones3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Detalle de producto</title>
+      <link>//localhost:1313/laravel/ecommerce/s12-shoppingcart/t78-detalle-producto/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s12-shoppingcart/t78-detalle-producto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Destruir carrito de compras</title>
+      <link>//localhost:1313/laravel/ecommerce/s12-shoppingcart/t79-destruir-carrito/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s12-shoppingcart/t79-destruir-carrito/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Detalle carrito de compras</title>
+      <link>//localhost:1313/laravel/ecommerce/s12-shoppingcart/t80-detalle-carrito/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s12-shoppingcart/t80-detalle-carrito/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eliminar producto</title>
+      <link>//localhost:1313/laravel/ecommerce/s12-shoppingcart/t81-eliminar-producto/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s12-shoppingcart/t81-eliminar-producto/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

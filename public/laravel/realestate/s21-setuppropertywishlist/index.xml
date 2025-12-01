@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Setup Property Wishlist Option on TJWeb</title>
+    <link>//localhost:1313/laravel/realestate/s21-setuppropertywishlist/</link>
+    <description>Recent content in Setup Property Wishlist Option on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 May 2023 10:17:43 -0700</lastBuildDate><atom:link href="//localhost:1313/laravel/realestate/s21-setuppropertywishlist/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Property Wishlist Setup Part 1</title>
+      <link>//localhost:1313/laravel/realestate/s21-setuppropertywishlist/t122-wishlist_p1/</link>
+      <pubDate>Fri, 26 May 2023 10:17:51 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s21-setuppropertywishlist/t122-wishlist_p1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Property Wishlist Setup Part 2</title>
+      <link>//localhost:1313/laravel/realestate/s21-setuppropertywishlist/t123-wishlist_p2/</link>
+      <pubDate>Fri, 26 May 2023 10:18:07 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s21-setuppropertywishlist/t123-wishlist_p2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Property Wishlist Setup Part 3</title>
+      <link>//localhost:1313/laravel/realestate/s21-setuppropertywishlist/t124-wishlist_p3/</link>
+      <pubDate>Fri, 26 May 2023 10:18:15 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s21-setuppropertywishlist/t124-wishlist_p3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Property Wishlist Setup Part 4</title>
+      <link>//localhost:1313/laravel/realestate/s21-setuppropertywishlist/t125-wishlist_p4/</link>
+      <pubDate>Fri, 26 May 2023 10:18:53 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s21-setuppropertywishlist/t125-wishlist_p4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Property Wishlist Setup Part 5</title>
+      <link>//localhost:1313/laravel/realestate/s21-setuppropertywishlist/t126-wishlist_p5/</link>
+      <pubDate>Fri, 26 May 2023 10:19:03 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s21-setuppropertywishlist/t126-wishlist_p5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Property Wishlist Setup Part 6</title>
+      <link>//localhost:1313/laravel/realestate/s21-setuppropertywishlist/t127-wishlist_p6/</link>
+      <pubDate>Fri, 26 May 2023 10:19:10 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s21-setuppropertywishlist/t127-wishlist_p6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Property Wishlist Setup Part 7</title>
+      <link>//localhost:1313/laravel/realestate/s21-setuppropertywishlist/t128-wishlist_p7/</link>
+      <pubDate>Fri, 26 May 2023 10:19:20 -0700</pubDate>
+      <guid>//localhost:1313/laravel/realestate/s21-setuppropertywishlist/t128-wishlist_p7/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

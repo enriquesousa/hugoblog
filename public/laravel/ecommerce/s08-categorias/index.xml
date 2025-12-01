@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categorías on TJWeb</title>
+    <link>//localhost:1313/laravel/ecommerce/s08-categorias/</link>
+    <description>Recent content in Categorías on TJWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Dec 2022 11:18:41 -0800</lastBuildDate><atom:link href="//localhost:1313/laravel/ecommerce/s08-categorias/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crear rutas para categorías</title>
+      <link>//localhost:1313/laravel/ecommerce/s08-categorias/t37-rutas/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s08-categorias/t37-rutas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Detalle de categoría</title>
+      <link>//localhost:1313/laravel/ecommerce/s08-categorias/t38-detalle/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s08-categorias/t38-detalle/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agregar filtros I</title>
+      <link>//localhost:1313/laravel/ecommerce/s08-categorias/t39-filtros1/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s08-categorias/t39-filtros1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agregar filtros II</title>
+      <link>//localhost:1313/laravel/ecommerce/s08-categorias/t40-filtros2/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s08-categorias/t40-filtros2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mostrar productos en forma de grid y lista</title>
+      <link>//localhost:1313/laravel/ecommerce/s08-categorias/t41-gridylista/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s08-categorias/t41-gridylista/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Volver vista responsiva</title>
+      <link>//localhost:1313/laravel/ecommerce/s08-categorias/t42-vistaresponsiva/</link>
+      <pubDate>Sat, 24 Dec 2022 07:47:01 -0800</pubDate>
+      <guid>//localhost:1313/laravel/ecommerce/s08-categorias/t42-vistaresponsiva/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
